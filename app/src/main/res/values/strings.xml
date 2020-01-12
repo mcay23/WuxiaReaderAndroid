@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Wuxia Reader</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_book">BookActivity</string>
+    <string-array name="font_array">
+        <item>Serif</item>
+        <item>Sans Serif</item>
+        <item>Monospace</item>
+        <item>Biryani Light</item>
+        <item>Cinzel</item>
+    </string-array>
+    <string-array name="theme_array">
+        <item>Default White</item>
+        <item>Off White</item>
+        <item>Warm White</item>
+        <item>Ocean Blue</item>
+        <item>Gray Night</item>
+        <item>True Black 1</item>
+        <item>True Black 2</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+</resources>
