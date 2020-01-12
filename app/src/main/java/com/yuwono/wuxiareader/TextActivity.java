@@ -11,6 +11,7 @@ import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.Menu;
@@ -47,6 +48,10 @@ public class TextActivity extends AppCompatActivity {
     static AppBarLayout text_appbar;
     static boolean isExpanded;
     static CoordinatorLayout layout;
+    static DisplayMetrics dm;
+
+    static int activity_width;
+    static int activity_height;
 
     static Book book;
 
@@ -54,6 +59,12 @@ public class TextActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_text);
+
+        dm = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(dm);
+
+        activity_width = dm.widthPixels;
+        activity_height = dm.heightPixels;
 
         layout = findViewById(R.id.text_layout);
         context = getApplicationContext();
@@ -148,21 +159,39 @@ public class TextActivity extends AppCompatActivity {
     class GestureTap extends GestureDetector.SimpleOnGestureListener {
         @Override
         public boolean onDoubleTap(MotionEvent e) {
+            // right side screen
+            if(e.getX() > (activity_width * 0.7)){
+                setScrollVal("0", getApplicationContext(), book);
+                if (book.getCurrentChapter() != book.getLatestChapter()) {
+                    book.setCurrentChapter(book.getCurrentChapter() + 1);
+                    setContent(book);
+                }
+            }
+            // LEFT SIDE SCREEN
+            if(e.getX() < (activity_width * 0.3)){
+                if (book.getCurrentChapter() != 1) {
+                    setScrollVal("0", getApplicationContext(), book);
+                    book.setCurrentChapter(book.getCurrentChapter() - 1);
+                    setContent(book);
+                }
+            }
             return true;
         }
         @Override
         public boolean onSingleTapConfirmed(MotionEvent e) {
-            if (next_button.getVisibility() == View.VISIBLE &&
-                    prev_button.getVisibility() == View.VISIBLE) {
-                next_button.hide();
-                prev_button.hide();
-                text_appbar.setExpanded(false);
-                isExpanded = false;
-            } else {
-                next_button.show();
-                prev_button.show();
-                text_appbar.setExpanded(true);
-                isExpanded = true;
+            if (e.getX() >= 0.3 * activity_width && e.getX() <= 0.7 * activity_width) {
+                if (next_button.getVisibility() == View.VISIBLE &&
+                        prev_button.getVisibility() == View.VISIBLE) {
+                    next_button.hide();
+                    prev_button.hide();
+                    text_appbar.setExpanded(false);
+                    isExpanded = false;
+                } else {
+                    next_button.show();
+                    prev_button.show();
+                    text_appbar.setExpanded(true);
+                    isExpanded = true;
+                }
             }
             return true;
         }
@@ -229,7 +258,6 @@ public class TextActivity extends AppCompatActivity {
     public static void setContent(Book b) {
         book = b;
         int chapter = b.getCurrentChapter();
-        int latest_chapter = b.getLatestChapter();
         String chapter_title = b.getChapterTitle(chapter);
         String content = b.getChapter(chapter);
 

@@ -14,8 +14,6 @@ import android.widget.SeekBar;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 public class PopupSettingsActivity extends Activity {
 
     static TextView size;
