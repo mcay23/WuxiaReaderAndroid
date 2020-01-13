@@ -80,12 +80,19 @@ public class BookActivity extends AppCompatActivity {
                         .setNegativeButton("No", dialogClickListener).show();
 
                 return true;
+                /*
             case R.id.action_update:
+                Log.d("update call", "LIB");
                 if (!book.isUpdating()) {
                     Library.updateBook(book);
-                    refresh refresher = new refresh();
-                    refresher.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+                    Toast.makeText(act,
+                            "Starting Update", Toast.LENGTH_LONG).show();
+                } else {
+                    Toast.makeText(act,
+                            "Already Updating", Toast.LENGTH_LONG).show();
                 }
+                return true;
+                 */
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -99,6 +106,7 @@ public class BookActivity extends AppCompatActivity {
             refresh refresher = new refresh();
             refresher.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
         }
+
     }
 
     public static void setContent(Book b) {
@@ -157,7 +165,7 @@ public class BookActivity extends AppCompatActivity {
                 } catch (InterruptedException ex) {
                     ex.printStackTrace();
                 }
-                Log.d("LOGGING", "UPDATING");
+                Log.d("LOGGING", "TITLES");
                 publishProgress();
             }
             return null;

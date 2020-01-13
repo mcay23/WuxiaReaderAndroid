@@ -149,8 +149,6 @@ public class TextActivity extends AppCompatActivity {
                 startActivity(i);
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 return true;
-            case R.id.action_update:
-                Library.updateBook(book);
             default:
                 return super.onOptionsItemSelected(item);
         }

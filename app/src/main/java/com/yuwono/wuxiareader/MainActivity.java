@@ -16,6 +16,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -36,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -46,8 +46,9 @@ public class MainActivity extends AppCompatActivity {
         no_books = findViewById(R.id.no_books);
         load_bar = findViewById(R.id.progressBar);
         add_button = findViewById(R.id.add_button);
-        book_titles = new ArrayList<String>();
+        book_titles = new ArrayList<>();
 
+        loading_text.setVisibility(View.VISIBLE);
         load_bar.setVisibility(View.VISIBLE);
 
         start loadUI = new start();
@@ -83,10 +84,7 @@ public class MainActivity extends AppCompatActivity {
             if (book_titles.size() == 0) {
                 no_books.setVisibility(View.VISIBLE);
             }
-
-            load_bar.setVisibility(View.GONE);
             lv.setAdapter(arrayAdapter);
-            loading_text.setVisibility(View.GONE);
 
             lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
@@ -133,6 +131,8 @@ public class MainActivity extends AppCompatActivity {
                     alertDialog.show();
                 }
             });
+            load_bar.setVisibility(View.GONE);
+            loading_text.setVisibility(View.GONE);
         }
     }
 
@@ -165,6 +165,9 @@ public class MainActivity extends AppCompatActivity {
         arrayAdapter.notifyDataSetChanged();
         if (book_titles.size() == 0) {
             no_books.setVisibility(View.VISIBLE);
+        } else {
+            Toast.makeText(act,
+                    "Book added", Toast.LENGTH_LONG).show();
         }
     }
 }

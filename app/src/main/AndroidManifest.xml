@@ -15,8 +15,11 @@
         <activity android:name=".PopupSettingsActivity"
             android:theme="@style/AppTheme.PopMe">
         </activity>
-        <activity android:name=".BookActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".BookActivity"/>
+        <activity android:name=".MainActivity"/>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

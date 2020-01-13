@@ -28,7 +28,7 @@ public class Library extends MainActivity implements Serializable {
     public boolean addBook(String url) {
         Book b = new Book(url, context);
         for (Book list : book_list) {
-            if (list.getURL().equals(url)) {
+            if (list.getURL().equals(Book.urlFormat(url))) {
                 Log.d("addBook", "Book already exists.");
                 return false;
             }
@@ -52,7 +52,8 @@ public class Library extends MainActivity implements Serializable {
         if (!book.isUpdating()) {
             // start update on parallel thread
             // book isUpdating called inside thread
-            new BookUpdater(context, book) {}.
+            Log.d("START", "BOOK UPDATING");
+            new BookUpdater(book) {}.
                     executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
         } else {
             Log.d("UPDATEBOOK", "ALREADY UPDATING");
@@ -60,6 +61,7 @@ public class Library extends MainActivity implements Serializable {
     }
 
     public void updateAllBooks() {
+        Log.d("UPDATING ALL BOOKS", "B");
         for (Book b : book_list) {
             updateBook(b);
         }
