@@ -20,6 +20,7 @@ import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -149,8 +150,19 @@ public class TextActivity extends AppCompatActivity {
                 startActivity(i);
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 return true;
-            case R.id.action_update:
+            case R.id.action_refresh:
+                book.getPath().delete();
                 Library.updateBook(book);
+                try {
+                    Thread.sleep(1000);
+                    setContent(book);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                Toast.makeText(context,
+                        "Refreshing...", Toast.LENGTH_LONG).show();
+
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }

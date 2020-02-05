@@ -6,4 +6,9 @@
         app:showAsAction="never"
         android:title="Font Settings">
     </item>
+    <item
+        android:id="@+id/action_refresh"
+        app:showAsAction="never"
+        android:title="Refresh Chapter">
+    </item>
 </menu>

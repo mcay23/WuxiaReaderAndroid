@@ -58,16 +58,30 @@ public class Book implements Serializable {
 
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
-        try {
-            Document doc = Jsoup.connect(url).userAgent("mozilla/17.0").get();
-            // get title/author info
-            Elements info_title = doc.select("div#info").select("h1");
-            Elements info_author = doc.select("div#info").select("p");
-            this.title = info_title.text();
-            this.author = info_author.first().text();
-        } catch (IOException ex) {
-            ex.printStackTrace();
+        if (url.contains("com")) {
+            try {
+                Document doc = Jsoup.connect(url).userAgent("mozilla/17.0").get();
+                // get title/author info
+                Elements info_title = doc.select("div.p-15").select("h4");
+                Elements info_author = doc.select("dl.dl-horizontal").select("dd");
+                this.title = info_title.first().text();
+                this.author = info_author.get(1).text();
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+        } else {
+            try {
+                Document doc = Jsoup.connect(url).userAgent("mozilla/17.0").get();
+                // get title/author info
+                Elements info_title = doc.select("div#info").select("h1");
+                Elements info_author = doc.select("div#info").select("p");
+                this.title = info_title.text();
+                this.author = info_author.first().text();
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
         }
+
         book_path = (new File(context.getFilesDir(), "books/" + title));
         chapter_titles = new ArrayList<>();
         updateChapterTitles();
@@ -186,6 +200,7 @@ public class Book implements Serializable {
         if (latest_chapter == 0) {
             setLatestChapter(count);
         }
+        Log.d("UPDATE", "CHTITLES");
     }
 
     public ArrayList<String> getChapterTitles() {
@@ -217,10 +232,17 @@ public class Book implements Serializable {
 
     public static String urlFormat(String str) {
         String ret = "";
-        if (!str.contains("https")) {
-            ret = "https://www.wuxiaworld.co/" + str + "/";
+        if (str.contains("@")) {
+            // wuxiaworld.co, @ shortcut
+            ret = "https://www.wuxiaworld.co/";
+            ret += str.replace("@", "");
+            ret += "/";
+        } else if (str.contains("+")){
+            // wuxiaworld.com
+            ret = "https://www.wuxiaworld.com/novel/"
+                    + str.replace("+", "");;
         } else {
-            ret = str;
+            return str;
         }
         return ret;
     }

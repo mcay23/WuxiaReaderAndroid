@@ -1,6 +1,5 @@
 package com.yuwono.wuxiareader;
 
-import android.content.Context;
 import android.os.AsyncTask;
 import android.util.Log;
 
@@ -18,12 +17,10 @@ import java.util.ArrayList;
 
 public class BookUpdater extends AsyncTask<Void, Void, String> {
 
-    private Context context;
     private Book book;
     private ArrayList<String> links;
 
-    public BookUpdater(Context context, Book book) {
-        this.context = context;
+    public BookUpdater(Book book) {
         this.book = book;
         this.links = new ArrayList<>();
     }
@@ -32,15 +29,22 @@ public class BookUpdater extends AsyncTask<Void, Void, String> {
     protected String doInBackground(Void... cb) {
         try {
             book.setUpdating(true);
+            // wuxiaworld.com vs .co
+            boolean com = book.getURL().contains("com");
             Document doc = Jsoup.connect(book.getURL()).userAgent("mozilla/17.0").timeout(10000).get();
-
             book.getPath().mkdirs();
-
-            // get links
-            Elements list = doc.select("div#list").select("a[href]");
-            for (Element e : list) {
-                links.add(e.attr("abs:href"));
+            if (com) {
+                Elements item = doc.select("li.chapter-item").select("a[href]");
+                for (Element e : item) {
+                    links.add(e.attr("abs:href"));
+                }
+            } else {
+                Elements list = doc.select("div#list").select("a[href]");
+                for (Element e : list) {
+                    links.add(e.attr("abs:href"));
+                }
             }
+
             book.setLatestChapter(links.size());
 
             // write chapter to txt
@@ -54,12 +58,29 @@ public class BookUpdater extends AsyncTask<Void, Void, String> {
                 File file = new File(book.getPath().getPath() + "/ch" + counter + ".txt");
                 if (!file.exists()) {
                     Document doc2 = Jsoup.connect(url).userAgent("mozilla/17.0").timeout(20000).get();
-                    Elements body = doc2.select("div#content");
-                    Elements chapter_title = doc2.select("div.bookname").select("h1");
-                    String html = body.first().html();
-                    String title = chapter_title.text() + "\n";
-                    String text = Jsoup.clean(html, "", Whitelist.none(),
-                            new OutputSettings().prettyPrint(false));
+                    String title;
+                    String text;
+                    if (com) {
+                        Elements title_container =
+                                doc2.select("div.p-15").select("h4");
+                        Elements body = doc2.select("div#chapter-content").select("p");
+                        StringBuilder builder = new StringBuilder("\n");
+                        for (Element line : body) {
+                            builder.append(line.html());
+                            builder.append("\n\n");
+                        }
+                        title = title_container.first().text() + "\n";
+                        text = Jsoup.clean(builder.toString(), "", Whitelist.none(),
+                                new OutputSettings().prettyPrint(false));
+                    } else {
+                        Elements body = doc2.select("div#content");
+                        Elements chapter_title = doc2.select("div.bookname").select("h1");
+                        String html = body.first().html();
+                        title = chapter_title.text() + "\n";
+                        text = Jsoup.clean(html, "", Whitelist.none(),
+                                new OutputSettings().prettyPrint(false));
+                    }
+
                     FileOutputStream fileOutputStream = new FileOutputStream(file);
                     // first line is chapter title
                     fileOutputStream.write((title + text).getBytes());
@@ -75,6 +96,7 @@ public class BookUpdater extends AsyncTask<Void, Void, String> {
                 book.updateChapterTitles();
             }
         } catch (IOException e) {
+            e.printStackTrace();
             Log.d("Timeout", "YES");
         }
         book.setUpdating(false);
