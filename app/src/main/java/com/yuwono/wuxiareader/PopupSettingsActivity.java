@@ -31,7 +31,7 @@ public class PopupSettingsActivity extends Activity {
         int height = dm.heightPixels;
 
         // scaling
-        getWindow().setLayout((int) (width*0.8), (int)(height*0.7));
+        getWindow().setLayout((int) (width*0.8), (int)(height*0.5));
 
         WindowManager.LayoutParams params = getWindow().getAttributes();
         params.gravity = Gravity.CENTER;

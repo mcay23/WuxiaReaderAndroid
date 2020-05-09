@@ -3,6 +3,7 @@ package com.yuwono.wuxiareader;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.util.Log;
+import android.widget.Toast;
 
 import java.io.File;
 import java.io.Serializable;
@@ -40,12 +41,16 @@ public class Library extends MainActivity implements Serializable {
 
     public static void removeBook(Book book) {
         File file = book.getPath();
-        for(File x: file.listFiles()) {
-            x.delete();
+        if (file.listFiles() != null) {
+            for(File x: file.listFiles()) {
+                x.delete();
+            }
         }
         file.delete();
         book_list.remove(book);
         MainActivity.notifyList();
+        Toast.makeText(act,
+                "Book removed", Toast.LENGTH_LONG).show();
     }
 
     public static void updateBook(Book book) {

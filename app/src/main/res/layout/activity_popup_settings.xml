@@ -125,7 +125,7 @@
         android:layout_width="312dp"
         android:layout_height="49dp"
         android:layout_marginTop="32dp"
-        android:max="80"
+        android:max="120"
         android:min="1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.595"

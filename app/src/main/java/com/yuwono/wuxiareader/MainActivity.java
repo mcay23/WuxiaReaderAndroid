@@ -157,6 +157,8 @@ public class MainActivity extends AppCompatActivity {
             BookActivity.copyArrayList(book_titles, lib.getBookTitles());
             arrayAdapter.notifyDataSetChanged();
             no_books.setVisibility(View.GONE);
+            Toast.makeText(act,
+                    "Book added", Toast.LENGTH_LONG).show();
         }
     }
 
@@ -166,8 +168,7 @@ public class MainActivity extends AppCompatActivity {
         if (book_titles.size() == 0) {
             no_books.setVisibility(View.VISIBLE);
         } else {
-            Toast.makeText(act,
-                    "Book added", Toast.LENGTH_LONG).show();
+
         }
     }
 }
