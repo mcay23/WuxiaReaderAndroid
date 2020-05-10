@@ -38,6 +38,6 @@ public abstract class ParseTools {
             title = "NULL TITLE";
             text = "NULL TEXT";
         }
-        return title + "\n\n" + text;
+        return (title.trim() + "\n" + text);
     }
 }

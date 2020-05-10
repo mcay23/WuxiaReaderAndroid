@@ -154,22 +154,14 @@ public class SearchActivity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
+
+    // rudimentary
     public static boolean isValidURL(String input)
     {
-        try {
-            URL url = new URL(input);
-            URLConnection conn = url.openConnection();
-            conn.connect();
+        if (input.contains("http") && (input.contains(".co") || (input.contains(".site")))) {
             return true;
         }
-        catch (MalformedURLException ex) {
-            ex.printStackTrace();
-            return false;
-        }
-        catch (Exception ex) {
-            ex.printStackTrace();
-            return false;
-        }
+        return false;
     }
 }
 
