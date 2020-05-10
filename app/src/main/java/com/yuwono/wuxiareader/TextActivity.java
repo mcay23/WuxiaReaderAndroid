@@ -117,21 +117,13 @@ public class TextActivity extends AppCompatActivity {
 
         next_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                if (book.getCurrentChapter() != book.getLatestChapter()) {
-                    setScrollVal("0", getApplicationContext(), book);
-                    book.setCurrentChapter(book.getCurrentChapter() + 1);
-                    setContent(book);
-                }
+                nextPage();
             }
         });
 
         prev_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                if (book.getCurrentChapter() != 1) {
-                    setScrollVal("0", getApplicationContext(), book);
-                    book.setCurrentChapter(book.getCurrentChapter() - 1);
-                    setContent(book);
-                }
+                prevPage();
             }
         });
     }
@@ -169,23 +161,11 @@ public class TextActivity extends AppCompatActivity {
         public boolean onDoubleTap(MotionEvent e) {
             // right side screen
             if(e.getX() >= (activity_width * 0.6)){
-                if (book.getCurrentChapter() != book.getLatestChapter()) {
-                    setScrollVal("0", getApplicationContext(), book);
-                    book.setCurrentChapter(book.getCurrentChapter() + 1);
-                    setContent(book);
-                } else {
-                    Toast.makeText(context, "No new chapters", Toast.LENGTH_SHORT).show();
-                }
+                nextPage();
             }
             // LEFT SIDE SCREEN
             if(e.getX() < (activity_width * 0.4)){
-                if (book.getCurrentChapter() != 1) {
-                    setScrollVal("0", getApplicationContext(), book);
-                    book.setCurrentChapter(book.getCurrentChapter() - 1);
-                    setContent(book);
-                } else {
-                    Toast.makeText(context, "No previous chapters", Toast.LENGTH_SHORT).show();
-                }
+                prevPage();
             }
             return true;
         }
@@ -384,6 +364,26 @@ public class TextActivity extends AppCompatActivity {
                 bodyText.setTextColor(Color.parseColor("#888888"));
                 layout.setBackgroundColor(Color.parseColor("#000000"));
                 break;
+        }
+    }
+
+    public void nextPage() {
+        if (book.getCurrentChapter() != book.getLatestChapter()) {
+            setScrollVal("0", getApplicationContext(), book);
+            book.setCurrentChapter(book.getCurrentChapter() + 1);
+            setContent(book);
+        } else {
+            Toast.makeText(context, "No new chapters", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    public void prevPage() {
+        if (book.getCurrentChapter() != 1) {
+            setScrollVal("0", getApplicationContext(), book);
+            book.setCurrentChapter(book.getCurrentChapter() - 1);
+            setContent(book);
+        } else {
+            Toast.makeText(context, "No previous chapters", Toast.LENGTH_SHORT).show();
         }
     }
 }

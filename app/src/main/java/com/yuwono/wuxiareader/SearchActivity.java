@@ -63,11 +63,8 @@ public class SearchActivity extends AppCompatActivity {
                 DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        // POSITIVE and NEGATIVE are switched (location)
                         switch (which){
                             case DialogInterface.BUTTON_POSITIVE:
-                                break;
-                            case DialogInterface.BUTTON_NEGATIVE:
                                 if (isValidURL(url)) {
                                     MainActivity.forceUpdateBook add_book = new MainActivity.forceUpdateBook(url);
                                     add_book.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
@@ -77,13 +74,16 @@ public class SearchActivity extends AppCompatActivity {
                                     Toast.makeText(SearchActivity.this,
                                             "Bad URL. Book may be broken", Toast.LENGTH_SHORT).show();
                                 }
+                                break;
+                            case DialogInterface.BUTTON_NEGATIVE:
+                                break;
                         }
                     }
                 };
                 AlertDialog.Builder builder = new AlertDialog.Builder(SearchActivity.this);
                 builder.setMessage("Add this book? \n" + url)
-                        .setPositiveButton("No", dialogClickListener)
-                        .setNegativeButton("Yes", dialogClickListener).show();
+                        .setPositiveButton("Yes", dialogClickListener)
+                        .setNegativeButton("No", dialogClickListener).show();
             }
         });
 
@@ -125,14 +125,13 @@ public class SearchActivity extends AppCompatActivity {
                 // set dialog message
                 alertDialogBuilder
                         .setCancelable(false)
-                        // positive / negative button switched
-                        .setPositiveButton("CANCEL",
+                        .setNegativeButton("CANCEL",
                                 new DialogInterface.OnClickListener() {
                                     public void onClick(DialogInterface dialog,int id) {
                                         dialog.cancel();
                                     }
                                 })
-                        .setNegativeButton("OK",
+                        .setPositiveButton("OK",
                                 new DialogInterface.OnClickListener() {
                                     public void onClick(DialogInterface dialog,int id) {
                                         String url = userInput.getText().toString();

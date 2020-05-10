@@ -62,21 +62,20 @@ public class BookActivity extends AppCompatActivity {
                 DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        // positive is NO, negative is YES (switched)
                         switch (which){
                             case DialogInterface.BUTTON_POSITIVE:
+                                Library.removeBook(book);
+                                finish();
                                 break;
 
                             case DialogInterface.BUTTON_NEGATIVE:
-                                Library.removeBook(book);
-                                finish();
                                 break;
                         }
                     }
                 };
                 AlertDialog.Builder builder = new AlertDialog.Builder(context);
-                builder.setMessage("Are you sure?").setPositiveButton("No", dialogClickListener)
-                        .setNegativeButton("Yes", dialogClickListener).show();
+                builder.setMessage("Are you sure?").setPositiveButton("Yes", dialogClickListener)
+                        .setNegativeButton("No", dialogClickListener).show();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
