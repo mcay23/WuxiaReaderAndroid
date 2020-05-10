@@ -2,17 +2,12 @@ package com.yuwono.wuxiareader;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.*;
 
-import android.app.AlertDialog;
-
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -34,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     static Book target;
     static FloatingActionButton add_button;
     static ArrayAdapter<String> arrayAdapter;
+    static Toast loading_transition;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -98,45 +94,20 @@ public class MainActivity extends AppCompatActivity {
 
             add_button.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
-                    LayoutInflater li = LayoutInflater.from(act);
-                    View promptsView = li.inflate(R.layout.add_prompt, null);
-                    AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
-                            act);
-
-                    // set prompts.xml to alertdialog builder
-                    alertDialogBuilder.setView(promptsView);
-
-                    final EditText userInput = (EditText) promptsView
-                            .findViewById(R.id.editTextDialogUserInput);
-
-                    // set dialog message
-                    alertDialogBuilder
-                            .setCancelable(false)
-                            .setPositiveButton("OK",
-                                    new DialogInterface.OnClickListener() {
-                                        public void onClick(DialogInterface dialog,int id) {
-                                            String url = userInput.getText().toString();
-                                            forceUpdateBook add_book = new forceUpdateBook(url);
-                                            add_book.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
-                                        }
-                                    })
-                            .setNegativeButton("Cancel",
-                                    new DialogInterface.OnClickListener() {
-                                        public void onClick(DialogInterface dialog,int id) {
-                                            dialog.cancel();
-                                        }
-                                    });
-
-                    AlertDialog alertDialog = alertDialogBuilder.create();
-                    alertDialog.show();
+                    loading_transition.makeText(act, "Loading index...",
+                            Toast.LENGTH_SHORT).show();
+                    Intent i = new Intent(act, SearchActivity.class);
+                    startActivity(i);
                 }
             });
+
             load_bar.setVisibility(View.GONE);
             loading_text.setVisibility(View.GONE);
+
         }
     }
 
-    public class forceUpdateBook extends AsyncTask<Void, Void, Void> {
+    public static class forceUpdateBook extends AsyncTask<Void, Void, Void> {
 
         private String url;
 

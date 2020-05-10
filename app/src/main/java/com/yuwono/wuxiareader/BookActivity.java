@@ -11,7 +11,6 @@ import android.os.Bundle;
 
 import androidx.appcompat.widget.Toolbar;
 
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -63,36 +62,22 @@ public class BookActivity extends AppCompatActivity {
                 DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
+                        // positive is NO, negative is YES (switched)
                         switch (which){
                             case DialogInterface.BUTTON_POSITIVE:
-                                Library.removeBook(book);
-                                finish();
                                 break;
 
                             case DialogInterface.BUTTON_NEGATIVE:
+                                Library.removeBook(book);
+                                finish();
                                 break;
                         }
                     }
                 };
-
                 AlertDialog.Builder builder = new AlertDialog.Builder(context);
-                builder.setMessage("Are you sure?").setPositiveButton("Yes", dialogClickListener)
-                        .setNegativeButton("No", dialogClickListener).show();
-
+                builder.setMessage("Are you sure?").setPositiveButton("No", dialogClickListener)
+                        .setNegativeButton("Yes", dialogClickListener).show();
                 return true;
-                /*
-            case R.id.action_update:
-                Log.d("update call", "LIB");
-                if (!book.isUpdating()) {
-                    Library.updateBook(book);
-                    Toast.makeText(act,
-                            "Starting Update", Toast.LENGTH_LONG).show();
-                } else {
-                    Toast.makeText(act,
-                            "Already Updating", Toast.LENGTH_LONG).show();
-                }
-                return true;
-                 */
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -165,7 +150,6 @@ public class BookActivity extends AppCompatActivity {
                 } catch (InterruptedException ex) {
                     ex.printStackTrace();
                 }
-                Log.d("LOGGING", "TITLES");
                 publishProgress();
             }
             return null;

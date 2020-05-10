@@ -1,0 +1,2839 @@
+<resources>
+    <string-array name="titles">
+        <item>Tales of Demons and Gods</item>
+        <item>Coiling Dragon</item>
+        <item>Dragon King with Seven Stars</item>
+        <item>Heroes Shed No Tears</item>
+        <item>Seven Killers</item>
+        <item>Stellar Transformations</item>
+        <item>Against the Gods</item>
+        <item>Battle Through the Heavens</item>
+        <item>Child of Light</item>
+        <item>The Great Ruler</item>
+        <item>Martial God Asura</item>
+        <item>Skyfire Avenue</item>
+        <item>Upgrade Specialist in Another World</item>
+        <item>Wu Dong Qian Kun</item>
+        <item>Ancient Strengthening Technique</item>
+        <item>Chaotic Sword God</item>
+        <item>Cult of the Sacred Runes</item>
+        <item>Great Demon King</item>
+        <item>Martial World</item>
+        <item>The Alchemist God</item>
+        <item>The Trembling World</item>
+        <item>True Martial World</item>
+        <item>Zhan Long</item>
+        <item>Perfect World</item>
+        <item>Desolate Era</item>
+        <item>Heavenly Jewel Change</item>
+        <item>Terror Infinity</item>
+        <item>Gate of Revelation</item>
+        <item>Spirit Realm</item>
+        <item>Dragon-Marked War God</item>
+        <item>World Defying Dan God</item>
+        <item>The Magus Era</item>
+        <item>Realms In The Firmament</item>
+        <item>Beast Piercing The Heavens</item>
+        <item>Emperor of The Cosmos</item>
+        <item>Dominating Sword Immortal</item>
+        <item>Lord of All Realms</item>
+        <item>Otherworldly Evil Monarch</item>
+        <item>Long Live Summons</item>
+        <item>Bringing The Farm To Live In Another World</item>
+        <item>Transcending the Nine Heavens</item>
+        <item>World Teacher Other World Style Education &amp; Agent</item>
+        <item>The King of the Battlefield</item>
+        <item>I Was a Sword When I Reincarnated</item>
+        <item>Immortal God Emperor</item>
+        <item>Konjiki no Moji Tsukai</item>
+        <item>Peerless Martial God</item>
+        <item>Shen Yin Wang Zuo</item>
+        <item>Reincarnator</item>
+        <item>God and Devil World</item>
+        <item>Kuro no Maou</item>
+        <item>Rebirth of the Thief Who Roamed the World</item>
+        <item>Martial God Space</item>
+        <item>Ze Tian Ji</item>
+        <item>Limitless Sword God</item>
+        <item>Ancient Godly Monarch</item>
+        <item>The Amber Sword</item>
+        <item>Murdering Heaven Edge</item>
+        <item>Martial Peak</item>
+        <item>Devouring The Heavens</item>
+        <item>Undefeated God of War</item>
+        <item>The Ultimate Evolution</item>
+        <item>Law of the Devil</item>
+        <item>Genius Sword Immortal</item>
+        <item>Lord Xue Ying</item>
+        <item>Dragon Martial Emperor</item>
+        <item>Nine Heavenly Thunder Manual</item>
+        <item>The Gate Of Good Fortune</item>
+        <item>Shrouding the Heavens</item>
+        <item>Douluo Dalu</item>
+        <item>God of Thunder</item>
+        <item>The Six Immortals</item>
+        <item>Spirit Vessel</item>
+        <item>In Different World with Naruto System</item>
+        <item>Jikuu Mahou de Isekai to Chikyuu wo Ittarikitari</item>
+        <item>Dungeon Hunter</item>
+        <item>Sendai Yuusha wa Inkyou Shitai</item>
+        <item>King of Gods</item>
+        <item>Romance of Dragons and Snakes</item>
+        <item>Legend of the Dragon King</item>
+        <item>Dragon Blooded War God</item>
+        <item>Absolute Choice</item>
+        <item>Paradise of Demonic Gods</item>
+        <item>History is Strongest Senior Brother</item>
+        <item>Killing Grounds of Gods and Devils</item>
+        <item>Path to Heaven</item>
+        <item>Martial God Conqueror</item>
+        <item>Library of Heaven is Path</item>
+        <item>Soaring the Heavens</item>
+        <item>Seoul Station is Necromancer</item>
+        <item>The Experimental Log of the Crazy Lich</item>
+        <item>Martial God</item>
+        <item>The Great Conqueror</item>
+        <item>Stranger is Handbook</item>
+        <item>Blue Phoenix</item>
+        <item>Imperial God Emperor</item>
+        <item>Age of Adepts</item>
+        <item>The Human Emperor</item>
+        <item>I Am Supreme</item>
+        <item>Divine Throne of Primordial Blood</item>
+        <item>History is Number 1 Founder</item>
+        <item>God of Crime</item>
+        <item>The Wizard World</item>
+        <item>Pursuit of the Truth</item>
+        <item>Dragoon</item>
+        <item>Unrivaled Tang Sect</item>
+        <item>Infinite Competitive Dungeon Society</item>
+        <item>The Avalon Of Five Elements</item>
+        <item>World of Warcraft Foreign Realm Domination</item>
+        <item>Overthrowing Fate</item>
+        <item>Life Mission</item>
+        <item>God is Song</item>
+        <item>Invincible Saint Salaryman the Path I Walk to Survive in This Other World</item>
+        <item>Nigotta Hitomi no Lilianne</item>
+        <item>Immortal and Martial Dual Cultivation</item>
+        <item>Slave Harem in the Labyrinth of the Other World</item>
+        <item>I have Been Reincarnated!</item>
+        <item>Hedonist Sovereign</item>
+        <item>Destroyer of Ice and Fire</item>
+        <item>Martial Arts Master</item>
+        <item>Talisman Emperor</item>
+        <item>Night Ranger</item>
+        <item>Pet King</item>
+        <item>The Invincible Dragon Emperor</item>
+        <item>Red Envelope Group of the Three Realms</item>
+        <item>Treasure Hunt Tycoon</item>
+        <item>Carefree Path of Dreams</item>
+        <item>City of Sin</item>
+        <item>Rise of Humanity</item>
+        <item>Advent of the Archmage</item>
+        <item>Gourmet of Another World</item>
+        <item>Fishing the Myriad Heavens</item>
+        <item>Unrivaled Medicine God</item>
+        <item>God Emperor</item>
+        <item>Spirit Hunters of Maoshan Sect</item>
+        <item>The Legend of Futian</item>
+        <item>Way of the Devil</item>
+        <item>The Empress is Gigolo</item>
+        <item>Omniscient Reader is Viewpoint</item>
+        <item>This MC Is Kickass</item>
+        <item>The Brilliant Fighting Master</item>
+        <item>Badge in Azure</item>
+        <item>The City of Terror</item>
+        <item>Legend of Legends</item>
+        <item>The Sword and The Shadow</item>
+        <item>Trafford is Trading Club</item>
+        <item>Kingdom is Bloodline</item>
+        <item>One hundred and eight Maidens of Destiny</item>
+        <item>Spare Me, Great Lord!</item>
+        <item>White-Robed Chief</item>
+        <item>Princess Agents</item>
+        <item>Leveling Up And Becoming Undefeatable</item>
+        <item>Defiant Martial God</item>
+        <item>Versatile Mage</item>
+        <item>The world turned into a game after I woke up</item>
+        <item>Return of the Soldier King</item>
+        <item>Atypical Reincarnation</item>
+        <item>I Reincarnated For Nothing</item>
+        <item>Trash of the Count is Family</item>
+        <item>The Exiled Necromancer</item>
+        <item>Shield Maiden</item>
+        <item>Chrysalis</item>
+        <item>The Goddess in Flames</item>
+        <item>A God\'s Apocalyptic Entertainment</item>
+        <item>Number One Dungeon Supplier</item>
+        <item>Enigmas</item>
+        <item>Tales of the Paladin</item>
+        <item>Pokemon World With A Rip-Off Pokemon Go</item>
+        <item>Silver Overlord</item>
+        <item>Gilded Cage</item>
+        <item>Total Adaptation - War And Evolution</item>
+        <item>The Legend of the Chaos Knight and His Elemental Girlfriend</item>
+        <item>The Void Eye Emperor</item>
+        <item>The Cursed Prince Of Ulka</item>
+        <item>My Kingdom</item>
+        <item>Origin Bloodline</item>
+        <item>Beyond Gods</item>
+        <item>Kingdom\'s Bloodline</item>
+        <item>OverPowered System</item>
+        <item>Supreme Truth of Chaos</item>
+        <item>The Sage Who Transcended Samsara</item>
+        <item>The Legend of the Dragon King</item>
+        <item>Warrior\'s Promise</item>
+        <item>Lady Cultivator</item>
+        <item>Supreme Uprising</item>
+        <item>Dual Cultivation</item>
+        <item>Monster Pet Evolution</item>
+        <item>Rebirth and Retribution: Two Flowers of the Red Moon</item>
+        <item>Kingdom of the Weak</item>
+        <item>Dual Cultivation Sect</item>
+        <item>The Absolute Phoenix King</item>
+        <item>CEO in a fantasy world</item>
+        <item>Library of Heaven\'s Path</item>
+        <item>Experimental Log of the Crazy Lich</item>
+        <item>Rise of the Lord</item>
+        <item>The Midnight Emporium</item>
+        <item>Bearer of the Red Lotus</item>
+        <item>Midnight of Kiah</item>
+        <item>Immortal Ki Technique</item>
+        <item>Beneficial Union: Chasing A Rogue Wife</item>
+        <item>The specialist</item>
+        <item>The Dark Progenitor</item>
+        <item>The Blade Summoner</item>
+        <item>Sky Gardens</item>
+        <item>Death’s Heir</item>
+        <item>Unsealing: Omnipotent Father</item>
+        <item>The Story of a Protoss</item>
+        <item>World of Fantasy and Technology</item>
+        <item>The Obscene System</item>
+        <item>+18 - Harem Palace Sect\'s System</item>
+        <item>Rise of the Hunters</item>
+        <item>Immortal Ascension Tower</item>
+        <item>Human Deity: The Rise of the Arthur</item>
+        <item>I Shall Tame the Heavens!</item>
+        <item>Galactic Warrior: Red Devil</item>
+        <item>Supreme Legend System</item>
+        <item>Give me a Word I\'ll make a World</item>
+        <item>Transmigrated Enhancement Specialists</item>
+        <item>Love Chain: My cute demon bride</item>
+        <item>Reborn as a GOD</item>
+        <item>Reborn as a Tentacle Monster</item>
+        <item>I Refuse to be Fate\'s Puppet</item>
+        <item>Origin of the End</item>
+        <item>I Shall Defy Heaven\'s Expectations</item>
+        <item>Mana: Goddess Of Destiny</item>
+        <item>THE KING OF THE UNIVERSE</item>
+        <item>Monarch of Heaven\'s Wrath</item>
+        <item>Magician of Ice element</item>
+        <item>The Unusual at Trost Academy</item>
+        <item>Monster Collector</item>
+        <item>Flying High, Soaring Through the Sky</item>
+        <item>Reencarnado como un gryphon</item>
+        <item>Son of Ainz Ooal gown, An overlord fanfiction</item>
+        <item>Simply Trading</item>
+        <item>God of the Void</item>
+        <item>All-Powerful System</item>
+        <item>The Silver Dragon Defys The Natural Order</item>
+        <item>Rise of the void king</item>
+        <item>Tsuki-Yomi: The Missing God</item>
+        <item>The Spirit Beast and His Wife</item>
+        <item>The Silvers</item>
+        <item>Selling Noted Items!</item>
+        <item>The Minotaur Paladin</item>
+        <item>Reincarnation of the Goddess</item>
+        <item>The Zodiac King</item>
+        <item>Incarnation of Death</item>
+        <item>SimbiyoZ-The Tale of Immortality</item>
+        <item>BL | Full Bloom</item>
+        <item>Royal Roader on My Own</item>
+        <item>Rebirth:Modern day cultivator</item>
+        <item>The Skyrider</item>
+        <item>Runes of Hecate</item>
+        <item>One Last Embrace</item>
+        <item>Endless Journey: Infinite Realms</item>
+        <item>Tear a Path</item>
+        <item>A Gatekeeper and The Celestial Sovereign</item>
+        <item>Beast God</item>
+        <item>Transmigration Upgrade Specialist</item>
+        <item>Legend of the Empyrean Blacksmith</item>
+        <item>Devil\'s Workshop</item>
+        <item>Rebel: The Inheritance System</item>
+        <item>jikook fantasy</item>
+        <item>Astrum Irae</item>
+        <item>Reincarnated as a slime?</item>
+        <item>The Myriad Hack System</item>
+        <item>The path of the lustful demon</item>
+        <item>Captain Raven</item>
+        <item>Re:Killing The Heavens</item>
+        <item>Villainous Sect Master and the Endless Wave of Heroes</item>
+        <item>The Magician of Life and Death</item>
+        <item>Devouring Overlord</item>
+        <item>The Era of Evolution</item>
+        <item>The Damn Hunter</item>
+        <item>Alexandria\'s Genesis</item>
+        <item>10 wishes</item>
+        <item>Sexual Escapades with the Chad System</item>
+        <item>Reincarnated with a Grand Fate</item>
+        <item>Hiding in the Shadows</item>
+        <item>The Otherworldly King</item>
+        <item>The Alchemist in the Apocalypse</item>
+        <item>Rebirth of a Legend</item>
+        <item>Convenience Store in Another World</item>
+        <item>Reborn as a Lion!!!</item>
+        <item>Modern Weapons in a Fantasy World</item>
+        <item>Black Bellied Series: The Prodigy Su Li Zing</item>
+        <item>The Selfish Demon Lord?</item>
+        <item>History\'s Number 1 Founder</item>
+        <item>Apocalyptic System : apocalypse/dimension travel</item>
+        <item>Supreme Chat Group</item>
+        <item>Mystic Pharaoh</item>
+        <item>Dragonborn</item>
+        <item>Kama-Sutra</item>
+        <item>Forbidden Alpha</item>
+        <item>The Martial Master</item>
+        <item>Limits</item>
+        <item>Dawn Of The Crimson Sun</item>
+        <item>I Hacked Everything</item>
+        <item>Dominating Evolution of the Cosmos</item>
+        <item>Battle of Ascension</item>
+        <item>Dungeon Life - A Pervert\'s Dream</item>
+        <item>Legend of Supreme Cosmic Scripture</item>
+        <item>Spirit Immortal</item>
+        <item>Rose\'s Reincarnation</item>
+        <item>The Combat Baker and Automaton Waitress, Volume 2</item>
+        <item>The Shameless Reincarnator</item>
+        <item>The Book Eating Magician by McEnroe</item>
+        <item>Transport To Another World With Cheat</item>
+        <item>The Genie\'s Curse</item>
+        <item>One Shot Story Like Every Normal Protaganist I Have A System Too</item>
+        <item>Check Synopsis!</item>
+        <item>The Sorcerer and her Guardian</item>
+        <item>Release That Magical Girl!</item>
+        <item>Weekend Reincarnation</item>
+        <item>The Immortal Love Bite</item>
+        <item>The Forsaken Lands</item>
+        <item>Paralyzed:Fallen Angel</item>
+        <item>The Mysterious Door in the Ruin</item>
+        <item>CANCELLED</item>
+        <item>The Book of Knowledge</item>
+        <item>Beast</item>
+        <item>Primordial realm</item>
+        <item>199</item>
+        <item>Releasing Valencia - RTW Fanfic</item>
+        <item>The Sword or the Pen</item>
+        <item>The Dance of The Marquis</item>
+        <item>Release Me</item>
+        <item>RESPECT MAH AUTHORITHA!</item>
+        <item>Will You Follow Me?</item>
+        <item>Extra Ordinary Love</item>
+        <item>Journey Of Two</item>
+        <item>Eternal Existence: The Uncovering</item>
+        <item>Histories to the Present!</item>
+        <item>Honeysuckle</item>
+        <item>which sandwich sir cheng yan?</item>
+        <item>Release that, Kid</item>
+        <item>Strange Dream</item>
+        <item>Last hope</item>
+        <item>My Isekai Adventure</item>
+        <item>Rise of a Fallen God</item>
+        <item>Transmigrated by Accident</item>
+        <item>Gourmet Emperor: Master of Culinary World</item>
+        <item>Soul Between Lives</item>
+        <item>Waking to Dragons and Elves</item>
+        <item>World Domination System</item>
+        <item>What In The World??</item>
+        <item>Supreme Dragon Emperor</item>
+        <item>Dragon Master</item>
+        <item>Let the Power of Lightning Strike</item>
+        <item>The Rise Against The Evil King</item>
+        <item>Perfect Equilibrium</item>
+        <item>Grey Worlds</item>
+        <item>The Cursed</item>
+        <item>Husband: For Rent or Hire</item>
+        <item>Sovereign Above the Heavens</item>
+        <item>New Earth- The Dungeon of Madness</item>
+        <item>Nano Machine</item>
+        <item>Rebirth: The New Game of Life</item>
+        <item>Spirit Cultivation</item>
+        <item>Gangland Fantasy</item>
+        <item>The Adventures of the Young Master</item>
+        <item>Re;Kingdom, Starting a Life with Amnesia from Zero</item>
+        <item>A Goblin\'s Evolution</item>
+        <item>The Third Prince</item>
+        <item>The Path of the Azure Demon Fox</item>
+        <item>The Almighty Tyrant</item>
+        <item>Daoist Master of Qing Xuan</item>
+        <item>Reincarnation of a living god</item>
+        <item>Music System: REWRITTEN</item>
+        <item>Celder, Dungeon hunter</item>
+        <item>Dungeons of Despair</item>
+        <item>Negatives</item>
+        <item>The Gatekeeper</item>
+        <item>rebirth of dragon emperor</item>
+        <item>Not All Witches are Bad</item>
+        <item>A Walk Through The Eternity</item>
+        <item>Dark man in the shadows</item>
+        <item>Douluo Dalu: Legend of the Divine Realm</item>
+        <item>Twin Chronicles: Rise of the Renegades</item>
+        <item>Harem Slayer System</item>
+        <item>Nine Yang Sword Saint</item>
+        <item>Black Ice | Deathsworn #1</item>
+        <item>Rise of Tetramand</item>
+        <item>Reborn into Fairy Tail</item>
+        <item>Skill Customize Creator System</item>
+        <item>The Wrold of Algratha</item>
+        <item>The Garden Of Immortals</item>
+        <item>Million Autumns: first</item>
+        <item>HIDEAndSEEK</item>
+        <item>INCH OF RADIANCE</item>
+        <item>Choices of Life</item>
+        <item>The Military System</item>
+        <item>Legend of the Wyrm Bearer</item>
+        <item>Eyes Of Destiny</item>
+        <item>Unravel The Heart</item>
+        <item>i was sent to another world to take it over</item>
+        <item>Unrivaled Mage</item>
+        <item>Traitor of Humanity</item>
+        <item>Evolution Master</item>
+        <item>Merchant King</item>
+        <item>My planet</item>
+        <item>Book of Divine Creatures</item>
+        <item>A God\'s Journey to the Top</item>
+        <item>Echos</item>
+        <item>Dao of Money</item>
+        <item>Bound by chains</item>
+        <item>Invasion of Planet Gizmo</item>
+        <item>Rising Titans</item>
+        <item>Nothing to Everything</item>
+        <item>Throne of the Eternal</item>
+        <item>Dark Phoenix</item>
+        <item>The Demon Plane</item>
+        <item>War God\'s Descent</item>
+        <item>Distant Leaps to Circinus</item>
+        <item>Demiworld: Laum</item>
+        <item>Throne Of Origin</item>
+        <item>The Devil\'s Gift</item>
+        <item>Cultivating A Planet</item>
+        <item>Witch Category: Other</item>
+        <item>The Rise Of Two Heroes</item>
+        <item>Supernatural Academy</item>
+        <item>To Return To Where You Belong To</item>
+        <item>journey of the immortal merchant</item>
+        <item>The Lion Pup BL</item>
+        <item>The Midnight Ark</item>
+        <item>Assassination System</item>
+        <item>RE : Transport to Another World As My Game Character!</item>
+        <item>Corvus Aiaar: Hero of Destiny</item>
+        <item>Consuming Earths, Devouring Skies</item>
+        <item>My Avatar is broken</item>
+        <item>Mixed Anime World</item>
+        <item>Devil\'s wrath</item>
+        <item>Genius Seventh Prince</item>
+        <item>Drift And Sink</item>
+        <item>Super Hatred System</item>
+        <item>The Devil WithInn</item>
+        <item>The Stealth King</item>
+        <item>The Red Lands</item>
+        <item>The Lord of Darkness and Light</item>
+        <item>The Man System</item>
+        <item>Rewrite System</item>
+        <item>Making an Empire Through The Ages</item>
+        <item>The Pseudo Immortal</item>
+        <item>My Unrealistic Dream</item>
+        <item>Summon The Heaven</item>
+        <item>A Boy and a Girl</item>
+        <item>Prehistoric Era</item>
+        <item>Reincarnation: Travel the Whole Universe With Your Good Brother!</item>
+        <item>Clan Otsutsuki In The Martial World</item>
+        <item>My Planet System : Celestial\'s Conquest</item>
+        <item>Ambition of an Immortal</item>
+        <item>Bringing knowledge to another world</item>
+        <item>Goddess of Love and Lust</item>
+        <item>Teleported to Another World? Why am I a Vampire?</item>
+        <item>Fireheart</item>
+        <item>World of Evolution</item>
+        <item>Monster Emperor System</item>
+        <item>Genius Master Sect</item>
+        <item>Bastard Princess</item>
+        <item>The Sole Skull</item>
+        <item>suspended</item>
+        <item>Other world with movement control skill</item>
+        <item>Werewolf in another world</item>
+        <item>Card Master System</item>
+        <item>Goddess of Love</item>
+        <item>Lord Shadow</item>
+        <item>Arcanum</item>
+        <item>Natia Miscere - Tales of Liberty District</item>
+        <item>Knight Kings : 1st Encounter</item>
+        <item>Game of Will</item>
+        <item>The Strongest Businessman</item>
+        <item>Second Reality</item>
+        <item>The General</item>
+        <item>Reborn: Evolving From Nothing</item>
+        <item>Tale of the Forgotten Heretic</item>
+        <item>Post pone until further notice - The Legends of the Twin Blue Silver Grass</item>
+        <item>Starship commander trapped in a fantasy world</item>
+        <item>A Sojourn of a Transmigrated Housewife</item>
+        <item>Tales of parallel worlds</item>
+        <item>Mystic Era: The Numinous Way</item>
+        <item>World Travel: Transmigration: DXD</item>
+        <item>Don\'t Look Into my Eyes</item>
+        <item>Fireheart: Blood and Desire</item>
+        <item>Fireheart: Blood of the Warrior Queen</item>
+        <item>Fireheart: Blood of the Warrior-Queen</item>
+        <item>I Was Reincarnated Into A Harem Game As A Villain, Please Stay Away I\'m Gay!</item>
+        <item>Sovereign of the Karmic System</item>
+        <item>The Gods\' Decree</item>
+        <item>Yes, I\'m Transmigrated! What?! I\'m Mother of Five Children?</item>
+        <item>THE ALPHA</item>
+        <item>Darwinism Doesn\'t Apply Here</item>
+        <item>FeralHeart</item>
+        <item>Ultimate Goddess System</item>
+        <item>Way Of The Evil Alchemist</item>
+        <item>Reborn in Altaes</item>
+        <item>Drunken Lotus: Fated With The Rogue Hidden Dragon</item>
+        <item>Life As A God</item>
+        <item>Worlds of Our Own</item>
+        <item>Rebirth of the Legendary Swordsman</item>
+        <item>A path to rule cosmos</item>
+        <item>Artifact Planting Space</item>
+        <item>Another World Life as a Cheat Character!</item>
+        <item>White Snake</item>
+        <item>Beginnings End</item>
+        <item>In Regards to a Certain Bystander</item>
+        <item>I\'ll Pay2Win in Another World!</item>
+        <item>Invincible Level Up</item>
+        <item>Sons of Eden</item>
+        <item>Goddess of War</item>
+        <item>Miraculous Reincarnation of The Fallen Noble</item>
+        <item>Destined Gatekeeper: First Female Blood</item>
+        <item>The Disciple of Aoide</item>
+        <item>Illimitable Until Death</item>
+        <item>I wish I never exist</item>
+        <item>Versatile Gamer</item>
+        <item>The Power of Ten: Sama Rantha</item>
+        <item>Killing Xianxia Protagonists With An AI System In Another World!</item>
+        <item>Tales Of The Undefeated Legend</item>
+        <item>Droppeddd</item>
+        <item>SNATUREI</item>
+        <item>Daily Life Of A Witch</item>
+        <item>I Went To Another World and Bonded With a Goddess So I Might As Well Have Lots of Sex and Rub it In My Ex-wife’s Face</item>
+        <item>Endless Body and Qi Art</item>
+        <item>Im On Top Of The World</item>
+        <item>Black Belly Enchantress</item>
+        <item>The Insatiable</item>
+        <item>Sword Saint System</item>
+        <item>Summoned for my Body</item>
+        <item>Rise Of The Heavenly Fox</item>
+        <item>Vain</item>
+        <item>The Blood of the Gatekeeper</item>
+        <item>Destined Gatekeeper</item>
+        <item>Fireheart: The Pretty Swordswoman\'s Dilemma</item>
+        <item>The Summoned Pioneer</item>
+        <item>Fireheart: The Queen of Darkness Returns</item>
+        <item>Fireheart: The Human, the Witch, and the Vampire</item>
+        <item>Fireheart: The Warrior, the Witch, and the Vampire</item>
+        <item>The God World</item>
+        <item>Heavenly Pleasure</item>
+        <item>Reincarnated into a Hell Hound - BL/Yaoi</item>
+        <item>She Becomes the Hero in Another World</item>
+        <item>The Fallen Angel Himari</item>
+        <item>Against The Heaven\'s Way</item>
+        <item>A psycho in a cultivation world</item>
+        <item>Tattoo Cultivation</item>
+        <item>Through Hellfire</item>
+        <item>Similar but downgrade version of system?</item>
+        <item>Legend of Aurum</item>
+        <item>Poisonmancer</item>
+        <item>Dreamer</item>
+        <item>LOLA IS DEAD</item>
+        <item>The One Luna</item>
+        <item>Rooster Prince and Pearl Princess</item>
+        <item>Life Hunter</item>
+        <item>Rebuilding the Sun Kingdom!</item>
+        <item>Evil God System</item>
+        <item>The Beginning After The End</item>
+        <item>The Messenger of Los</item>
+        <item>A Hand-Woven Universe</item>
+        <item>Eye Of The Eclipse</item>
+        <item>Awakening a Magic System</item>
+        <item>Kingdoms\' Poets</item>
+        <item>Don\'t Touch Me, You\'ll Die!</item>
+        <item>The Misfortunes of the Blessed Son</item>
+        <item>The Second Life Of Naota Takaki</item>
+        <item>Serial Transmigrator</item>
+        <item>The Slime Master</item>
+        <item>Demon Lord\'s Reincarnation</item>
+        <item>Living with an immortal dragon soul</item>
+        <item>Don the Hero</item>
+        <item>Rise of Destruction</item>
+        <item>Fantasy System</item>
+        <item>Realms Beyond Mortal</item>
+        <item>0_0</item>
+        <item>The Unknown Beauty</item>
+        <item>Ruler Of The Underworld</item>
+        <item>The Chaotic System</item>
+        <item>eote</item>
+        <item>My Bothersome Life</item>
+        <item>Skkarius</item>
+        <item>The Strongest Shopmaster</item>
+        <item>Goddess of Love and Sex</item>
+        <item>His Dream ? My Nightmare</item>
+        <item>Broly in Naruto</item>
+        <item>Fate Emperor</item>
+        <item>A Sorcerer\'s Journey</item>
+        <item>Martial Universe</item>
+        <item>The First Hunter</item>
+        <item>The Unrivaled Tang Sect</item>
+        <item>The Immortal\'s Poison</item>
+        <item>system:Harry the harem lord</item>
+        <item>The Saviour of a magical world cannot use any magic????!!!!!</item>
+        <item>Heavenly Dao Child</item>
+        <item>The Savior of a world of magic cannot use any magic????!!!!!</item>
+        <item>Blue Star Cultivator</item>
+        <item>NoGift</item>
+        <item>Galaxy Of Infinity World\'s</item>
+        <item>The Low Born King</item>
+        <item>The Wheel of Samsara</item>
+        <item>REDEMPTION: The Devil\'s Daughter</item>
+        <item>Celestial Overlord</item>
+        <item>The Harukian Chronicler</item>
+        <item>Path of the Tyrant King</item>
+        <item>Beast Cultivating System</item>
+        <item>The Food Sage</item>
+        <item>Wholly Undead</item>
+        <item>I Have a Rewrite version go check it out</item>
+        <item>Dogs of war</item>
+        <item>System : Reincarnation</item>
+        <item>I Shall Seal the Heavens</item>
+        <item>Renegade Immortal</item>
+        <item>A Record of a Mortal is Journey to Immortality</item>
+        <item>Demon is Diary</item>
+        <item>A Thought Through Eternity</item>
+        <item>The Portal of Wonderland</item>
+        <item>God-level Bodyguard in The City</item>
+        <item>Stealing The Heavens</item>
+        <item>I Came From The Mortal World</item>
+        <item>Emperor is Domination</item>
+        <item>World of Cultivation</item>
+        <item>Zhanxian</item>
+        <item>Heavenly Star</item>
+        <item>A Will Eternal</item>
+        <item>Starting from Zero</item>
+        <item>Zhu Xian</item>
+        <item>The Strong, The Few, True Cultivators on Campus</item>
+        <item>Chaotic Lightning Cultivation</item>
+        <item>Sword Spirit</item>
+        <item>My Disciple Died Yet Again</item>
+        <item>Returning from the Immortal World</item>
+        <item>Legend of the Great Saint</item>
+        <item>Legend of the Cultivation God</item>
+        <item>Once Upon A Time, There Was A Spirit Sword Mountain</item>
+        <item>Strongest Abandoned Son</item>
+        <item>War Sovereign Soaring The Heavens</item>
+        <item>Immortal Mortal</item>
+        <item>Commanding Wind and Cloud</item>
+        <item>Forty Millenniums of Cultivation</item>
+        <item>Painting of the Nine Immortals</item>
+        <item>The Sacred Ruins</item>
+        <item>Plundering the Dao of the Immortal Journey</item>
+        <item>The Divine Elements</item>
+        <item>Peerless Battle Spirit</item>
+        <item>A step into the past</item>
+        <item>Seeking the Flying Sword Path</item>
+        <item>Tales of Herding Gods</item>
+        <item>Legend of Ling Tian</item>
+        <item>Reincarnation Of The Strongest Sword God</item>
+        <item>Limitless</item>
+        <item>Reverend Insanity</item>
+        <item>Man Huang Feng Bao</item>
+        <item>Archfiend</item>
+        <item>Alchemy Emperor of the Divine Dao</item>
+        <item>Gate of God</item>
+        <item>Ultimate Scheming System</item>
+        <item>Plundering the Heavens</item>
+        <item>The Spiritual Attainment of Minghe</item>
+        <item>The Daily Life of the Immortal King</item>
+        <item>Starchild Escapes Arranged Marriage</item>
+        <item>Omnipotent Sage</item>
+        <item>The Divine Nine-Dragon Cauldron</item>
+        <item>The Path Toward Heaven</item>
+        <item>Death Scripture</item>
+        <item>Everlasting Immortal Firmament</item>
+        <item>The Immortal Ruins</item>
+        <item>Phoenix Destiny</item>
+        <item>Shadow of the World</item>
+        <item>Skyward Over God</item>
+        <item>Error Reincarnation</item>
+        <item>The All-Around System</item>
+        <item>The Narcissist Master and the previous Sword Goddess</item>
+        <item>The strongest Primordial system</item>
+        <item>True God in Martial World</item>
+        <item>Focus</item>
+        <item>Unbeatable! Invincible! Unparalleled!</item>
+        <item>The Chaotic Human</item>
+        <item>Invincible Canadian Futa Goddess Cultivator</item>
+        <item>My 10th Time Being Transmigrated</item>
+        <item>El viaje de la espada mas fuerte</item>
+        <item>Above All</item>
+        <item>God of all System</item>
+        <item>System Creator</item>
+        <item>Immortal Martial world realm</item>
+        <item>I Became a NPC</item>
+        <item>Strongest Protagonist\'s Aura</item>
+        <item>Sword Overlord</item>
+        <item>Divine Overlord</item>
+        <item>The Other Side of A Cultivation Story</item>
+        <item>The Xiang Butterfly of Chaos</item>
+        <item>The Dark Demon Lord Short Stories</item>
+        <item>Music System in a Cultivation World: What the F*ck?</item>
+        <item>Exp Book</item>
+        <item>Horizon Bright Moon Sabre</item>
+        <item>Sovereign of the Three Realms</item>
+        <item>The Nine Cauldrons</item>
+        <item>God of Slaughter</item>
+        <item>Dungeon Defense</item>
+        <item>Lazy Dungeon Master</item>
+        <item>Tsuki ga Michibiku Isekai Douchuu</item>
+        <item>The New Gate</item>
+        <item>I have Became Able to Do Anything with My Growth Cheat but I Can not Seem to Get out of Being Jobless</item>
+        <item>The Man Picked up by the Gods</item>
+        <item>I am Really a Superstar</item>
+        <item>The Strongest Dan God</item>
+        <item>Botsuraku Youtei Nanode Kajishokunin wo Mezasu</item>
+        <item>Hail the King</item>
+        <item>Nidome no Yuusha</item>
+        <item>Kamigoroshi no Eiyuu to Nanatsu no Seiyaku</item>
+        <item>Maken no Daydreamer</item>
+        <item>Stunning Edge</item>
+        <item>So What If Its an RPG World</item>
+        <item>Conquest</item>
+        <item>My Beautiful Teacher</item>
+        <item>A Naive Short-tempered Girl</item>
+        <item>Mai Kitsune Waifu</item>
+        <item>Everyone Else is a Returnee</item>
+        <item>Awakening</item>
+        <item>Sevens</item>
+        <item>My Wife is a Beautiful CEO</item>
+        <item>God of Cooking</item>
+        <item>Very Pure and Ambiguous The Prequel</item>
+        <item>The Grandmaster Strategist</item>
+        <item>Tensei Shitara Slime Datta Ken</item>
+        <item>Cultivation Chat Group</item>
+        <item>The Good for Nothing Seventh Young Lady</item>
+        <item>Enchantress Amongst Alchemists Ghost King is Wife</item>
+        <item>Himekishi ga Classmate Isekai Cheat de Dorei ka Harem</item>
+        <item>One Child Two Treasures The Billionaire Chief is Good Wife</item>
+        <item>Poison Genius Consort</item>
+        <item>Hidden Marriage</item>
+        <item>Super Soldier King</item>
+        <item>The Charm of Soul Pets</item>
+        <item>To Deprive a Deprived Person</item>
+        <item>The King of Hell is Genius Pampered Wife</item>
+        <item>War God Asura</item>
+        <item>Womanizing Mage</item>
+        <item>Dragon Maken War</item>
+        <item>The Legendary Master is Wife</item>
+        <item>Red Packet Server</item>
+        <item>The Silly Alchemist</item>
+        <item>Masked Knight</item>
+        <item>The Great Thief</item>
+        <item>Monarch of Evernight</item>
+        <item>Prodigiously Amazing Weaponsmith</item>
+        <item>Reign of the Hunters</item>
+        <item>The Book Eating Magician</item>
+        <item>Goblin Kingdom</item>
+        <item>Kuma Kuma Kuma Bear</item>
+        <item>These Dangerous Girls Placed Me Into Jeopardy</item>
+        <item>Otherworld Nation Founding Chronicles</item>
+        <item>Princess Medical Doctor</item>
+        <item>Pure Love X Insult Complex</item>
+        <item>High School DxD</item>
+        <item>Kujibiki Tokushou Musou H?remu ken</item>
+        <item>Summoned Slaughterer</item>
+        <item>Beauty and the Bodyguard</item>
+        <item>Friends Without Benefits</item>
+        <item>The Ex</item>
+        <item>The Client</item>
+        <item>The VIP</item>
+        <item>How to Kill an Incubus</item>
+        <item>The Donafrio Donor</item>
+        <item>The Escort</item>
+        <item>jake the panty-ripper</item>
+        <item>Beautiful Disaster</item>
+        <item>Dominating Love</item>
+        <item>Dominating Desires</item>
+        <item>Dominating Desires Private Chapters</item>
+        <item>The Book Club</item>
+        <item>Trusting Logan</item>
+        <item>Bringing the Nation is Husband Home</item>
+        <item>Venerated Venomous Consort</item>
+        <item>Rebirth How A Loser Became A Prince Charming</item>
+        <item>The Black Card</item>
+        <item>Mr. CEO, Spoil me 100 Percent!</item>
+        <item>My Cold and Elegant CEO Wife</item>
+        <item>NEET Receives a Dating Sim Game Leveling System</item>
+        <item>Transmigrator Meets Reincarnator</item>
+        <item>100% Sweet Love: The Delinquent XXX Wife Is a Bit Sweet</item>
+        <item>Perfect Secret Love The Bad New Wife is a Little Sweet</item>
+        <item>Ghost Emperor Wild Wife Dandy Eldest Miss</item>
+        <item>A Billion Stars Can it Amount to You</item>
+        <item>The Two-Faced Venerate Emperor</item>
+        <item>Trial Marriage Husband Need to Work Hard</item>
+        <item>Bone Painting Coroner</item>
+        <item>Divine Doctor Daughter of the First Wife</item>
+        <item>Chongfei Manual</item>
+        <item>The Novel is Extra</item>
+        <item>Dragon King is Son-In-Law</item>
+        <item>My Youth Began With Him</item>
+        <item>Joy of Life</item>
+        <item>Silent Crown</item>
+        <item>Extraordinary Genius</item>
+        <item>Little Prodigal Alliance Head</item>
+        <item>Still, Wait For Me</item>
+        <item>Unruly Phoenix Xiaoyao</item>
+        <item>The 99th Divorce</item>
+        <item>Living With a Temperamental Adonis 99 Proclamations of Love</item>
+        <item>Shift! The Side-Character Heroine</item>
+        <item>Pursuing Immortality</item>
+        <item>Crazy Detective</item>
+        <item>Master Devil Do Not Kiss Me</item>
+        <item>Miracle Doctor Abandoned Daughter The Sly Emperor is Wild Beast-Tamer Empress</item>
+        <item>So Pure, So Flirtatious</item>
+        <item>Return of the Swallow</item>
+        <item>Why Did You Summon Me?</item>
+        <item>National School Prince Is A Girl</item>
+        <item>My Nightclub Landlady</item>
+        <item>Remarry, No Way!</item>
+        <item>Adorable Food Goddess</item>
+        <item>The Mech Touch</item>
+        <item>Lost Souls?</item>
+        <item>Memories of Grace</item>
+        <item>Rogue Merchant Deity</item>
+        <item>RPG System in a Modern World</item>
+        <item>Table for Two</item>
+        <item>Apocalypse Hunter</item>
+        <item>Upside Down</item>
+        <item>Tactical RPG World</item>
+        <item>I have a Mansion in the Post-apocalyptic World</item>
+        <item>Crimson\'s Revenge</item>
+        <item>My Hero Is Actually A Villain</item>
+        <item>Wishing Flower</item>
+        <item>Against a Dying World: - Portland</item>
+        <item>The Lonely Boy</item>
+        <item>Achieving Author Badge IV</item>
+        <item>Nanoferas - Surgem as Novas Lendas!</item>
+        <item>Against a Dying World Redding, California</item>
+        <item>Red Twilight: Worldwalker</item>
+        <item>A Certain Man\'s Idyllic Morning</item>
+        <item>DANCING RAGS</item>
+        <item>Leopold Orso and the Case of the Bloody Tree</item>
+        <item>Terraform - A Sample of Dystopia</item>
+        <item>On A Tour</item>
+        <item>badge</item>
+        <item>This Monkey Was Lied To!</item>
+        <item>Red Team Dead Man</item>
+        <item>Epiphany of the Weak</item>
+        <item>I Can Turn into a Fish</item>
+        <item>I Will always Find You!</item>
+        <item>99 Percent Luck, 1 Percent Skill</item>
+        <item>Assassins</item>
+        <item>Glorious Money Making Method</item>
+        <item>Avalon\'s Secret</item>
+        <item>The Endless Friendship</item>
+        <item>Kano\'s Necromantic Comedy</item>
+        <item>I transmigrated as a Zombie?</item>
+        <item>HellHunters Neo</item>
+        <item>Murder School</item>
+        <item>Normal in Parenthesis</item>
+        <item>2119 : New Horizon</item>
+        <item>Sex drive</item>
+        <item>Vastitus, Failure Planet</item>
+        <item>Olivia\'s Diary</item>
+        <item>Silent</item>
+        <item>The Bell of Death</item>
+        <item>Vampire of Old</item>
+        <item>The Suit-Maker</item>
+        <item>D466ER</item>
+        <item>Aliens: Hivemind</item>
+        <item>Struggle of Love</item>
+        <item>I Just Want Peace</item>
+        <item>I Can Be A Hero?</item>
+        <item>Reincarnation of the Last Human</item>
+        <item>Queen of Science and Technology</item>
+        <item>The Weapon Master\'s Transmigration</item>
+        <item>A Game Against The Gods</item>
+        <item>God Project : Game To Heaven</item>
+        <item>Vengeful Hero</item>
+        <item>Boss from another world</item>
+        <item>Out of Space</item>
+        <item>The Statsguy\'s Mag</item>
+        <item>The Lion Dog</item>
+        <item>Apocalypse Meltdown</item>
+        <item>When A Snail Falls in Love</item>
+        <item>Side Character Transmigrations: The Final Boss is No Joke</item>
+        <item>The Demonic King Chases His Wife The Rebellious Good-for-Nothing Miss</item>
+        <item>Da Tang Shuang Long Zhuan</item>
+        <item>Genius Doctor Black Belly Miss</item>
+        <item>Descent of the Phoenix 13 Years Old Princess Consort</item>
+        <item>Release that Witch</item>
+        <item>World of Immortals</item>
+        <item>Poisoning the World The Secret Service Mysterious Doctor is a Young Beastly Wife</item>
+        <item>Evil Emperor is Wild Consort</item>
+        <item>The Inverted Dragon is Scale</item>
+        <item>The Evil Prince and his Precious Wife The Sly Lady</item>
+        <item>Bewitching Prince Spoils His Wife Genius Doctor Unscrupulous Consort</item>
+        <item>King Shura</item>
+        <item>Mei Gongqing</item>
+        <item>Empress Running Away with the Ball</item>
+        <item>Demon Wang is Golden Favorite Fei</item>
+        <item>Doomed to be Cannon Fodder</item>
+        <item>Mesmerizing Ghost Doctor</item>
+        <item>Chu Wang Fei</item>
+        <item>Assassin is Chronicle</item>
+        <item>Nightfall</item>
+        <item>The Dreamer in the Spring Boudoir</item>
+        <item>A Valiant Life</item>
+        <item>Godfather Of Champions</item>
+        <item>Vengeance, War and Honor</item>
+        <item>A Strategist\'s Rebirth</item>
+        <item>Little Miss Trouble: The Emperor\'s Rebellious Consort</item>
+        <item>The Legend of Karachuo</item>
+        <item>SUFENG HWANG</item>
+        <item>Little Purple</item>
+        <item>The Employed Empress</item>
+        <item>The Recipe of Love</item>
+        <item>Taste of Love</item>
+        <item>The War That Transcends Timelines!</item>
+        <item>Second Chance War</item>
+        <item>The Demon King</item>
+        <item>JUN LAN</item>
+        <item>Flowers Bloom from Battlefield</item>
+        <item>Regrets</item>
+        <item>I will not stop, until I Stop, then I will Stop</item>
+        <item>I Reincarnated to be a part of History!</item>
+        <item>Shade World</item>
+        <item>Monty Python and the Holy Grail Ending - Rewritten</item>
+        <item>White Snow- Princess Baixue</item>
+        <item>Vengeance, Honor and War</item>
+        <item>Battle Royale of the Sinners</item>
+        <item>My Consort Has Gone Mad!</item>
+        <item>Heaven\'s Change</item>
+        <item>A "Slave" in Arthur\'s "Court"</item>
+        <item>My Planet</item>
+        <item>Phantom Sniper</item>
+        <item>Apocalyptic World</item>
+        <item>Cold Blooded King</item>
+        <item>Love Story: Secret Agent And The Prince</item>
+        <item>Within A Grey Twilight</item>
+        <item>LETHAL FLOWER</item>
+        <item>Doctor goes back to Joseon</item>
+        <item>The Great Divine Tree</item>
+        <item>A Lotus to Remember You</item>
+        <item>Fei Ling</item>
+        <item>Entrepreneur Fifth Young Miss Wants to Be Single</item>
+        <item>Beneath the Embroidered Brocade</item>
+        <item>Sweet Desire</item>
+        <item>Lost in Character: Transmigration Chronicles of a Nameless Heroine</item>
+        <item>The supreme sovereign system</item>
+        <item>Serendipitous Love</item>
+        <item>The World Conqueror</item>
+        <item>The Shadow of My Light</item>
+        <item>Entrepreneur Fifth Young Miss Wants to Stay Single</item>
+        <item>The Lovely Princess Cassandra</item>
+        <item>Strategists Reincarnation Death Match</item>
+        <item>Power Up, Artist Yang!</item>
+        <item>Beautiful Defender</item>
+        <item>Day Star</item>
+        <item>Counterfeit Hero</item>
+        <item>The Han Sisters</item>
+        <item>Warlock of the Magus World</item>
+        <item>Death March kara Hajimaru Isekai Kyusoukyoku</item>
+        <item>Swallowed Star</item>
+        <item>Galactic Dark Net</item>
+        <item>Magi Craft Meister</item>
+        <item>Kumo Desu ga Nani ka</item>
+        <item>I am the Monarch</item>
+        <item>Tales of the Reincarnated Lord</item>
+        <item>The Dark King</item>
+        <item>Breakers</item>
+        <item>Star Rank Hunter</item>
+        <item>Monster Factory</item>
+        <item>In a Different World with a Smartphone</item>
+        <item>Emperor of Solo Play</item>
+        <item>Apocalypse Cockroach</item>
+        <item>Miracle Throne</item>
+        <item>Battle Frenzy</item>
+        <item>Doom Lord</item>
+        <item>Master of the Stars</item>
+        <item>Epoch of Twilight</item>
+        <item>Gourmet Food Supplier</item>
+        <item>Castle of Black Iron</item>
+        <item>Global Evolution</item>
+        <item>The Godsfall Chronicles</item>
+        <item>Soaring of Galaxia</item>
+        <item>Sovereign of Judgment</item>
+        <item>Praise the Orc</item>
+        <item>Dark Blood Age</item>
+        <item>Godly Model Creator</item>
+        <item>Legend of the Supreme Soldier</item>
+        <item>TranXending Vision</item>
+        <item>Overgeared</item>
+        <item>When A Mage Revolts</item>
+        <item>Shadow Hack</item>
+        <item>Monster Paradise</item>
+        <item>Super Gene</item>
+        <item>The Strongest Gene</item>
+        <item>Superstars of Tomorrow</item>
+        <item>The Strongest System</item>
+        <item>Tempest of the Battlefield</item>
+        <item>The Devil is Cage</item>
+        <item>My MCV and Doomsday</item>
+        <item>It is Not Easy to Be a Man After Travelling to the Future</item>
+        <item>I Have a Mansion in the Post apocalyptic World</item>
+        <item>Mystical Journey</item>
+        <item>The Record of Unusual Creatures</item>
+        <item>Age of Cosmic Exploration</item>
+        <item>The Lord is Empire</item>
+        <item>Era of Disaster</item>
+        <item>Throne of Magical Arcana</item>
+        <item>Tempest of the Stellar War</item>
+        <item>Demon Hunter</item>
+        <item>Sundering Nature</item>
+        <item>Doomsday Wonderland</item>
+        <item>The Card Apprentice</item>
+        <item>Titan Beneath the Heavens</item>
+        <item>Release that Man</item>
+        <item>Super Electric Eel Avatar</item>
+        <item>Urban Tales of Demons and Spirits</item>
+        <item>A Guest in a Ghost House</item>
+        <item>The Tale of the Ghost Eyes</item>
+        <item>Psychic Tattoo</item>
+        <item>Rise of the Wasteland</item>
+        <item>The New World</item>
+        <item>My House of Horrors</item>
+        <item>Darkness Rising- Horror Stories</item>
+        <item>If I Chose You Instead</item>
+        <item>in the dark of the mind</item>
+        <item>Terribly Stable</item>
+        <item>THE FIRST DATE</item>
+        <item>Rebirth Of A Serial Killer</item>
+        <item>The Earth is Online</item>
+        <item>God Level Summoner</item>
+        <item>What it\'s like being a Yandere</item>
+        <item>Catacutan</item>
+        <item>Killer Instinct</item>
+        <item>The Red Room</item>
+        <item>Outbreak Chronicles: Dead Pandemic</item>
+        <item>Rose of Sharyn</item>
+        <item>Hymn of a Lost Soul</item>
+        <item>Input Log Dates</item>
+        <item>Dreadful Radio Game</item>
+        <item>Shadow Rogue</item>
+        <item>The King is Avatar</item>
+        <item>Shura is Wrath</item>
+        <item>Close Combat Mage</item>
+        <item>My Father in Law is Lu Bu</item>
+        <item>Chronicles of Primordial Wars</item>
+        <item>Invincible</item>
+        <item>Online Game Evil Dragon Against The Heaven</item>
+        <item>Master Hunter K</item>
+        <item>Virtual World Peerless White Emperor</item>
+        <item>MMORPG Rebirth of the Legendary Guardian</item>
+        <item>Shoujo Grand Summoning</item>
+        <item>The World Online</item>
+        <item>MMORPG Martial Gamer</item>
+        <item>Virtual World Close Combat Mage</item>
+        <item>Almighty Coach</item>
+        <item>Seized by the System</item>
+        <item>MMORPG: Martial Gamer</item>
+        <item>Ultimate Avatar</item>
+        <item>Soul of Searing Steel</item>
+        <item>My Arata Complex</item>
+        <item>The Devil\'s Cage</item>
+        <item>The Legendary Mechanic</item>
+        <item>The Lord’s Empire</item>
+        <item>Destiny of Legends</item>
+        <item>Rise of The Undead Legion</item>
+        <item>The King\'s Avatar</item>
+        <item>Legend of the Chicken Hero</item>
+        <item>Farming For Gold</item>
+        <item>Empyrean World Online</item>
+        <item>OVERKILLED</item>
+        <item>RE: Alternate World Online</item>
+        <item>Waking up In Another World As A God</item>
+        <item>Tears Of The Undead Azure Knights</item>
+        <item>Mad Warrior Become Big Brother</item>
+        <item>Blade of Determination- An Undertale Retelling</item>
+        <item>Data Dragon Danika</item>
+        <item>Lock You Up In My Heart</item>
+        <item>Legenday Punisher</item>
+        <item>Enter the Game: I own a Dungeon?</item>
+        <item>The Hitting Zone</item>
+        <item>hidden dungeon</item>
+        <item>Restarting Life Can Never Be Good!</item>
+        <item>Lilim Heritage Online</item>
+        <item>Hacking Eden</item>
+        <item>Moonlit Sky</item>
+        <item>Pet Master War Online</item>
+        <item>Call of Duty Modern Warfare</item>
+        <item>The strongest magician</item>
+        <item>Survival Required</item>
+        <item>THE WORLD CONQUERER</item>
+        <item>Cave Game</item>
+        <item>Resurgence of the Rogue Blacksmith</item>
+        <item>Rise of the Evil Sage</item>
+        <item>The Journey To An Unknown Destination</item>
+        <item>GODDESS OF ASSASSINS</item>
+        <item>Exodus: The Assassin\'s Path</item>
+        <item>Cultivator in an MMORPG</item>
+        <item>eFate: An MMO Story</item>
+        <item>The lone dragon</item>
+        <item>The Archaic System</item>
+        <item>One more day to live</item>
+        <item>Hand of God</item>
+        <item>A Fox\'s System</item>
+        <item>Reincarnation of the Cheater</item>
+        <item>Path to Kingship</item>
+        <item>Legend of the Gunslinger Mage</item>
+        <item>VRMMORPG: Skeleton That Run Havoc</item>
+        <item>Thriller Paradise</item>
+        <item>The Divine Anime System</item>
+        <item>Fun in other Worlds</item>
+        <item>Shen Eyes</item>
+        <item>Denom</item>
+        <item>The God Of Summoning the Legend of the Unrivaled Emperor</item>
+        <item>The Ghoul ascendant</item>
+        <item>My Journey Through Realms</item>
+        <item>Paralel World Code Geass</item>
+        <item>Mo Dao Zu Shi Fanfic</item>
+        <item>Book of Answers</item>
+        <item>Gura Gura no mi : Cultivator</item>
+        <item>Multiverse World Compass</item>
+        <item>RWBY: A Man With A System</item>
+        <item>In Highschool DXD as a Player</item>
+        <item>Whitebeard\'s Rebirth</item>
+        <item>Starbound: A Space Odyssey</item>
+        <item>Ex-True God in Animeverse</item>
+        <item>Reborn as grimmjow</item>
+        <item>Destroying Anime and Novel with Slaughter System</item>
+        <item>Evil Encounters With The Slimy Kind</item>
+        <item>Op System</item>
+        <item>Fairy System In Fairy Tail</item>
+        <item>The Fan Fiction Life of Kai</item>
+        <item>Tales of Demons and Gods: The Legend of Xiao Ning\'Er</item>
+        <item>A Hunter in Naruto World</item>
+        <item>Reincarnating into God of Thunder</item>
+        <item>The Emperor of the Seas</item>
+        <item>\'GOAT\' of all Ghouls</item>
+        <item>The Girls and Their Lovers</item>
+        <item>Reborn as Godzilla in Another World</item>
+        <item>Battlemaniac goes to Danmachi</item>
+        <item>Ruler of All</item>
+        <item>demonic dark dragon god:— soul land fanfic</item>
+        <item>Titan in tragedy</item>
+        <item>The Path To Slaying A Supreme Being</item>
+        <item>Hanging out with the Mutants</item>
+        <item>Strange Story</item>
+        <item>To Rule A World</item>
+        <item>A reincarnation?</item>
+        <item>In Marvel Live As An Ultra-Saiyan</item>
+        <item>Solo Leveling System com Upgrade</item>
+        <item>Reincarnating into Spider-Man</item>
+        <item>High School DxD Crossover : Defying The Heavens</item>
+        <item>A Warrior\'s Path</item>
+        <item>Azazel Against The Gods™</item>
+        <item>Familia\'s Myth: The Black Swordsmaster</item>
+        <item>Endless Path : Infinite Cosmos</item>
+        <item>Taking on the Magical World</item>
+        <item>Rise of the Scorpion</item>
+        <item>The Misadventures of the Espada</item>
+        <item>Lightning Dragon God Douluo: - A Douluo Dalu Fanfic</item>
+        <item>Prometheus\'s Burst</item>
+        <item>Wish granted in Douluo Dalu</item>
+        <item>Fairy Tail\'s Strongest</item>
+        <item>Fairy Tail : Heavenly Dragon of the Fairies</item>
+        <item>Reincarnating as Issei Hyodo in DxD world</item>
+        <item>Travelling My Favorite Worlds!</item>
+        <item>The Irregular Magus at Magic High School</item>
+        <item>A Saiyan Reincarnation</item>
+        <item>To Become An MC</item>
+        <item>Gamer in My Hero Academia</item>
+        <item>The Life Of Vilkas Glasya-Labolas</item>
+        <item>Douluo Dalu - The Strongest God</item>
+        <item>Naruto: Madara Uchiha\'s Grandson</item>
+        <item>Reborn in Naruto World As The Gamer Werewolf</item>
+        <item>I am the Protector of Gotham</item>
+        <item>Rich Problems</item>
+        <item>STB System In Strike The Blood</item>
+        <item>Vampire in the Harry Potter World</item>
+        <item>One Piece System In One Piece</item>
+        <item>Reincarnation of the Outsider</item>
+        <item>The Devourer</item>
+        <item>Douluo Dalu - The Story of Sheng Feilong</item>
+        <item>REINCARNATION IN ONE PIECE</item>
+        <item>Ryo the illusionist - Naruto fanfiction</item>
+        <item>Arrancar</item>
+        <item>The Vampire Count</item>
+        <item>Star Wars Legends Untold Force</item>
+        <item>An idea for ATG fanfic</item>
+        <item>Release That Witch: The Story of Scroll</item>
+        <item>5 Hours Apart</item>
+        <item>Internet Icon: A Girl With A Dream</item>
+        <item>Witch Hunt</item>
+        <item>A Not at All Silent Dream</item>
+        <item>The Rogue Witch of Taquila</item>
+        <item>The only one</item>
+        <item>The Aftermath</item>
+        <item>Roland\'s Past Life</item>
+        <item>Ice God Douluo</item>
+        <item>Random Fanfic about Anime with a System</item>
+        <item>Naruto: Urahara born a normal ninja</item>
+        <item>Reincarnating into the Pokémon world with a System</item>
+        <item>When Fantasy Becomes Real</item>
+        <item>The World Traveller- Adventure of an Otaku</item>
+        <item>Spidergod</item>
+        <item>Dominated World</item>
+        <item>Trials of the Kaneki family</item>
+        <item>A gift from god</item>
+        <item>Zero of The Black Crusade</item>
+        <item>Fallen Hero System</item>
+        <item>Boku no Hero Academia Rebirth</item>
+        <item>Douluo Dalu: Wulin\'s Legend</item>
+        <item>LEGEND OF ELEMENT GOD</item>
+        <item>I Will Be The Harem King</item>
+        <item>Reincarnated as the Chosen One</item>
+        <item>Son of Kakashi</item>
+        <item>When Immortal and Anime System Found Same Host</item>
+        <item>Genius Master System</item>
+        <item>Record of Naruto Verse</item>
+        <item>Boruto Team 7: Trouble</item>
+        <item>Rules: Beyond the Mist</item>
+        <item>Beast King in Harry Potter</item>
+        <item>Dragon Ball World - King Tiger</item>
+        <item>Marvel: John The Versatile</item>
+        <item>Battle Through Anime Worlds</item>
+        <item>Apocalypse Now</item>
+        <item>Living with Pico</item>
+        <item>Clone Spam</item>
+        <item>Blackmail</item>
+        <item>The Love of Black Veil Brides</item>
+        <item>GhostBlade????</item>
+        <item>Agonised Screams</item>
+        <item>Between Virgo and Pisces</item>
+        <item>Hellsing: I Reincarnated as Seras Victoria</item>
+        <item>Happy Endings Are Lies</item>
+        <item>The Type-Moon Irregularity</item>
+        <item>Naruto In The World of Beautiful CEO</item>
+        <item>TDG Fanfic: The Golden Throne</item>
+        <item>DOMINATING WITH ONE INTENT -fanfic</item>
+        <item>Cultivation at Home!?</item>
+        <item>Dropped kddn</item>
+        <item>New Life In Cultivation Chat Group</item>
+        <item>Crimson Blood God: The Douluo Dalu Chronicle</item>
+        <item>Pokémon- Journey To The Top</item>
+        <item>Anime power in other world</item>
+        <item>A reincarnated teen\'s pathway to ascension: A Douluo Dalu</item>
+        <item>Unlimited Anime Works!</item>
+        <item>The Celestial Phoenix Douluo</item>
+        <item>Pokemon - The Lost Master</item>
+        <item>Marvel Invincible Talisman</item>
+        <item>Reincarnation in Against The Gods</item>
+        <item>An Immortal\'s Tales Of Demons And Gods - TDG Fanfic</item>
+        <item>Anime power in another world</item>
+        <item>My Villain Academia - BNHA Fan-fic</item>
+        <item>Reincarnated As Nie Li</item>
+        <item>Realm of \'Culture\'</item>
+        <item>Naruto is Reincarnated</item>
+        <item>The anime world traveller</item>
+        <item>Jasper the Fairy Tyrant</item>
+        <item>Red feathers</item>
+        <item>Rey de las Calles</item>
+        <item>HAREM KING IN NARUTO</item>
+        <item>Reincarnated as a Saiyan with a System</item>
+        <item>Reborn As Harry Osborn - Marvel</item>
+        <item>DxD System In DxD</item>
+        <item>Naruto System Within Naruto</item>
+        <item>Pokemon Untold</item>
+        <item>Business-Man Naruto</item>
+        <item>Suspended for now*Silver Nightmare in different worlds</item>
+        <item>Nasuverse in Against the Gods</item>
+        <item>Reborn in the Marvel universe</item>
+        <item>Apocalyptic Paradise</item>
+        <item>The Dead Legend\'s Tale</item>
+        <item>Re:Zero, Why Me?</item>
+        <item>The twins in anime worlds</item>
+        <item>Naruto;The Power of the Western Empire</item>
+        <item>We Are Venom</item>
+        <item>The World Walker System</item>
+        <item>THE STRONGEST SWORDMAN</item>
+        <item>Three Goblin Cats</item>
+        <item>Douluo Dalu: A reincarnated teen\'s pathway to ascension</item>
+        <item>The Pirate Djinn</item>
+        <item>Broly The Saiyan of Legend!</item>
+        <item>Naruto world reincarnation</item>
+        <item>Reborn as Hyodo Issei</item>
+        <item>A Live in One Piece</item>
+        <item>Card Cultivator</item>
+        <item>BLEACH WORLD</item>
+        <item>FANTASY DOMINATION</item>
+        <item>Saiyan David</item>
+        <item>The First Summer</item>
+        <item>ATG WORLD</item>
+        <item>Kaiba in Doulou Dalu</item>
+        <item>Planeswalker\'s Journey</item>
+        <item>A Reluctant Overlord</item>
+        <item>AOT WORLD</item>
+        <item>Reborn Anime Traveller</item>
+        <item>Worldly Rebirths</item>
+        <item>The Child of Lavender Town</item>
+        <item>Fiery Tail</item>
+        <item>Dragon in a World of Bears</item>
+        <item>Ultimate Legend Of Dragon Ball</item>
+        <item>Harry Potter: Path of Magic</item>
+        <item>Flash Brother Savitar The true God of Speed</item>
+        <item>Re:DxD</item>
+        <item>REBIRTH: Dragon Ball with the Otaku System</item>
+        <item>The reincarnated</item>
+        <item>Kakarot- The God of Destruction</item>
+        <item>The dTraveler</item>
+        <item>imperial king</item>
+        <item>The Traveler</item>
+        <item>The Promised Gamer-King of Uruk</item>
+        <item>New Life in Another World</item>
+        <item>Dragon Ball - New Begining</item>
+        <item>The Ultimate</item>
+        <item>Reincarnated into One piece</item>
+        <item>Legend Of Namikaze Mirei-Naruto fanfic</item>
+        <item>Re-Born</item>
+        <item>Reincarnation into the World of Naruto</item>
+        <item>King Of Reapers | Black Butler Fanfic</item>
+        <item>Sic Parvis Magna</item>
+        <item>What Naruto Is Not Allowed To Do</item>
+        <item>Harry Potter and the Slytherin\'s Prince</item>
+        <item>The Twins in Naruto</item>
+        <item>Bleach System Within Bleach</item>
+        <item>I\'m in Domestic Na Kanojo!</item>
+        <item>Ultimate Naruto System in a Different World</item>
+        <item>In Another World with JUST MONIKA</item>
+        <item>Dragon Ball: Goku Rebirth</item>
+        <item>O1</item>
+        <item>Mistake - A Naruto Fan-Fiction</item>
+        <item>Game in Middle Earth</item>
+        <item>TODAG System In TODAG</item>
+        <item>Pokemon - A Mystical Journey</item>
+        <item>Pokemon Master From Another World</item>
+        <item>Surviving Apocalypse with Powers of Fictional Characters</item>
+        <item>Reborn as Kakashi\'s adopted son</item>
+        <item>Going to different planets</item>
+        <item>Marriage Rights: Billionaire\'s Forgotten Wife</item>
+        <item>The Queen of Mafia</item>
+        <item>Mend My Broken Heart</item>
+        <item>Evil Emperor\'s Wild Consort</item>
+        <item>Full Marks Hidden Marriage: Pick Up a Son, Get a Free Husband</item>
+        <item>The Evil Consort Above An Evil King</item>
+        <item>My First and Last Man</item>
+        <item>Transmigration: What Can\'t I Buy With Infinite Credits?</item>
+        <item>Trial Marriage Husband: Need to Work Hard</item>
+        <item>Please Remember Me</item>
+        <item>Love in Autumn</item>
+        <item>Zombie Sister Strategy</item>
+        <item>Living With a Temperamental Adonis: 99 Proclamations of Love</item>
+        <item>Trial Husband</item>
+        <item>The Genius\' First Love</item>
+        <item>Tale of the Rooster Prince and Pearl Princess</item>
+        <item>The Pioneer: Age of Immortality</item>
+        <item>My mate is an ultra alpha</item>
+        <item>The CEO\'S Cold wife</item>
+        <item>Sudden Marriage</item>
+        <item>The Empress\'s Gigolo</item>
+        <item>The Heiress</item>
+        <item>Dragon King\'s Son-In-Law</item>
+        <item>Ghost Emperor Wild Wife: Dandy Eldest Miss</item>
+        <item>Back Then, I Adored You</item>
+        <item>The Great Storyteller</item>
+        <item>The CEO\'s cute girlfriend is a werewolf</item>
+        <item>A Race to Melt Hearts</item>
+        <item>The Empress\' Livestream</item>
+        <item>Elite Doting Marriage: Crafty Husband, Aloof Cute Wife</item>
+        <item>Elixir Supplier</item>
+        <item>Overlord, Love Me Tender</item>
+        <item>Dragon Emperor, Martial God</item>
+        <item>The Monk That Wanted To Renounce Asceticism</item>
+        <item>Accidentally Married A Fox God - The sovereign lord spoils his wife</item>
+        <item>My Dad Is the Galaxy\'s Prince Charming</item>
+        <item>Stronghold In The Apocalypse</item>
+        <item>If the Deep Sea Forgets You</item>
+        <item>The Rest Of My Life Is For You</item>
+        <item>Insanely Pampered Wife: Divine Doctor Fifth Young Miss</item>
+        <item>Rich Young Mistress: Young Master Xie\'s Dearest Beloved Wife</item>
+        <item>Handsome CEO\'s Darling Wife</item>
+        <item>The Anarchic Consort</item>
+        <item>The Sinful Life of The Emperor</item>
+        <item>Beautiful Transmigrating Librarian: Supreme God’s System</item>
+        <item>Witch Zanthia´s Little Shop of Horrors</item>
+        <item>Awake on his bed</item>
+        <item>The Famous Painter is the CEO\'s Wife</item>
+        <item>Invincible Kungfu Healer</item>
+        <item>The KPOP Otaku\'s Noona Fantasy</item>
+        <item>Night Cafe: CEO\'s Secret Love</item>
+        <item>Revenge: Queen of the Fashion World</item>
+        <item>Discovering Something Special</item>
+        <item>Trafford\'s Trading Club</item>
+        <item>The Hero\'s Supplier</item>
+        <item>Vampiric Blood</item>
+        <item>ME LOVE YOU</item>
+        <item>It\'s all about you my secret crush</item>
+        <item>Distant Love</item>
+        <item>Forever His-Surrendering Myself To You</item>
+        <item>My Perverse Equivalent Exchange System in Doomsday</item>
+        <item>His Eccentric Wife</item>
+        <item>It\'s Not Easy to Be a Man After Travelling to the Future</item>
+        <item>LEGEND OF THE GOLDEN TIGRESS</item>
+        <item>Miss InstaPrincess</item>
+        <item>Angel//Smile</item>
+        <item>Perfect Match, Secret Marriage</item>
+        <item>Loving You Is Not An Accident: It\'s Destiny</item>
+        <item>Siren Song</item>
+        <item>Legend of Fuyao</item>
+        <item>I’m Really a Superstar</item>
+        <item>In dark prince\'s love</item>
+        <item>Dear Young Master, Spare Me Please?</item>
+        <item>Empire of the Ring</item>
+        <item>Selfish love</item>
+        <item>Melting the Cold CEO\'s Heart</item>
+        <item>Money</item>
+        <item>Perfect Secret Love: The Bad New Wife is a Little Sweet</item>
+        <item>Provocative Fiery Wife: My Superior is a Affectionate Spitfire</item>
+        <item>Perverted Romance</item>
+        <item>Juvenile Entertainer</item>
+        <item>Finding Lara</item>
+        <item>The Only Delicacy</item>
+        <item>Love Me Again, Wife!</item>
+        <item>Rise of Demon King</item>
+        <item>His Kisses are like a Thousand Stars</item>
+        <item>Unexpected Second Chance at Love</item>
+        <item>Reincarnation of the fallen Dragon king and phoenix Queen</item>
+        <item>Genius Doctor: Black Belly Miss</item>
+        <item>The Confused Explorer</item>
+        <item>Dreamcatcher</item>
+        <item>The decision?</item>
+        <item>Choosing the Perfect Husband</item>
+        <item>Mei Ling : Peerless Beauty\'s New Life</item>
+        <item>Dark side</item>
+        <item>The Other Lord</item>
+        <item>soulmate ;life after death</item>
+        <item>expelled from paradise</item>
+        <item>Emberly: The Hidden City</item>
+        <item>mako xxx</item>
+        <item>Unreasonableness</item>
+        <item>The unwanted child</item>
+        <item>My Queen The King</item>
+        <item>Vengeful in Love?</item>
+        <item>Unwanted by him</item>
+        <item>Buying A Husband</item>
+        <item>NEET Receives a Dating Sim System</item>
+        <item>Number One Killer</item>
+        <item>Priestess Of The Land</item>
+        <item>Mystical Academy: The Mystery of the World</item>
+        <item>True God</item>
+        <item>Mutual Love</item>
+        <item>Catch a Tiger by the Tail</item>
+        <item>Lovely Writing System</item>
+        <item>sex master</item>
+        <item>Loving You: A Blessing or a Curse?</item>
+        <item>My love story : by Abhishek Malhotra</item>
+        <item>SIN DE RELLA</item>
+        <item>Dimensional Sovereign</item>
+        <item>bringing back the lost smile</item>
+        <item>The Substitute Wife</item>
+        <item>Rise of Zion</item>
+        <item>Ambigious Relationship</item>
+        <item>The Last Kiss</item>
+        <item>Let him love you first</item>
+        <item>Unlocked Hearts</item>
+        <item>The Archaic Elements</item>
+        <item>I reincarnated into a bat</item>
+        <item>The Famous Millionaire</item>
+        <item>Knight in Another World</item>
+        <item>Reincarnation: Love After Death</item>
+        <item>Eternally Together and Whatever</item>
+        <item>Adopted Soldier</item>
+        <item>NICO THE PSYCHOPATH</item>
+        <item>Quick transmigration of the villianess</item>
+        <item>You Will Be Mine Someday</item>
+        <item>Remind Me Again, My Love</item>
+        <item>GENIUS GIRL</item>
+        <item>My Real Love</item>
+        <item>Trapped with Tycoon</item>
+        <item>mysterious husband,perfect wife</item>
+        <item>UNEXPECTED</item>
+        <item>Garden of Love</item>
+        <item>Because i love u</item>
+        <item>Cherry\'s first kiss</item>
+        <item>Nerd Mode On!</item>
+        <item>His Peasant Wife : Yao Ling</item>
+        <item>Loving with a Heavy Heart</item>
+        <item>The System of a Vampire</item>
+        <item>Progenitor of a Another World</item>
+        <item>Rebirth of The Evil Summoner</item>
+        <item>Searching For You</item>
+        <item>One In The House Of Opposites</item>
+        <item>Soul magician at the apocalypse</item>
+        <item>Corrupting The Good Boy</item>
+        <item>Like a Ray in My Night</item>
+        <item>His Genius Wife is a Superstar</item>
+        <item>I Hate Systems</item>
+        <item>We were meant to be together</item>
+        <item>Hate life, change it, go back, KAYLEE</item>
+        <item>SUPERSTAR CEO\'S ADORABLE WIFE</item>
+        <item>Destined Lovers</item>
+        <item>tell me Why</item>
+        <item>The Substitute Flower</item>
+        <item>A Confession From My Childhood Friend Would Have Been Nice</item>
+        <item>Plot? What Plot?</item>
+        <item>I\'m Single But My Heart Is Committed</item>
+        <item>Unfortunate Luck</item>
+        <item>Morning Breeze</item>
+        <item>Havoc goes Halloween</item>
+        <item>A Short Story Of Darkshot</item>
+        <item>Cup of Coffee</item>
+        <item>What is a Soulmate?</item>
+        <item>Aurora</item>
+        <item>Tale of Ai</item>
+        <item>Five Moments With a Cat and One With Cats</item>
+        <item>A talk with the personification of the Universe - One Shot</item>
+        <item>The Wildcard</item>
+        <item>The Legend of Tripar</item>
+        <item>Super Science And Fast Romance</item>
+        <item>Ephemeral: A Short Story</item>
+        <item>Naughty Fish</item>
+        <item>Obsessed By The Billionaire</item>
+        <item>Perfect for me</item>
+        <item>Dropped like a dead person</item>
+        <item>The Brother Who Hates Me So Much</item>
+        <item>Elizabeth; The Hegemon\'s First Wife</item>
+        <item>World God Empress</item>
+        <item>To love the Heartless</item>
+        <item>My little sister is too cute, so I have to protect her!</item>
+        <item>The CEO is My Childhood Friend</item>
+        <item>Definitely Mistaken</item>
+        <item>Be My Strength</item>
+        <item>The Monstrosity Turned Queen</item>
+        <item>Wrong Love</item>
+        <item>Dropped No content</item>
+        <item>Breaking the Marriage Law</item>
+        <item>You Are My Colour Palette</item>
+        <item>The Forgotten Princess</item>
+        <item>My otome ????</item>
+        <item>Abandoned Daughter is CEO\'s Wife</item>
+        <item>Ageless as Time</item>
+        <item>Please let me love you again</item>
+        <item>The Brother Who Hates Me</item>
+        <item>The Supreme Titan\'s Ruthless Goddess</item>
+        <item>I accidentally married a "CEO"</item>
+        <item>Survival Records of 3650 days in the Otherworld</item>
+        <item>True Love: Two Souls, One Heart Only</item>
+        <item>Life Is Cherry Blossom</item>
+        <item>When I Shall Say Goodbye</item>
+        <item>How to be a good mortal father to your demon kids</item>
+        <item>My One And Only</item>
+        <item>Rebirth of the Female Antagonist: XUANRONG</item>
+        <item>Kiri to Shinkir? / Mist and Mirage</item>
+        <item>Heavenly Soul</item>
+        <item>Lone Cultivator in Another World</item>
+        <item>The Days Will Come Back Together</item>
+        <item>Bride of Prince</item>
+        <item>Little Miss Devil: The President\'s Mischievous Wife</item>
+        <item>Where Fate Leads</item>
+        <item>Re:Death - Reincarnated Dead into Another World</item>
+        <item>The Perks of being me!!!</item>
+        <item>1000 Days</item>
+        <item>Love is Not Enough</item>
+        <item>Planetarium System: The Sorcerer\'s Sentry</item>
+        <item>king\'s desire</item>
+        <item>The Memory Bottler</item>
+        <item>Where you are</item>
+        <item>Zero Ranker</item>
+        <item>Unable to Touch , the Cold hearted Wife Always Run Away</item>
+        <item>Sex Watch</item>
+        <item>Back Door to Another World</item>
+        <item>Hunting for a Husband in a Vampire Apocalypse</item>
+        <item>Reborn Into an Otome Game as a Love Rival!</item>
+        <item>Kyuu and the nine tails</item>
+        <item>Too late for love?</item>
+        <item>Love Betrayal</item>
+        <item>Eyes On You</item>
+        <item>Deal or real?</item>
+        <item>CROSS</item>
+        <item>Sebastian X Hunter</item>
+        <item>99 Ways To Revenge</item>
+        <item>The Thorn Birds</item>
+        <item>In love with butterfly?</item>
+        <item>I was born at My Funeral</item>
+        <item>The Dark Diary</item>
+        <item>She\'s The Badass</item>
+        <item>Switched: Miss Cultivator is in The Modern World</item>
+        <item>Back in the time</item>
+        <item>The Sorcerer\'s Bride</item>
+        <item>Lost Soul Underneath the Darkness</item>
+        <item>The Vampire She\'s In Love With</item>
+        <item>Dead Apple</item>
+        <item>Please, Princess!</item>
+        <item>work in progress</item>
+        <item>God of Entertainment</item>
+        <item>She was mated to The Alpha King</item>
+        <item>Elysium of ecstasy</item>
+        <item>When the Heart has Enough</item>
+        <item>The Same Dream, Different Journeys!</item>
+        <item>BLACK APPLE</item>
+        <item>Fate of them</item>
+        <item>TRUE LOVE</item>
+        <item>Miss Ella the system beauty</item>
+        <item>My Experience Being Human</item>
+        <item>The Elixir Of Love</item>
+        <item>BLINDED</item>
+        <item>One in a million : REWIND</item>
+        <item>The Writer\'s Romance</item>
+        <item>Queen of Performing Arts</item>
+        <item>A vampires first love</item>
+        <item>Ancient Phoenix Modern Life</item>
+        <item>Julius Caesar</item>
+        <item>Xenon</item>
+        <item>soulmate; life after death</item>
+        <item>Love System: Changing Destinies</item>
+        <item>Death\'s Door</item>
+        <item>PLEASE DON\'T READ IT</item>
+        <item>The Promise I Made</item>
+        <item>Seven Years of Love</item>
+        <item>The Divorcee is a Wicked Black Belly</item>
+        <item>don\'t run, my sweety</item>
+        <item>The Chance to Grow</item>
+        <item>my ugly face</item>
+        <item>Thunder\'s Legacy</item>
+        <item>ATLAS: Team Z</item>
+        <item>The Moon\'s Bride</item>
+        <item>Pride, Prejudice and the Inability to Express Emotions</item>
+        <item>Real Magic</item>
+        <item>Love Me For Who I Am</item>
+        <item>Just Between Lovers: A Heart-Warming Love Story</item>
+        <item>The Urban Cultivator</item>
+        <item>The 12th Wedding - When love is reborn</item>
+        <item>Beautiful Nightmare</item>
+        <item>Falling for Frost</item>
+        <item>The God of Light and Darkness</item>
+        <item>Legacy of Forgotten Times</item>
+        <item>Birth of a beauty</item>
+        <item>The Marriage Proposal</item>
+        <item>Kael Cor: A Vampire\'s Awakening</item>
+        <item>Love Cafe: When only memories remains</item>
+        <item>Twisted Love</item>
+        <item>Heaven\'s Wrath: Blood Demon Empress</item>
+        <item>Boss, Can I Hug Your Thigh?</item>
+        <item>Million World Game</item>
+        <item>My Future Husband?</item>
+        <item>From Past To Present, I Still Love You</item>
+        <item>HOW DID I GET MARRIED?</item>
+        <item>Project: Socialize</item>
+        <item>Words I was Afraid to Hear</item>
+        <item>Loving Asia\'s Multi-Talented Queen: The Path to Stardom</item>
+        <item>Be The Secret Admirer</item>
+        <item>Reborn as a Mom</item>
+        <item>EXP SECT haha yes</item>
+        <item>Blood Is Thicker Than Tears</item>
+        <item>System Programmer</item>
+        <item>The Love That Remains</item>
+        <item>boys club</item>
+        <item>Destined For Life</item>
+        <item>A Business Woman\'s Rebirth</item>
+        <item>Phoenix\'s fated half</item>
+        <item>Heisei to Sengoku</item>
+        <item>Young Love</item>
+        <item>When I Was Hired In A Secret Medical Unit</item>
+        <item>Missing You, Darling</item>
+        <item>The Arcane Resurgence Legacy</item>
+        <item>Fifty shades of grey</item>
+        <item>I\'ve Became An Omega</item>
+        <item>Sleeping Beauty</item>
+        <item>The Ascension Merchant</item>
+        <item>Mystic System</item>
+        <item>Quick Transmigration: Destroy Harems System!</item>
+        <item>Sins of Love</item>
+        <item>Lady Boss, Please Spoil Your Husband!</item>
+        <item>The Prince\'s Royal Proposal</item>
+        <item>Captivated by You | BL</item>
+        <item>Ugly Yi Fu Hua</item>
+        <item>Bridge of Solitude</item>
+        <item>she\'s my girl</item>
+        <item>Rebirth: Trash to Treasure</item>
+        <item>Cultivation In The Apocalypse!</item>
+        <item>Offer to the CEO</item>
+        <item>Until It Reaches Zero</item>
+        <item>His Imprint</item>
+        <item>One night with the Prince</item>
+        <item>Having sex with a teacher?</item>
+        <item>Another Bad Boy Down</item>
+        <item>The Second Chance of a Lifetime</item>
+        <item>Fox Life</item>
+        <item>Blood Tears: My husband\'s wickedness</item>
+        <item>Luxury Cafe Owner</item>
+        <item>Dream Girl: A saga of love</item>
+        <item>Never Again</item>
+        <item>Village Girl as Family Head : picked up a general for farming</item>
+        <item>Quick Transmigration: The Childhood Friend Strikes Back!</item>
+        <item>Cherry Blossom Between You and Me</item>
+        <item>If You Want Me, Kill For Me</item>
+        <item>Ricegod system</item>
+        <item>The Heiress\'s Lovers</item>
+        <item>Serendipity Happens</item>
+        <item>Black Gate</item>
+        <item>Breathless First Love: Destined to be His</item>
+        <item>Vampire ruler’s strong Bride</item>
+        <item>Because I Love Myself More</item>
+        <item>Our Perfectly Imperfect Relationship</item>
+        <item>My boss is my ex-lover</item>
+        <item>Twilight\'s Anthem</item>
+        <item>Red String - I\'ll See You Soon</item>
+        <item>Red String - Christmas Special</item>
+        <item>The Test - One Shot Story</item>
+        <item>I fucked my hot teacher!? Yasss</item>
+        <item>IT Miss:My Frozen Life</item>
+        <item>Oops, I ate a zombie</item>
+        <item>You Are Mine</item>
+        <item>Secret Love: My Bodyguard Wife</item>
+        <item>Hidden Realm</item>
+        <item>Luna\'s Journey</item>
+        <item>Really, Really Miss You</item>
+        <item>Tea Of Summer</item>
+        <item>Almighty Balance Breaker</item>
+        <item>Gate Guardian - Song of the Frozen Soul</item>
+        <item>The Test - OS</item>
+        <item>Red String - OS</item>
+        <item>Mutual Love: Destroyed Both Of Us</item>
+        <item>the commander\'s pregnant wife</item>
+        <item>Who exactly is she??</item>
+        <item>The 3 B\'s- Beauty , Brains and Bravery</item>
+        <item>Zaldizko</item>
+        <item>Paradis de Fou</item>
+        <item>Carshian</item>
+        <item>ONE NIGHT WITH THE \'PRINCE\'</item>
+        <item>My Wife is a Gangster Boss</item>
+        <item>Desolate Mage: A Legend Reborn!</item>
+        <item>Before You Leave Me</item>
+        <item>Young Brother-in-law Is Now My Husband</item>
+        <item>Milady\'s Fine Gentleman</item>
+        <item>Learning to Love Again</item>
+        <item>Dream Life Forever</item>
+        <item>Monster Invasion</item>
+        <item>Codename:Phoenix</item>
+        <item>When She Finds Love</item>
+        <item>She\'s Mine, Fully Mine!</item>
+        <item>Hello, Mr. Major General</item>
+        <item>Jun Jiuling</item>
+        <item>Our Glamourous Time</item>
+        <item>Strange Life of a Cat</item>
+        <item>Am I A God?</item>
+        <item>Short, Light, Free</item>
+        <item>Golden Time</item>
+        <item>The New me</item>
+        <item>My Ex is my Bestfriend</item>
+        <item>His Forever-You\'re only mine</item>
+        <item>MY SECRET ROMANCE</item>
+        <item>Thousand Years Promise</item>
+        <item>The Devil\'s Sleeping Beauty</item>
+        <item>TWO STRANGERS</item>
+        <item>Evil New Wife : evil princess seduces hubby</item>
+        <item>The girl in the Louvre</item>
+        <item>Cool I got Super Powers and all, But I don\'t think I deserve them</item>
+        <item>Spring Blooms When I\'m with You</item>
+        <item>Here For You</item>
+        <item>What? My Wife is a Country Bumpkin?</item>
+        <item>Quick Transmigration: Picked Up By Stud Horse System</item>
+        <item>I Will Survive</item>
+        <item>My Mysterious Wife Had Seven Affairs</item>
+        <item>Demons For Christmas</item>
+        <item>Virtual World: Close Combat Mage</item>
+        <item>Sweet Adorable Wife, Please Kiss Slower!</item>
+        <item>You Are My Unforgettable Love</item>
+        <item>Young Master Gu, Please Be Gentle</item>
+        <item>Battle Frenzy</item>
+        <item>Throne of Magical Arcana</item>
+        <item>Pocket Hunting Dimension</item>
+        <item>Beware Mr. Officer, Tread Carefully!</item>
+        <item>Forensic Doctor, Moe Wife</item>
+        <item>The Beautiful Wife of the Whirlwind Marriage</item>
+        <item>Rich Young Mistress: Young Master Xie’s Dearest Beloved Wife</item>
+        <item>She Became a Heartbreaker After Entering the Novel</item>
+        <item>The Genius System Without Equal</item>
+        <item>The 99th Divorce</item>
+        <item>Reborn Aristocrat: Return of the Vicious Heiress</item>
+        <item>Perfect Secret Love: The Bad New Wife is a Little Sweet</item>
+        <item>Endless Pampering Only For You</item>
+        <item>One Birth Two Treasures: The Billionaire’s Sweet Love</item>
+        <item>Losing Money to Be a Tycoon</item>
+        <item>I Wish Mo All the Best</item>
+        <item>God Emperor</item>
+        <item>Rebirth of the Urban Immortal Cultivator Comics</item>
+        <item>Returning from the Immortal World Comics</item>
+        <item>Strongest Abandoned Son Comics</item>
+        <item>Love Game Comics</item>
+        <item>Queen of Poison: the Legend of a Super Agent, Doctor and Princess Comics</item>
+        <item>Virtual World: Close Combat Mage Comics</item>
+        <item>Cupid’s Chocolate Comics</item>
+        <item>Fake Hero Comics</item>
+        <item>Legend of Phoenix Comics</item>
+        <item>Reverse Harem Rules of Ugly Woman Comic</item>
+        <item>Second Life Ranker</item>
+        <item>Top Sexy Girl Group</item>
+        <item>Evil Awe-Inspiring</item>
+        <item>A World Worth Protecting</item>
+        <item>The Great Thief</item>
+        <item>Venerated Venomous Consort</item>
+        <item>The Bumpy Road of Marriage: Divorce Now, Daddy</item>
+        <item>The Wealthy Psychic Lady: 99 Stolen Kisses</item>
+        <item>Two-Faced Husband, Have Some Decency!</item>
+        <item>My Wife is a Demon Queen Comics</item>
+        <item>Metropolitan System Comics</item>
+        <item>A Stay-at-home Dad’s Restaurant In An Alternate World</item>
+        <item>The Sweetest Medicine</item>
+        <item>The Long-awaited Mr Han</item>
+        <item>Reverend Insanity</item>
+        <item>MMORPG: Martial Gamer</item>
+        <item>The Emperor and the Knightess</item>
+        <item>Gourmet of Another World</item>
+        <item>Genius Doctor: Black Belly Miss</item>
+        <item>Mesmerizing Ghost Doctor</item>
+        <item>Prodigiously Amazing Weaponsmith</item>
+        <item>My Dangerous Billionaire Husband</item>
+        <item>Priceless Baby’s Super Daddy</item>
+        <item>Forced Marriage VIP Front-Seat: My Superstar Ex-wife is very Popular</item>
+        <item>I Am A Prodigy</item>
+        <item>Summoning the Holy Sword</item>
+        <item>The Anarchic Consort</item>
+        <item>Divine Physician, Overbearing Wife: State Preceptor, Your Wife Has Fled Again!</item>
+        <item>My Crown Prince Consort Is a Firecracker!</item>
+        <item>Reborn at Boot Camp: General, Don’t Mess Around!</item>
+        <item>The Tempestuous Consort – Wilfully Pampered by the Beastly Highness</item>
+        <item>Growing Fond of You, Mr Nian</item>
+        <item>The Rest Of My Life Is For You</item>
+        <item>Realms In The Firmament</item>
+        <item>Eternal Sacred King</item>
+        <item>A Star Reborn: The Queen’s Return</item>
+        <item>Lifetime of Bliss And Contentment With You</item>
+        <item>Goodnight Kiss from My Rumored Husband</item>
+        <item>Sweetest Top Actress in My Home</item>
+        <item>Sweet Rustic Love: Four Brothers’ Wife</item>
+        <item>Tales of Herding Gods</item>
+        <item>Sweet Love 1V1: Spoiled by The Executive</item>
+        <item>The Unparalleled Spiritual Doctor: Demon Emperor’s Defiant Love</item>
+        <item>Sword of Dawnbreaker</item>
+        <item>Ferocious Boss: Hubby, Let’s Get Married</item>
+        <item>Invincible Divine Dragon’s Cultivation System</item>
+        <item>Wife Doting Addiction?My Abducted Tsundere Husband</item>
+        <item>The Days of Being in a Fake Marriage with the CEO</item>
+        <item>A Wizard’s Secret</item>
+        <item>Unrivaled Medicine God</item>
+        <item>To My Dear Mr. Huo</item>
+        <item>Warlock Apprentice</item>
+        <item>Nine Astra Skies</item>
+        <item>Priceless New Bride: Accidentally Offending The Dangerous CEO</item>
+        <item>Nightmare’s Call</item>
+        <item>Priceless Baby: 101 Bedside Stories</item>
+        <item>The Boss Behind The Game</item>
+        <item>So You’re Such A Doctor Song</item>
+        <item>Demons Beside You</item>
+        <item>Mini World Of Endless Fun Awaits</item>
+        <item>Nine Yang Sword Saint</item>
+        <item>The Eternal Supreme</item>
+        <item>The Problem with Marrying Rich: Out of the Way, Ex</item>
+        <item>Silver Overlord</item>
+        <item>The Supreme Lord Donghuang</item>
+        <item>Path of Medicine With a System</item>
+        <item>The Sword Deity in Tokyo</item>
+        <item>100m Yuan Wife: Buy One Get One</item>
+        <item>A Sorcerer’s Journey</item>
+        <item>Beauty and the Bodyguard</item>
+        <item>The Martial Emperor with Dragon Blood</item>
+        <item>Soaring of Galaxia</item>
+        <item>Murder the Dream Guy</item>
+        <item>Cthulhu Gonfalon</item>
+        <item>Ninth In the World</item>
+        <item>Dark Moon Era</item>
+        <item>Lord of the Magical Beasts</item>
+        <item>Kar98K Upon Touchdown!</item>
+        <item>So I Am A Demon Descendent!</item>
+        <item>Beauty and the Beast: Wolf Hubby XOXO</item>
+        <item>The Devil’s Cage</item>
+        <item>Monster Paradise</item>
+        <item>Young Master Mo, Are You Done Kissing?</item>
+        <item>The Heir is Here: Quiet Down, School Prince!</item>
+        <item>Gourmet Food Supplier</item>
+        <item>White-Robed Chief</item>
+        <item>Coming of the Villain Boss!</item>
+        <item>Badge in Azure</item>
+        <item>The Portal of Wonderland</item>
+        <item>The Legend of Futian</item>
+        <item>The Legend of the Dragon King</item>
+        <item>48 Hours a Day</item>
+        <item>The Lord’s Empire</item>
+        <item>Ultimate Scheming System</item>
+        <item>Way of the Devil</item>
+        <item>Transcending the Nine Heavens</item>
+        <item>Hidden Marriage 99 Days: Please Restrain Yourself</item>
+        <item>Newlyweds 1001 Nights: Mr. Bo’s Love Life</item>
+        <item>Stubborn Love of a Roguish Scion</item>
+        <item>MMORPG: The Almighty Ring</item>
+        <item>Good Morning, Mister Dragon!</item>
+        <item>The Empress’ Livestream</item>
+        <item>Sword Among Us</item>
+        <item>The Bumpy Road of Marriage: The Ex-Wife Is Expecting</item>
+        <item>The Great Worm Lich</item>
+        <item>League of Legends: League of Unknowns</item>
+        <item>Warlord of Chaos</item>
+        <item>The Immortal’s Poison</item>
+        <item>Cultivation Taobao Store</item>
+        <item>Kung Fu Beyond the World</item>
+        <item>Super Gene</item>
+        <item>Elixir Supplier</item>
+        <item>Another World’s Versatile Crafting Master</item>
+        <item>Forty Millenniums of Cultivation</item>
+        <item>I Might Be A Fake Cultivator</item>
+        <item>Hello, Heir</item>
+        <item>Invincible Kungfu Healer</item>
+        <item>My Secretary is a Little Sweet</item>
+        <item>World’s Best Martial Artist</item>
+        <item>I Don’t Want To Defy The Heavens</item>
+        <item>I Am the God of Games</item>
+        <item>End of the Magic Era</item>
+        <item>Back Then, I Adored You</item>
+        <item>My Youth Began With Him</item>
+        <item>War Sovereign Soaring The Heavens</item>
+        <item>The Legendary Mechanic</item>
+        <item>Legend of Swordsman</item>
+        <item>Elite Doting Marriage: Crafty Husband, Aloof Cute Wife</item>
+        <item>The Good-for-Nothing Seventh Miss</item>
+        <item>Hello, Mr. Major General</item>
+        <item>The Favored Son of Heaven</item>
+        <item>The Monk That Wanted To Renounce Asceticism</item>
+        <item>Attack of the Adorable Kid: President Daddy’s Infinite Pampering</item>
+        <item>The Emperor’s Daughter</item>
+        <item>The Indomitable Master of Elixirs</item>
+        <item>Descent of the Demon God</item>
+        <item>Spare Me, Great Lord!</item>
+        <item>Story of a Big Player from Gangnam</item>
+        <item>Carefree Path of Dreams</item>
+        <item>Doomsday Wonderland</item>
+        <item>Great Doctor Ling Ran</item>
+        <item>Divine Card Creator</item>
+        <item>Lord of the Mysteries</item>
+        <item>Versatile Mage</item>
+        <item>WARNING! Tsundere President</item>
+        <item>God of Blackfield Comic</item>
+        <item>Slave B Comics</item>
+        <item>The Live Comics</item>
+        <item>A Returner’s Magic Should be Special Comics</item>
+        <item>Wan Gu Shen Wang Comics</item>
+        <item>Magic Emperor Comics</item>
+        <item>Cultivation Chat Group</item>
+        <item>Library of Heaven’s Path</item>
+        <item>Second Life Ranker Comics</item>
+        <item>FFF-Class Trashero Comics</item>
+        <item>Otherworldly Evil Monarch Comics</item>
+        <item>Abe the Wizard</item>
+        <item>The First Order</item>
+        <item>Rebirth of the Strongest Empress</item>
+        <item>Let Me Game in Peace</item>
+        <item>Reincarnation Of The Businesswoman At School</item>
+        <item>Crossing to the Future, it’s Not Easy to Be a Man</item>
+        <item>Love in the Midst of Mistaken Identities</item>
+        <item>Rebirth to a Military Marriage: Good Morning Chief</item>
+        <item>I Am A Legendary BOSS</item>
+        <item>Super Detective in the Fictional World</item>
+        <item>Emperor of Steel</item>
+        <item>Returning from the Immortal World</item>
+        <item>Empire of the Ring</item>
+        <item>My Wife is a Beautiful CEO</item>
+        <item>The Silly Alchemist</item>
+        <item>Virtual World: Peerless White Emperor</item>
+        <item>Black Iron’s Glory</item>
+        <item>Martial Peak</item>
+        <item>The Human Emperor</item>
+        <item>Omni-Magician</item>
+        <item>Moon’s Labyrinths</item>
+        <item>The Godsfall Chronicles</item>
+        <item>Rebirth of a Fashionista: This Life Is Soo Last Season</item>
+        <item>Reader</item>
+        <item>God of Cooking</item>
+        <item>Divine Brilliance</item>
+        <item>Strongest Counterattack</item>
+        <item>Medical Sovereign</item>
+        <item>A Warm Wedding and A New Bride of Young Master Lu</item>
+        <item>Wild Princess: Marrying an Ugly Prince</item>
+        <item>Overgeared</item>
+        <item>Almighty Game Designer</item>
+        <item>Dungeon Predator</item>
+        <item>Ranker’s Return</item>
+        <item>Everyone is Young Except for Me</item>
+        <item>The CEO’s Villainess Childhood Friend</item>
+        <item>Age of Adepts</item>
+        <item>The Undetectable Strongest Job: Rule Breaker</item>
+        <item>Rebirth of the Tyrant’s Pet: Regent Prince is too Fierce</item>
+        <item>Divine Doctor: Daughter of the First Wife</item>
+        <item>Almighty Sword Domain</item>
+        <item>Talisman Emperor</item>
+        <item>I am the Monarch</item>
+        <item>Dear My Friend</item>
+        <item>Genius of a Performing Arts High</item>
+        <item>Quick Transmigrating Second Female Lead’s Counterattack</item>
+        <item>Against the Gods</item>
+        <item>Worlds’ Apocalypse Online</item>
+        <item>Tranxending Vision</item>
+        <item>Emperor’s Domination</item>
+        <item>Martial God Asura</item>
+        <item>Deceive me, Marry me</item>
+        <item>The Charm of Soul Pets</item>
+        <item>Adorable Treasured Fox: Divine Doctor Mother Overturning The Heavens!</item>
+        <item>The Good for Nothing Seventh Young Lady</item>
+        <item>Quick Transmigration System: Male God, Come Here</item>
+        <item>Transmigration: Raising the Child of the Male Lead Boss</item>
+        <item>I Should Have Read The Ending</item>
+        <item>I Don’t Want to Be Loved</item>
+        <item>Changying the Lady</item>
+        <item>Here Comes the Immortal Swordsman</item>
+        <item>World-shaking First Daughter: Powerful Medical Princess</item>
+        <item>Real Empress from a Noble Family</item>
+        <item>Reborn Lady: Unparalleled Daughter of Concubine</item>
+        <item>The Great Planned Marriage: Becoming A Splendid Princess</item>
+        <item>The Reborn Girl’s Path to Glory</item>
+        <item>Nine Sun God King</item>
+        <item>Invincible</item>
+        <item>Physician’s Odyssey</item>
+        <item>You’ve Got The Wrong House, Villain</item>
+        <item>Peerless Battle Spirit</item>
+        <item>Inadvertently Invincible</item>
+        <item>Stand User in Marvel Universe</item>
+        <item>Crazy Leveling System</item>
+        <item>Reborn as the Spirit King</item>
+        <item>Dragon Prince Yuan</item>
+        <item>Great Demon King</item>
+        <item>The S-Classes That I Raised</item>
+        <item>Three Meals of a Reincarnator</item>
+        <item>The Elemental Tower</item>
+        <item>The Abandoned Empress</item>
+        <item>My House of Horrors</item>
+        <item>MMO: Pierce Heaven Til’ It Breaks</item>
+        <item>Zombie Sister Strategy</item>
+        <item>Reincarnation Of The Strongest Sword God</item>
+        <item>Provocative Fiery Wife: My Superior is an Affectionate Spitfire</item>
+        <item>The Law of Webnovels</item>
+        <item>Nano Machine</item>
+        <item>Miracle Doctor Miss Jiu</item>
+        <item>Battle Frenzy Comics</item>
+        <item>The Ultimate Scheming System Comics</item>
+        <item>Soul Land IV: Ultimate Fighting Comics</item>
+        <item>Spare Me, Great Lord! Comics</item>
+        <item>Forty Millenniums of Cultivation Comics</item>
+        <item>Swallowed Star Comics</item>
+        <item>Tales of a Shut-In Demon Comics</item>
+        <item>National School Prince Is A Girl Comics</item>
+        <item>X Epoch of Dragon Comics</item>
+        <item>Knight’s Fantasy Night Comics</item>
+        <item>Mu Lian’s Haunted Metropolis Comics</item>
+        <item>My Cultivator Girlfriend Comics</item>
+        <item>Goddess Creation System Comics</item>
+        <item>Building The Ultimate Fantasy</item>
+        <item>Plague Doctor</item>
+        <item>Shadow Hack</item>
+        <item>The Death Mage Who Doesn’t Want a Fourth Time</item>
+        <item>Long Live Summons!</item>
+        <item>Possessing Nothing</item>
+        <item>Reborn Girl’s New Life</item>
+        <item>The Divine Doctor and Stay-at-home Dad</item>
+        <item>Medical Master</item>
+        <item>The Immortal Emperor Returns</item>
+        <item>Boss Mo’s Predestined Love Brought by Surrogacy</item>
+        <item>Godly Stay-Home Dad</item>
+        <item>The King of Special Warfare</item>
+        <item>The Tutorial Is Too Hard</item>
+        <item>Supreme Emperor of Swords</item>
+        <item>Return of the Net Gaming Monarch</item>
+        <item>Heyday Love: A Heaven-sent Husband</item>
+        <item>100% Love from the Boss</item>
+        <item>Lady Lin’s First-ever Journey to Immortality</item>
+        <item>The Devious First-Daughter</item>
+        <item>Medical Princess</item>
+        <item>Hunting for Love for 101 Times</item>
+        <item>Open a Clinic to Cultivate Myself</item>
+        <item>Stunning Poisonous Doctor Princess</item>
+        <item>Buy a Daddy to Baby My Mommy</item>
+        <item>The City of Terror</item>
+        <item>My Sweet Physician Wife Calls The Shots</item>
+        <item>Overgeared Comic</item>
+        <item>Dragon-Marked War God</item>
+        <item>The King’s Moment</item>
+        <item>Ace of the Dragon Division</item>
+        <item>The Female Lead Has No Cheats</item>
+        <item>Beatrice</item>
+        <item>Magic Emperor</item>
+        <item>The Villainess Wants to Marry a Commoner!! (WN)</item>
+        <item>The Tale Never Ends</item>
+        <item>Ascending, Do Not Disturb</item>
+        <item>How to Live as the Enemy Prince</item>
+        <item>Martial God Space</item>
+        <item>Game of Divine Thrones</item>
+        <item>One Man Army</item>
+        <item>Predatory Marriage</item>
+        <item>I Raised A Black Dragon</item>
+        <item>I Never Run Out of Mana</item>
+        <item>Godly Farmer Doctor: Arrogant Husband, Can’t Afford to Offend!</item>
+        <item>Morning, the Heir</item>
+        <item>Lady To Queen</item>
+        <item>Loser Dragonlord</item>
+        <item>Treacherous Living in the Imperial Harem</item>
+        <item>Legend of Concubine’s Daughter Minglan</item>
+        <item>Dragon Hermit</item>
+        <item>Turns Out To Be a Genius Duelist</item>
+        <item>Death Is The Only Ending For The Villain</item>
+        <item>Can’t Stop You Stirring My Heart</item>
+        <item>Reluctantly Willing</item>
+        <item>Good Evening, Mr President!</item>
+        <item>The Highest Bounty</item>
+        <item>Sweet And Refreshing: Ravished By The Chief A 100 Times</item>
+        <item>Art of the Ancient Dragon Emperor</item>
+        <item>Blade of Tyranny</item>
+        <item>Kiss Me Goodnight, Mrs. CEO!</item>
+        <item>Marriage First, True Love Later</item>
+        <item>Evil Prince, Come Play With Me</item>
+        <item>Scandal Supermodel</item>
+        <item>Almighty Video Game Design</item>
+        <item>The Arrogant Queen of Prophecy</item>
+        <item>Hello Mr. King</item>
+        <item>Phoenix Destiny</item>
+        <item>My 100-Day Secret Marriage With The Boss</item>
+        <item>Wife is Fierce, Don’t Mess With Her!</item>
+        <item>He’s As Dazzling As The Stars</item>
+        <item>Virus Girlfriend</item>
+        <item>Can’t Take My Eyes Off You</item>
+        <item>Godly Model Creator</item>
+        <item>My Mr. Gu is Courting Death Again</item>
+        <item>You For Eternity</item>
+        <item>Heaven Extinction Martial Emperor</item>
+        <item>Heretic Apothecary Genius</item>
+        <item>A Record of a Mortal’s Journey to Immortality—Immortal World Arc</item>
+        <item>Edict of the Blade Fiend</item>
+        <item>Invincible Teacher</item>
+        <item>Flash Marriage to a Billionaire Husband: Lovely Wife for the Taking</item>
+        <item>Young Master Chu’s Guide to Spoiling his Wife</item>
+        <item>Swift Strategies : 100 Ways Of Seducing Mr Perfect</item>
+        <item>My Hidden Wife is Sweet</item>
+        <item>To Be With You Forever</item>
+        <item>His and Her Forever Love</item>
+        <item>Sweet Wife in My Arms</item>
+        <item>Here Lies The Wicked</item>
+        <item>War God Supreme</item>
+        <item>I Have Countless Legendary Swords!</item>
+        <item>The Mightiest Little Peasant</item>
+        <item>Genius Daddy in the City</item>
+        <item>I Have a Mansion in the Post-apocalyptic World Comics</item>
+        <item>Cultivation Chat Group Comics</item>
+        <item>The Superb Captain in the City Comics</item>
+        <item>Battle Through the Heavens Comics</item>
+        <item>God of Martial Arts Comics</item>
+        <item>An Accident Comics</item>
+        <item>Human Body Cultivation Comics</item>
+        <item>The Ghost Bride Comics</item>
+        <item>The Spanking Boss Comics</item>
+        <item>Doomed to be a King Comic</item>
+        <item>Chasing Star Moon Comics</item>
+        <item>Wild Love of Beasts Comics</item>
+        <item>Beauty and the Beasts Comics</item>
+        <item>Versatile Mage Comics</item>
+        <item>A Star Reborn: The Queen’s Return Comics</item>
+        <item>Lord of the Mysteries Comics</item>
+        <item>So Pure, So Flirtatious Comics</item>
+        <item>Flaming Hot Desire Comics</item>
+        <item>I’m The Great Immortal Comics</item>
+        <item>Remarried Empress Comics</item>
+        <item>The Hero Returns</item>
+        <item>21st century Goguryeo</item>
+        <item>Once Upon A Time, There Was A Spirit Sword Mountain</item>
+        <item>Super Soldier</item>
+        <item>Destined Wife: The Apple of My Eye</item>
+        <item>Top Furious Doctor Soldier</item>
+        <item>The Coming Heroine: The Only Princess</item>
+        <item>Reboot: Immortality Cultivation Era</item>
+        <item>The Venerable Swordsman</item>
+        <item>Lady Su’s Revenge</item>
+        <item>Reborn: Femme Fatale First Daughter</item>
+        <item>The Fantastic Super Vision</item>
+        <item>Amazing Doctor With Super Vision</item>
+        <item>The Complete Guide to Rearing an Alien Boyfriend</item>
+        <item>Soul Land IV (Douluo Dalu) : Ultimate Fighting</item>
+        <item>Mercenary Black Mamba</item>
+        <item>The Daily Life of the Immortal King</item>
+        <item>Strongest Abandoned Son</item>
+        <item>Solo Auto-Hunting Comic</item>
+        <item>The Second Coming of Gluttony Comics</item>
+        <item>I Have a Mansion in the Post-apocalyptic World</item>
+        <item>I Was Kicked out of the Hero’s Party Because I Wasn’t a True Companion so I Decided to Have a Slow Life at the Frontier</item>
+        <item>Master of Untold Daos</item>
+        <item>Apollo’s Heart</item>
+        <item>Virtues of the Villainess Comic</item>
+        <item>Isaac</item>
+        <item>Return of the Female Knight</item>
+        <item>A Love for Three Lives?Monster King Don’t Forget Me</item>
+        <item>Tough Princess : Once Upon a Brothel</item>
+        <item>The Spoilt Wife’s Happy Life with the Commander</item>
+        <item>A Fascinating Marriage with the Colonel</item>
+        <item>Phoenix Reborn: the Prime Minister’s Scheming Daughter</item>
+        <item>Cinderella Innocent and Boss Charming</item>
+        <item>Revenge of the Sixth Young Lady</item>
+        <item>I’m An S-Rank Behemoth Monster</item>
+        <item>Strongest Martial God</item>
+        <item>The Man Picked Up By the Gods (Reboot)</item>
+        <item>I Might Be A Fake Cultivator Comic</item>
+        <item>Tales of Demons and Gods Comics</item>
+        <item>Perfect Secret Love: The Bad New Wife is a Little Sweet Comics</item>
+        <item>Girl and Science Comic</item>
+        <item>The Proto-Eye Comic</item>
+        <item>The Apostle of Cards Comics</item>
+        <item>Astral Sutra Comics</item>
+        <item>The Beautiful Wife of the Whirlwind Marriage Comics</item>
+        <item>Back in Time: The Fox King’s Sole Affection Comics</item>
+        <item>Ten Thousand Ways to Win Sex Guys’ Hearts Comic</item>
+        <item>Metal Goddess Soldier Comics</item>
+        <item>I Found A Planet</item>
+        <item>Rebirth Of the Urban Immortal Cultivator Comics unofficial version</item>
+        <item>Insanely Pampered Wife: Divine Doctor Fifth Young Miss</item>
+        <item>Don’t Heal the Others</item>
+        <item>Kill The Hero Comic</item>
+        <item>The Deity of War</item>
+        <item>Remarried Empress</item>
+        <item>Black Bellied Belle: Demon Lord, Bite the Bait Please</item>
+        <item>The Duke’s Imposter Sister</item>
+        <item>The Baby Isn’t Yours</item>
+        <item>The Urban Miracle Doctor Comics</item>
+        <item>Underage Eve Comic</item>
+        <item>Trial Marriage Husband: Need to Work Hard Comics</item>
+        <item>The Best Worker Comics</item>
+        <item>Collecting the Divine Comics</item>
+        <item>Erunak Comics</item>
+        <item>Scroll of The Realm Comic</item>
+        <item>Tower into the Clouds Comics</item>
+        <item>Vicious Luck Comics</item>
+        <item>Mesmerizing Ghost Doctor Comics</item>
+        <item>My Beautiful Time with You Comics</item>
+        <item>Holy Chef, Crazy Empress Comics</item>
+        <item>Superstars of Tomorrow</item>
+        <item>My Extraordinary Achievements</item>
+        <item>Survival Story of a Sword King in a Fantasy World Comic</item>
+        <item>King of Hollywood</item>
+        <item>It’s not Easy to be a Man after Traveling to the Future Comic</item>
+        <item>Master of the End Times</item>
+        <item>The Villainous Celebrity Wife of the CEO</item>
+        <item>Hero without Blood or Tear</item>
+        <item>Heavenly Divine Doctor: Abandoned Concubine</item>
+        <item>The Top Clan Leader In History Comics</item>
+        <item>Heaven Defying Sword Comics</item>
+        <item>The Innocent City Comics</item>
+        <item>An Urban Cultivation Frenzy Comic</item>
+        <item>Being the Reality Comics</item>
+        <item>Martial Universe Comics</item>
+        <item>Release That Witch Comics</item>
+        <item>Why Did You Summon Me?</item>
+        <item>The Experimental Log of the Crazy Lich</item>
+        <item>The Great Mage Returns After 4000 Years Comic</item>
+        <item>Dungeon Reset Comics</item>
+        <item>Matchless Emperor Comics</item>
+        <item>The Rise of Otaku</item>
+        <item>Unnamed Memories</item>
+        <item>A Returner’s Magic Should Be Special</item>
+        <item>Ancient Rome: From Slaveholder to Supreme Emperor</item>
+        <item>Chaotic Sword God</item>
+        <item>Return of The 8th Class Mage</item>
+        <item>The King of the Battlefield</item>
+        <item>The Strongest Wizard Becomes a Countryside Guardsman After Taking an Arrow to the Knee</item>
+        <item>Evil Emperor’s Poisonous Consort: Divine Doctor Young Miss</item>
+        <item>The Lady’s Sickly Husband</item>
+        <item>Kingdom’s Bloodline</item>
+        <item>My Girlfriend is a Zombie Comics</item>
+        <item>Courting The Couriers Comic</item>
+        <item>The War Against Being Single Comic</item>
+        <item>Alchemy Emperor of the Divine Dao</item>
+        <item>The Devilish Immortal</item>
+        <item>Different World Reincarnation as a Sage ~With my Gaming Knowledge, I’ll become the World’s Strongest~</item>
+        <item>Reset of The Apocalypse</item>
+        <item>The Luckiest Man</item>
+        <item>The Villainess turns the Hourglass Comic</item>
+        <item>Arifureta Shokugyou de Sekai Saikyou (WN)</item>
+        <item>The World That Tao Rules</item>
+        <item>The Distinguished Cute Master</item>
+        <item>On the Way Home I Got a Bride and Twin Daughters, Who Were Dragons</item>
+        <item>Fury Towards The Burning Heaven</item>
+        <item>I Am The Sorcerer King Comics</item>
+        <item>I Log In Alone Comics</item>
+        <item>Dungeon Maker</item>
+        <item>The Surgeon’s Studio</item>
+        <item>There’s Something Wrong With This Account</item>
+        <item>The Peerless Emperor</item>
+        <item>Nine Star Burden</item>
+        <item>Heavenly Jewel Change Comics</item>
+        <item>Mages Are Too OP</item>
+        <item>My Girlfriend is a Zombie</item>
+        <item>Forty Milleniums of Cultivation Comics</item>
+        <item>Dragon Pulse Comic</item>
+        <item>God Of Soul System</item>
+        <item>Mister Li, the Heart Bandit</item>
+        <item>His Breathtaking and Shimmering Light</item>
+        <item>I’ll Just Live As A Villain</item>
+        <item>Rebirth Of The Urban Immortal Cultivator</item>
+        <item>Godly Empress Doctor</item>
+        <item>Warrior’s Promise</item>
+        <item>Baby Tyrant</item>
+        <item>The Brilliant Fighting Master</item>
+        <item>National School Prince Is A Girl</item>
+        <item>Mr Fu, I Really Love You</item>
+        <item>The Most Loving Marriage In History: Master Mu’s Pampered Wife</item>
+        <item>Gamers of the Underworld</item>
+        <item>The Healer Banished From The Party, In Fact, Is The Strongest</item>
+        <item>Supreme Uprising</item>
+        <item>The Man from Hell</item>
+        <item>Scholar’s Advanced Technological System</item>
+        <item>The Divine Nine-Dragon Cauldron</item>
+        <item>Rebirth of the Godly Prodigal</item>
+        <item>Reborn: Super God of War</item>
+        <item>My Range is One Million</item>
+        <item>Genius Doctor: Black Belly Miss Comics</item>
+        <item>Remember The Name</item>
+        <item>The Editor Is the Novel’s Extra</item>
+        <item>I Said Make My Abilities Average!</item>
+        <item>Eternal Reverence</item>
+        <item>Abyss Domination</item>
+        <item>Fatal Shot</item>
+        <item>I Am a Child of This House</item>
+        <item>Revenge of the Concubine’s Daughter</item>
+        <item>Royal Roader on My Own</item>
+        <item>Pet King</item>
+        <item>So Pure, So Flirtatious</item>
+        <item>Dominating Sword Immortal</item>
+        <item>The Supreme Urban Heavenly Master Comics</item>
+        <item>Ghostly Masked Prince Xiao: Pampering and Spoiling the Little Adorable Consort</item>
+        <item>Shini Yasui K?shaku Reij? to Shichi-nin no Kik?shi</item>
+        <item>Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10 Nen ga Tattara Densetsu ni Natteita</item>
+        <item>Can Someone Please Explain This Situation</item>
+        <item>The Strange Adventure of a Broke Mercenary</item>
+        <item>The Novel’s Villain</item>
+        <item>The Hidden Dungeon Only I Can Enter</item>
+        <item>The Devil Ring Comics</item>
+        <item>The Strongest Cultivation System</item>
+        <item>Taming a Munchkin</item>
+        <item>Tempest of the Stellar War</item>
+        <item>Poison Genius Consort</item>
+        <item>The Record of Unusual Creatures Comics</item>
+        <item>Reincarnator</item>
+        <item>Overlord, Love Me Tender</item>
+        <item>EX-Brave Wants a Quiet Life</item>
+        <item>The President is Being Shameless Again</item>
+        <item>Otherworldly Evil Monarch</item>
+        <item>The Strongest War God Comics</item>
+        <item>The Gate of Desire Comics</item>
+        <item>The Dragon Conqueror Comics</item>
+        <item>Warlord Husband?Shenshen is Gonna be the Winner Comics</item>
+        <item>BJ Archmage</item>
+        <item>Death Scripture</item>
+        <item>Let Me Be Reborn</item>
+        <item>FFF-Class Trashero</item>
+        <item>Shift! The Side-Character Heroine</item>
+        <item>Ranker’s Return Comic</item>
+        <item>Reboot Sienna</item>
+        <item>Emperor Ling Tian Comics</item>
+        <item>Never Dead Comics</item>
+        <item>The Girl Who Restarted Time</item>
+        <item>Strike Back, Proud Goddess!</item>
+        <item>Soul Land Comic</item>
+        <item>The Lady’s Butler</item>
+        <item>A VIP as soon as you Log In</item>
+        <item>Boku no Sensei wa, Houkago Kawaii Konyakusha</item>
+        <item>To Help You Understand</item>
+        <item>I Tamed the Male Lead’s Father</item>
+        <item>Charlotte’s Hearsay Comics</item>
+        <item>Rise of Humanity</item>
+        <item>Would You Dance With Me My Lord?</item>
+        <item>The President’s Contract Lover Comics</item>
+        <item>Forgotten Juliet</item>
+        <item>She Was Sent by God</item>
+        <item>A Thousand and One Colors Comics</item>
+        <item>ANGEL AND DEMON? IMPOSSIBLE Comic</item>
+        <item>Tales of Demons and Gods</item>
+        <item>In a Different World with a Smartphone</item>
+        <item>You Shine in the Moonlit Night</item>
+        <item>The Reincarnated Cop Who Strikes With Wealth</item>
+        <item>The Dangerous Cultivator</item>
+        <item>The Mighty Cauldron: Extreme Alchemist!</item>
+        <item>You Are a Sweetness I Can’t Quit</item>
+        <item>Notebook of Fortune</item>
+        <item>Mech: Shattering of the Galaxy</item>
+        <item>Absolute Beauty CEO and Her Bodyguard</item>
+        <item>Divine Lucky Star</item>
+        <item>The Daily Life of the Immortal King Comic</item>
+        <item>Evolution Theory of the Hunter</item>
+        <item>Max Level Newbie</item>
+        <item>The Little Prince in the Ossuary</item>
+        <item>Seeking the Flying Sword Path Comics</item>
+        <item>Who Made me a Princess Comics</item>
+        <item>Peerless Battle Spirit Comics</item>
+        <item>Born To Be Rich Comics</item>
+        <item>Sinister Ex-Girlfriend</item>
+        <item>Lord Xue Ying</item>
+        <item>Rebirth: City Beseiged By Zombies</item>
+        <item>Great Emperor Myriad</item>
+        <item>Seven Nights of Forbidden Love: Good Morning, Chief!</item>
+        <item>Right Here Waiting For You</item>
+        <item>You Are My Only Sunshine</item>
+        <item>Hi, My Sweet Lil Moe Wife!</item>
+        <item>Lady Charm</item>
+        <item>You Are My Starlight</item>
+        <item>A Glitch in the Entertainment Industry</item>
+        <item>Let’s Lose A Billion Today First</item>
+        <item>Master, I Need Charging</item>
+        <item>I Shocked the Globe</item>
+        <item>Master Zhan, Calm Down!</item>
+        <item>Daughter of the Emperor Comics</item>
+        <item>The daughter of a wealthy family who had been reborn earned a lot of money</item>
+        <item>She was born into a wealthy family</item>
+        <item>Fortunately, I met you in this life</item>
+        <item>God of Fishing</item>
+        <item>Transcendent Dawn</item>
+        <item>The Unkillable Swordsman</item>
+        <item>The Queen of Everything</item>
+        <item>Ascendance of a Bookworm</item>
+        <item>Arena</item>
+        <item>The Empress’s Gigolo</item>
+        <item>Universe’s Ultimate BOSS</item>
+        <item>Martial Arts Overlord</item>
+        <item>Supreme Celestial Devil</item>
+        <item>Dawn of a New Era</item>
+        <item>The National Sweetheart Livestreamer Is A Pro!</item>
+        <item>Release that Man</item>
+        <item>The Record of Unusual Creatures</item>
+        <item>Survival Records of 3650 Days in the Otherworld</item>
+        <item>The Path Toward Heaven</item>
+        <item>The Sage Who Transcended Samsara</item>
+        <item>A Gallop on the Embankment with Spring Breeze</item>
+        <item>Painting of the Nine Immortals</item>
+        <item>When Your Pain Becomes Mine</item>
+        <item>Saurus Comic</item>
+        <item>Red Envelope Group of the Three Realms</item>
+        <item>Only I Level Up Manhwa</item>
+        <item>The Romantic Anecdotes of Mount Shu Comics</item>
+        <item>The Desolate Era</item>
+        <item>Major General’s Smart and Gorgeous Wife</item>
+        <item>Lazy Dungeon Master</item>
+        <item>I’m Only a Stepmother, but My Daughter is Just so Cute!</item>
+        <item>Death Progress Bar</item>
+        <item>Crazy Detective</item>
+        <item>Seized by the System</item>
+        <item>My Fantastic Chef Wife</item>
+        <item>Metropolitan System</item>
+        <item>Melting Your Icy Heart Comics</item>
+        <item>Minotaurus’s Sweetheart Comics</item>
+        <item>I Met the Male Lead in Prison</item>
+        <item>King of Gods</item>
+        <item>Divine Beast Adventures</item>
+        <item>Love from The Koi Goddess</item>
+        <item>Miraculous X-Ray Vision</item>
+        <item>The General’s Beloved Wife: Shame on You, Sweetheart</item>
+        <item>The Noble Lord Is So Fierce: Greeting Kiss, My Sweet Wife</item>
+        <item>Reverend Insanity Comics</item>
+        <item>Mr Shen Happens to Have a Crush On Me</item>
+        <item>The Mighty Dragons Are Dead</item>
+        <item>My Exclusive Dream World Adventures</item>
+        <item>The Demon’s Menu</item>
+        <item>Sacred Souls: Genesis</item>
+        <item>Calamity of Tomorrow</item>
+        <item>Rebirth of the Supreme Celestial Being</item>
+        <item>Martial Peak Comics</item>
+        <item>Immemorial Dragon Elephant Art</item>
+        <item>Becoming the Empress: Golden Finger Set Under My Bed</item>
+        <item>Untouchable Lovers</item>
+        <item>Glutton Berserker ~The One That Exceeds The Concept Of Levels</item>
+        <item>I’m the Evil Lord of an Intergalactic Empire!</item>
+        <item>Reborn into a Hamster for 233 Days</item>
+        <item>Omniscient Reader’s Viewpoint</item>
+        <item>I Don’t Want To Go Against The Sky</item>
+        <item>My Boyfriend Is A Dragon</item>
+        <item>Rebirth of The Urban Mad Immortal Comics</item>
+        <item>Hail the King</item>
+        <item>I Am Supreme</item>
+        <item>The Ultimate Evolution</item>
+        <item>The Sacred Ruins</item>
+        <item>Dead on Mars</item>
+        <item>Legend of the Mythological Genes</item>
+        <item>Dangerous Fiancee</item>
+        <item>Kanzen Kaihi Healer no Kiseki</item>
+        <item>The Resplendent Farming Apothecary</item>
+        <item>Full Marks Hidden Marriage Comics</item>
+        <item>Refusing the Tyrant’s Favor:the Fierce Princess Comics</item>
+        <item>The False Summoner</item>
+        <item>Fiancee Be Chosen By The Ring</item>
+        <item>Waiting For You Online</item>
+        <item>The Divine Urban Physician</item>
+        <item>The eSports King’s Crush</item>
+        <item>I Am The Omnipotent Prince Charming</item>
+        <item>Holy Roman Empire</item>
+        <item>My Bloodthirty Husband Is So Gentle</item>
+        <item>Demonpedia Comics</item>
+        <item>My brother is an Idol</item>
+        <item>Skyfire Avenue Comics</item>
+        <item>Peerless Martial God 2</item>
+        <item>My Master Disconnected Yet Again</item>
+        <item>The Villain’s White Lotus Halo</item>
+        <item>Monster Pet Evolution</item>
+        <item>Rebirth of the Rich and Wealthy</item>
+        <item>The World of Otome Games is Tough For Mobs</item>
+        <item>Urban Banished Immortal</item>
+        <item>100 Ways to Get the Male God</item>
+        <item>Pampered Consort of the Fragrant Orchard</item>
+        <item>My Status as an Assassin Obviously Exceeds the Hero’s</item>
+        <item>Treasure Hunt Tycoon</item>
+        <item>Daoist Master of Qing Xuan</item>
+        <item>Rebirth of the Thief Who Roamed The World</item>
+        <item>Reign of the Phoenix</item>
+        <item>A Demon Lord’s Tale: Dungeons, Monster Girls, and Heartwarming Bliss</item>
+        <item>Prestigious Family Marriage: Uncle vs Young Wife</item>
+        <item>The Invincible Dragon Emperor</item>
+        <item>Julietta’s Dressup</item>
+        <item>Wedding Impossible</item>
+        <item>Geomancy couple</item>
+        <item>The Ultimate All-Rounder</item>
+        <item>My Cold and Elegant CEO Wife</item>
+        <item>The Legendary Moonlight Sculptor</item>
+        <item>World’s Greatest Militia</item>
+        <item>Super Electric Eel Avatar</item>
+        <item>Legend of Ling Tian</item>
+        <item>History’s Number 1 Founder</item>
+        <item>Castle of Black Iron</item>
+        <item>I’m an Olympic Superstar</item>
+        <item>The Villainess turns the Hourglass</item>
+        <item>Dragon Maken War</item>
+        <item>The Demonic King Chases His Wife: The Rebellious Good-for-Nothing Miss</item>
+        <item>My Entire Class Was Summoned to Another World except for Me</item>
+        <item>Going Back and Forth Between Earth and The Other World with Space Time Magic</item>
+        <item>The General’s Genius Daughter</item>
+        <item>Spirit Realm</item>
+        <item>Confession from the Hell Comics</item>
+        <item>Sha Po Lang</item>
+        <item>Beyond 23 Seconds Comics</item>
+        <item>Re: Survival</item>
+        <item>System Supplier</item>
+        <item>Magical?Explorer</item>
+        <item>Dragon Emperor, Martial God</item>
+        <item>Battling Records of the Chosen One</item>
+        <item>Godfather Of Champions</item>
+        <item>My Wife, The Ice Queen President</item>
+        <item>Doctor Jiang’s Beloved Sweetheart</item>
+        <item>Commanding Wind and Cloud</item>
+        <item>Lingering Doting Marriage: Big Boss, Little Sweet Heart</item>
+        <item>Changning’s Imperial Army</item>
+        <item>Bewitching Prince Spoils His Wife: Genius Doctor Unscrupulous Consort</item>
+        <item>Sugar Daddy, Hoodoo in My Life!</item>
+        <item>Futile Love</item>
+        <item>The Fortune of Rebirth: The Counterattack of the Princess</item>
+        <item>Martial Arts Master</item>
+        <item>Pursuit of the Truth</item>
+        <item>Soul of Searing Steel</item>
+        <item>Lady Cultivator</item>
+        <item>I’m Not Shouldering This Blame</item>
+        <item>Apotheosis of a Demon – A Monster Evolution Story</item>
+        <item>The Vanishing Classroom Comics</item>
+        <item>The Bakery of the Chick and the Angel Comics</item>
+        <item>Black Tech Internet Cafe System</item>
+        <item>Everlasting</item>
+        <item>The Great Merchant in the Cataclysm</item>
+        <item>Heaven’s Devourer</item>
+        <item>Comrade: Almost a Cat-astrophic Love Story</item>
+        <item>Level 0 Master</item>
+        <item>Rebirth Of The General’s Granddaughter</item>
+        <item>Zhanxian</item>
+        <item>Miracle App Store Comics</item>
+        <item>I Suddenly Became a Mother</item>
+        <item>Winter Rabbit in Wonderland</item>
+        <item>Please Treat Us Fairly, Your Majesty</item>
+        <item>Ancient Godly Monarch</item>
+        <item>Special Agent’s Rebirth: The Almighty Goddess of Quick Transmigration</item>
+        <item>Indulgent Husband and Sweet Wife</item>
+        <item>The Male Lead’s Villainess Fiancée</item>
+        <item>Tensei Shitara Slime Datta Ken (WN)</item>
+        <item>History’s Strongest Senior Brother</item>
+        <item>Green Skin</item>
+        <item>Secret Wardrobe Of The Duchess</item>
+        <item>Fishing the Myriad Heavens</item>
+        <item>My Pet Is a Holy Maiden</item>
+        <item>Hunter Age Comics</item>
+        <item>Magic Gems Gourmet</item>
+        <item>Class Teacher System</item>
+        <item>Kiss Husband: Sweet Wife Is a Little Crisp</item>
+        <item>Lucia</item>
+        <item>Picked up by the Protagonist of a Tormented! MC Novel</item>
+        <item>Return of the Legendary Hunter</item>
+        <item>Ghost Emperor Wild Wife: Dandy Eldest Miss</item>
+        <item>Rebuild World</item>
+        <item>Heroes of Marvel</item>
+        <item>The Hero Who Returned Remains the Strongest in the Modern World</item>
+        <item>Cheat Pharmicist’s Slow Life ~Making a Drug Store in Another World~</item>
+        <item>Slow Prison Life</item>
+        <item>Our Binding Love: My Gentle Tyrant</item>
+        <item>Side Character Transmigrations: The Final Boss is No Joke</item>
+        <item>The Peerless Soldier Comics</item>
+        <item>We Married to Divorce</item>
+        <item>Love War!! Save the Future!!</item>
+        <item>I Am In Marvel</item>
+        <item>What an Audacious and Sly Servant!</item>
+        <item>Sooho</item>
+        <item>Unbreakable</item>
+        <item>Advent of the Archmage</item>
+        <item>VRMMO no Shien Shokunin ?Top player no Shikakenin?</item>
+        <item>My Death Flags Show No Sign of Ending</item>
+        <item>The Former Wife of Invisible Wealthy Man</item>
+        <item>Unbridled Medical Expert Consort: Demon Prince, Be Good</item>
+        <item>The Shadowy Wedding Day with the President</item>
+        <item>The Returner</item>
+        <item>The King’s Avatar – For The Glory</item>
+        <item>12 Hours After</item>
+        <item>Greatest Sword Immortal Comics</item>
+        <item>Speed Line Comics</item>
+        <item>Stealing The Heavens</item>
+        <item>Low Dimensional Game</item>
+        <item>The Dreamer in the Spring Boudoir</item>
+        <item>Am I A God?</item>
+        <item>Legend of Fu Yao</item>
+        <item>M E M O R I Z E</item>
+        <item>Paradise of Demonic Gods</item>
+        <item>Woof Woof Story ~I Said I Wanted To Be A Rich Person’s Dog, Not A Fenrir!~</item>
+        <item>Taming Master</item>
+        <item>I’m Really a Superstar</item>
+        <item>Perfect Superstar</item>
+        <item>The Mightiest Hero of Black ~My Party Members Betrayed Me so I’ll Stick With The Strongest Monster~</item>
+        <item>An Unparalleled Master of Martial Arts</item>
+        <item>The Domination of Martial Spirit</item>
+        <item>Bao Bao Won’t Die Easily</item>
+        <item>Master of Trading Star Card Game</item>
+        <item>Eternal Country</item>
+        <item>To Raise a Soul</item>
+        <item>I Woke Up Piloting the Strongest Starship, so I Became a Space Mercenary</item>
+        <item>The King’s Avatar</item>
+        <item>MMORPG: The Elementalist</item>
+        <item>Doctor Goes Back to Joseon</item>
+        <item>Mr. Yuan’s Dilemma: Can’t Help Falling in Love with You</item>
+        <item>Warlock of the Magus World</item>
+        <item>Winter Swan</item>
+        <item>Colossus Hunter</item>
+        <item>To Be a Power in the Shadows!</item>
+        <item>The Novel’s Extra</item>
+        <item>The Great Ruler</item>
+        <item>Super Dimensional Wizard</item>
+        <item>Princess and the General</item>
+        <item>Gate of God</item>
+        <item>Mystical Journey</item>
+        <item>Limitless</item>
+        <item>Legend of the Supreme Soldier</item>
+        <item>Tempest of the Battlefield</item>
+        <item>The Famous Millionaire</item>
+        <item>The Cry of the Phoenix Which Reached the Ninth Heaven</item>
+        <item>Main Character Hides His Strength</item>
+        <item>The Card Apprentice</item>
+        <item>My Amazing WeChat is Connected to the Three Realms</item>
+        <item>Super Driver</item>
+        <item>Age of the Awakened Comics</item>
+        <item>Ancient Strengthening Technique</item>
+        <item>Warlord</item>
+        <item>I Have a Manor in the Post-apocalyptic Era</item>
+        <item>Akuyaku Reijou wa Danna-sama wo Yasesasetai</item>
+        <item>Song of Adolescence</item>
+        <item>The Sect Master Is Not an Idiot! Comics</item>
+        <item>Addicted to Boundlessly Pampering You</item>
+        <item>The White-Haired Imperial Concubine</item>
+        <item>My Wife Is Dominant</item>
+        <item>The Nine Cauldrons</item>
+        <item>Short, Light, Free</item>
+        <item>Legend of Legends</item>
+        <item>My Maid is a Demon Comics</item>
+        <item>Omnipotent Sage</item>
+        <item>NPC Survival Guide</item>
+        <item>Princess Agents</item>
+        <item>Top Management</item>
+        <item>Trafford’s Trading Club</item>
+        <item>Nightfall</item>
+        <item>Rebirth: How a Loser Became a Prince Charming</item>
+        <item>God of Tennis</item>
+        <item>The Beautiful Time With You</item>
+        <item>If I Happened to Tame my Brother Well</item>
+        <item>Back to Twelve</item>
+        <item>A God’s Ascension Comics</item>
+        <item>There Was No Secret Organization to Fight with the World’s Darkness so I Made One (In Exasperation)</item>
+        <item>Game Loading</item>
+        <item>The Rebirth of the Malicious Empress of Military Lineage</item>
+        <item>A Valiant Life</item>
+        <item>Classroom of Despair Comics</item>
+        <item>The World after the Fall</item>
+        <item>Airplanes Comics</item>
+        <item>Goddess Medical Doctor</item>
+        <item>God and Devil World</item>
+        <item>Eight Treasures Trousseau</item>
+        <item>The World Online</item>
+        <item>Silent Crown</item>
+        <item>I am a Chef in the Modern Era</item>
+        <item>I Heard You Like Me Too</item>
+        <item>Stop, Friendly Fire!</item>
+        <item>Release that Witch</item>
+        <item>Kill the Hero</item>
+        <item>This Time, I Became the Fiance of a Duke’s Daughter. But She is Rumored to have Bad Personality, and Ten Years Older</item>
+        <item>My Girlfriend Archive</item>
+        <item>Marilyn Likes Lariensa Too Much!</item>
+        <item>Joy of Life</item>
+        <item>Rebirth of the Wolfish Silkpants Bottom</item>
+        <item>Almighty Coach</item>
+        <item>The World Turned into a Game After I Woke up</item>
+        <item>Swordmaster Healer</item>
+        <item>NEET Receives a Dating Sim System</item>
+        <item>Empress Running Away with the Ball!</item>
+        <item>(Um, Sorry) I’ve Been Reincarnated!</item>
+        <item>The Spiritual Attainment of Minghe</item>
+        <item>Dungeon Hunter</item>
+        <item>Assassin’s Chronicle</item>
+        <item>Demon Wang’s Golden Favorite Fei</item>
+        <item>Dungeon Defense</item>
+        <item>Our Second Master</item>
+        <item>The Road to Slaying God</item>
+        <item>My Boss Husband, Please Let Me Go!</item>
+        <item>Trial Marriage Husband: Need to Work Hard</item>
+        <item>A President’s Out-of-Body Experience</item>
+        <item>King of Perspective Vision</item>
+        <item>Poison Genius Consort 2: Emperor’s Swallow</item>
+        <item>Summer in Seoul</item>
+        <item>I Can Turn into a Fish</item>
+        <item>A Step into the Past</item>
+        <item>Half Prince</item>
+        <item>Manuscript Screening Boy and Manuscript Submitting Girl</item>
+        <item>Seven Unfortunate Lifetimes, All Thanks to a Single Moment of Impulse</item>
+        <item>Emperor of Solo Play</item>
+        <item>Swallowed Star</item>
+        <item>Soaring the Heavens</item>
+        <item>Skill Unparalleled Comics</item>
+        <item>Only I level up</item>
+        <item>When A Snail Falls in Love</item>
+        <item>Coiling Dragon</item>
+        <item>Cataclysmic Transformation</item>
+        <item>Chongfei Manual</item>
+        <item>Alluring Poisonous Consort: Overwhelms the Demonic King</item>
+        <item>About the Reckless Girl Who Kept Challenging a Reborn Man Like Me</item>
+        <item>A Game To Make Him Fall</item>
+        <item>Go to Hell, White Lotus</item>
+        <item>I Reincarnated For Nothing</item>
+        <item>Warm Wedding, CEO Loves Me</item>
+        <item>God’s Song</item>
+        <item>Sovereign of Judgment</item>
+        <item>Dimensional Sovereign</item>
+        <item>Douluo Dalu</item>
+        <item>Way of Choices</item>
+        <item>When A Mage Revolts</item>
+        <item>Reincarnated as a Villager ~ Strongest Slow-life</item>
+        <item>Super Devouring System</item>
+        <item>God Of Slaughter</item>
+        <item>Ancient One</item>
+        <item>Bodyguard of the Goddess</item>
+        <item>Chronicles of Primordial Wars</item>
+        <item>Tales of the Reincarnated Lord</item>
+        <item>Fugitive Poison User ~I Am Somehow Recovering in a World Full of Miasma~</item>
+        <item>The Discarded Hero wants to Return Home</item>
+        <item>The Anarchic Consort of the Prince</item>
+        <item>Absolute Choice</item>
+        <item>A Hero Erratic</item>
+        <item>Heavenly Jewel Change</item>
+        <item>My Dad Is the Galaxy’s Prince Charming</item>
+        <item>A Sword Through the Nine Heavens</item>
+        <item>MMORPG: Rebirth of the Legendary Guardian</item>
+        <item>A Monster Who Levels Up</item>
+        <item>The Struggle of Returning to The Other World</item>
+        <item>Invincible Exchange System</item>
+        <item>Master Hunter K</item>
+        <item>Gifted</item>
+        <item>The Great Storyteller</item>
+        <item>Heavenly Jewel Change</item>
+        <item>Dreadful Radio Game</item>
+        <item>Peerless Martial God</item>
+        <item>Starting Anew as the New Me</item>
+        <item>My Cold and Beautiful Wife</item>
+        <item>God Level Summoner</item>
+        <item>Rise, Strongest Warrior</item>
+        <item>Artifact Reading Inspector</item>
+        <item>Seeking the Flying Sword Path</item>
+        <item>Swordmeister of Rome</item>
+        <item>True Martial World</item>
+        <item>Dragon King’s Son-In-Law</item>
+        <item>Reborn As a System</item>
+        <item>My MCV and Doomsday</item>
+        <item>A Will Eternal</item>
+        <item>The Promise Sealed with Our Lips</item>
+        <item>God of Money</item>
+        <item>Jiang Hu</item>
+        <item>Apocalypse Hunter</item>
+        <item>Cuddle</item>
+        <item>My Disciple Wants to Tease Me Every Day</item>
+        <item>Rebirth on the Doors to the Civil Affairs Bureau</item>
+        <item>Everyone Else is a Returnee</item>
+        <item>God of Crime</item>
+        <item>SSS-Class Suicide Hunter</item>
+        <item>Hello, Wife!</item>
+        <item>Immortal Becomes a Stay-at-home Dad After Return</item>
+        <item>Evil Emperor’s Wild Consort</item>
+        <item>It Seems Like I Got Reincarnated Into The World of a Yandere Otome Game</item>
+        <item>Love Knot</item>
+        <item>The Journey of Flower</item>
+        <item>Living With a Temperamental Adonis: 99 Proclamations of Love</item>
+        <item>The First Hunter</item>
+        <item>The Royal’s Cute Little Wife</item>
+        <item>Strange Life of a Cat</item>
+        <item>Bringing the Nation’s Husband Home</item>
+        <item>The Book Eating Magician</item>
+        <item>Infinite Competitive Dungeon Society</item>
+        <item>My Disciple Died Yet Again</item>
+        <item>Breakers</item>
+        <item>A Mistaken Marriage Match: Record of Washed Grievances</item>
+        <item>Seoul Station’s Necromancer</item>
+        <item>Rebirth of a Supermodel</item>
+        <item>Mr. CEO, Spoil me 100 Percent!</item>
+        <item>Shura’s Wrath</item>
+        <item>Night Ranger</item>
+        <item>Galactic Dark Net</item>
+        <item>Dragoon</item>
+        <item>Valhalla Saga</item>
+        <item>Golden Time (JungYong)</item>
+        <item>The Avalon of Five Elements</item>
+        <item>A Billion Stars Can’t Amount to You</item>
+        <item>The Heavily Armoured Noble Girl Monette: How To Break a Curse You Don’t Remember Casting</item>
+        <item>Stunning Edge</item>
+        <item>The Magus Era</item>
+        <item>The Strongest System</item>
+        <item>World of Cultivation</item>
+        <item>The Wizard World</item>
+        <item>The Earth is Online</item>
+        <item>Adorable Food Goddess</item>
+        <item>Would You Mind If I Play?</item>
+        <item>Our Glamorous Time</item>
+        <item>When A Snail Loves</item>
+        <item>Full Marks Hidden Marriage: Pick Up a Son, Get a Free Husband</item>
+        <item>If the Deep Sea Forgets You</item>
+        <item>The Rise of Phoenixes</item>
+        <item>The Strongest Gene</item>
+        <item>I Shall Seal the Heavens</item>
+        <item>Battle Through the Heavens</item>
+        <item>Horizon, Bright Moon, Sabre</item>
+        <item>Dragon King with Seven Stars</item>
+        <item>Heroes Shed No Tears</item>
+        <item>7 Killers</item>
+    </string-array>
+</resources>

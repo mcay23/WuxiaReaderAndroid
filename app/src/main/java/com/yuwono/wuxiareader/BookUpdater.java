@@ -42,7 +42,6 @@ public class BookUpdater extends AsyncTask<Void, Void, String> {
                 // get latest chapter URL
                 String target = doc.select("li.wp-manga-chapter")
                         .first().select("a").first().attr("href");
-                System.out.println(target);
                 String latest_num = "";
                 for (int i = target.length() - 1; i != 0; i--) {
                     if (target.charAt(i) != '-') {
@@ -88,6 +87,9 @@ public class BookUpdater extends AsyncTask<Void, Void, String> {
         } catch (IOException e) {
             e.printStackTrace();
             Log.d("Timeout", "YES");
+        } catch (Exception e) {
+            e.printStackTrace();
+            Log.d("Error updating book", "YES");
         }
         book.setUpdating(false);
         return "executed";

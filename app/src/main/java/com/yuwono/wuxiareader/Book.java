@@ -62,7 +62,7 @@ public class Book implements Serializable {
         try {
             doc = Jsoup.connect(url).userAgent("mozilla/17.0").get();
             // get title/author info
-        } catch (IOException ex) {
+        } catch (Exception ex) {
             ex.printStackTrace();
         }
         if (url.contains("wuxiaworld.co")) {

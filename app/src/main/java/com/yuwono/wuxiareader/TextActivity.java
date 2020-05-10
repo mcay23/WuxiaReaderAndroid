@@ -5,6 +5,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.core.widget.NestedScrollView;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -47,15 +48,16 @@ public class TextActivity extends AppCompatActivity {
     static FloatingActionButton next_button;
     static FloatingActionButton prev_button;
     static AppBarLayout text_appbar;
+    static DisplayMetrics dm;
     static boolean isExpanded;
     static CoordinatorLayout layout;
-    static DisplayMetrics dm;
 
     static int activity_width;
     static int activity_height;
 
     static Book book;
 
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -91,8 +93,8 @@ public class TextActivity extends AppCompatActivity {
         bodyText.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
-                detector.onTouchEvent(event);
-                return true;
+            detector.onTouchEvent(event);
+            return true;
             }
         });
 
@@ -115,8 +117,8 @@ public class TextActivity extends AppCompatActivity {
 
         next_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                setScrollVal("0", getApplicationContext(), book);
                 if (book.getCurrentChapter() != book.getLatestChapter()) {
+                    setScrollVal("0", getApplicationContext(), book);
                     book.setCurrentChapter(book.getCurrentChapter() + 1);
                     setContent(book);
                 }
@@ -166,38 +168,40 @@ public class TextActivity extends AppCompatActivity {
         @Override
         public boolean onDoubleTap(MotionEvent e) {
             // right side screen
-            if(e.getX() > (activity_width * 0.7)){
-                setScrollVal("0", getApplicationContext(), book);
+            if(e.getX() >= (activity_width * 0.6)){
                 if (book.getCurrentChapter() != book.getLatestChapter()) {
+                    setScrollVal("0", getApplicationContext(), book);
                     book.setCurrentChapter(book.getCurrentChapter() + 1);
                     setContent(book);
+                } else {
+                    Toast.makeText(context, "No new chapters", Toast.LENGTH_SHORT);
                 }
             }
             // LEFT SIDE SCREEN
-            if(e.getX() < (activity_width * 0.3)){
+            if(e.getX() < (activity_width * 0.4)){
                 if (book.getCurrentChapter() != 1) {
                     setScrollVal("0", getApplicationContext(), book);
                     book.setCurrentChapter(book.getCurrentChapter() - 1);
                     setContent(book);
+                } else {
+                    Toast.makeText(context, "No previous chapters", Toast.LENGTH_SHORT);
                 }
             }
             return true;
         }
         @Override
         public boolean onSingleTapConfirmed(MotionEvent e) {
-            if (e.getX() >= 0.3 * activity_width && e.getX() <= 0.7 * activity_width) {
-                if (next_button.getVisibility() == View.VISIBLE &&
-                        prev_button.getVisibility() == View.VISIBLE) {
-                    next_button.hide();
-                    prev_button.hide();
-                    text_appbar.setExpanded(false);
-                    isExpanded = false;
-                } else {
-                    next_button.show();
-                    prev_button.show();
-                    text_appbar.setExpanded(true);
-                    isExpanded = true;
-                }
+            if (next_button.getVisibility() == View.VISIBLE &&
+                    prev_button.getVisibility() == View.VISIBLE) {
+                next_button.hide();
+                prev_button.hide();
+                text_appbar.setExpanded(false);
+                isExpanded = false;
+            } else {
+                next_button.show();
+                prev_button.show();
+                text_appbar.setExpanded(true);
+                isExpanded = true;
             }
             return true;
         }
@@ -382,12 +386,10 @@ public class TextActivity extends AppCompatActivity {
                 break;
         }
     }
-
 }
 
 class FontCache {
     private static Hashtable<String, Typeface> fontCache = new Hashtable<String, Typeface>();
-
     public static Typeface get(String name, Context context) {
         Typeface tf = fontCache.get(name);
         if(tf == null) {

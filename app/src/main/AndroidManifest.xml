@@ -12,11 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PopupSettingsActivity"
-            android:theme="@style/AppTheme.PopMe">
-        </activity>
-        <activity android:name=".BookActivity"/>
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".SearchActivity"></activity>
+        <activity
+            android:name=".PopupSettingsActivity"
+            android:theme="@style/AppTheme.PopMe"></activity>
+        <activity android:name=".BookActivity" />
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
