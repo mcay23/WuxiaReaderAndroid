@@ -77,6 +77,21 @@ public class BookActivity extends AppCompatActivity {
                 builder.setMessage("Are you sure?").setPositiveButton("Yes", dialogClickListener)
                         .setNegativeButton("No", dialogClickListener).show();
                 return true;
+            case R.id.action_info:
+                AlertDialog.Builder builder2 = new AlertDialog.Builder(this);
+                String msg = "Title: " + book.getTitle() + "\n\n" +
+                            book.getAuthor() +" \n\n" +
+                            "Chapters: " + book.getLatestChapter() + "\n\n" +
+                            "URL: " + book.getURL() + "\n";
+                builder2.setMessage(msg)
+                        .setCancelable(false)
+                        .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                return;
+                            }
+                        });
+                AlertDialog alert = builder2.create();
+                alert.show();
             default:
                 return super.onOptionsItemSelected(item);
         }

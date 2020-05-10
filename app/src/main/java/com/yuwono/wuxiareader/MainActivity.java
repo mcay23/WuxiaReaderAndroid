@@ -110,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
     public static class forceUpdateBook extends AsyncTask<Void, Void, Void> {
 
         private String url;
+        private boolean added;
 
         forceUpdateBook(String url) {
             this.url = url;
@@ -117,7 +118,9 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected Void doInBackground(Void... params) {
-            lib.addBook(url);
+            // in case of crashes, initialize first
+            added = false;
+            added = lib.addBook(url);
             lib.updateAllBooks();
             return null;
         }
@@ -128,8 +131,13 @@ public class MainActivity extends AppCompatActivity {
             BookActivity.copyArrayList(book_titles, lib.getBookTitles());
             arrayAdapter.notifyDataSetChanged();
             no_books.setVisibility(View.GONE);
-            Toast.makeText(act,
-                    "Book added", Toast.LENGTH_LONG).show();
+            if (added) {
+                Toast.makeText(act,
+                        "Book added", Toast.LENGTH_LONG).show();
+            } else {
+                Toast.makeText(act,
+                        "Error adding book. Maybe it already exists", Toast.LENGTH_LONG).show();
+            }
         }
     }
 
