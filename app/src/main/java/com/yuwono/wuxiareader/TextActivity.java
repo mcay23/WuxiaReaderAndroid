@@ -174,7 +174,7 @@ public class TextActivity extends AppCompatActivity {
                     book.setCurrentChapter(book.getCurrentChapter() + 1);
                     setContent(book);
                 } else {
-                    Toast.makeText(context, "No new chapters", Toast.LENGTH_SHORT);
+                    Toast.makeText(context, "No new chapters", Toast.LENGTH_SHORT).show();
                 }
             }
             // LEFT SIDE SCREEN
@@ -184,7 +184,7 @@ public class TextActivity extends AppCompatActivity {
                     book.setCurrentChapter(book.getCurrentChapter() - 1);
                     setContent(book);
                 } else {
-                    Toast.makeText(context, "No previous chapters", Toast.LENGTH_SHORT);
+                    Toast.makeText(context, "No previous chapters", Toast.LENGTH_SHORT).show();
                 }
             }
             return true;
