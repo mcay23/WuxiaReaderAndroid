@@ -94,8 +94,8 @@ public class MainActivity extends AppCompatActivity {
 
             add_button.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
-                    loading_transition.makeText(act, "Loading index...",
-                            Toast.LENGTH_SHORT).show();
+                    // loading_transition.makeText(act, "Loading index...",
+                    //       Toast.LENGTH_SHORT).show();
                     Intent i = new Intent(act, SearchActivity.class);
                     startActivity(i);
                 }

@@ -160,11 +160,11 @@ public class TextActivity extends AppCompatActivity {
         @Override
         public boolean onDoubleTap(MotionEvent e) {
             // right side screen
-            if(e.getX() >= (activity_width * 0.6)){
+            if(e.getX() >= (activity_width * 0.3)){
                 nextPage();
             }
             // LEFT SIDE SCREEN
-            if(e.getX() < (activity_width * 0.4)){
+            if(e.getX() < (activity_width * 0.3)){
                 prevPage();
             }
             return true;
