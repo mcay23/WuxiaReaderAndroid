@@ -49,7 +49,6 @@ public class TextActivity extends AppCompatActivity {
     static FloatingActionButton prev_button;
     static AppBarLayout text_appbar;
     static DisplayMetrics dm;
-    static boolean isExpanded;
     static CoordinatorLayout layout;
 
     static int activity_width;
@@ -176,12 +175,10 @@ public class TextActivity extends AppCompatActivity {
                 next_button.hide();
                 prev_button.hide();
                 text_appbar.setExpanded(false);
-                isExpanded = false;
             } else {
                 next_button.show();
                 prev_button.show();
                 text_appbar.setExpanded(true);
-                isExpanded = true;
             }
             return true;
         }
@@ -204,7 +201,6 @@ public class TextActivity extends AppCompatActivity {
         super.onResume();
         BookActivity.onCreateTextActivity();
 
-        isExpanded = false;
         text_appbar.setExpanded(false);
         next_button.hide();
         prev_button.hide();

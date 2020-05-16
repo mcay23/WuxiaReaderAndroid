@@ -45,7 +45,6 @@
         android:layout_marginRight="20dp"
         android:scrollbars="vertical"
         android:scrollbarSize="0dp">
-
         <TextView
             android:id="@+id/textinside"
             android:layout_width="match_parent"

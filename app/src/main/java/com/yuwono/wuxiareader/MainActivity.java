@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
     static Library lib;
     static ArrayList<String> book_titles;
     static MainActivity act;
-    static ProgressBar load_bar;
     static ListView lv;
     static Book target;
     static FloatingActionButton add_button;
@@ -40,12 +39,10 @@ public class MainActivity extends AppCompatActivity {
         lv = findViewById(R.id.list_view);
         loading_text = findViewById(R.id.loading_text);
         no_books = findViewById(R.id.no_books);
-        load_bar = findViewById(R.id.progressBar);
         add_button = findViewById(R.id.add_button);
         book_titles = new ArrayList<>();
 
         loading_text.setVisibility(View.VISIBLE);
-        load_bar.setVisibility(View.VISIBLE);
 
         start loadUI = new start();
         loadUI.execute();
@@ -101,7 +98,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 
-            load_bar.setVisibility(View.GONE);
             loading_text.setVisibility(View.GONE);
 
         }
