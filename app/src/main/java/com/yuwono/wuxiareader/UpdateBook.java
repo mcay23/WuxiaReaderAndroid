@@ -1,6 +1,5 @@
 package com.yuwono.wuxiareader;
 
-import android.os.AsyncTask;
 import android.util.Log;
 
 import org.jsoup.Jsoup;
@@ -13,21 +12,21 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class BookUpdater extends AsyncTask<Void, Void, String> {
+public class UpdateBook {
 
     private Book book;
     private ArrayList<String> links;
 
-    public BookUpdater(Book book) {
+    public UpdateBook(Book book) {
         this.book = book;
         this.links = new ArrayList<>();
     }
 
-    @Override
-    protected String doInBackground(Void... cb) {
+    public void update() {
+        Log.d("UPDATING", "TRUE");
         try {
             book.setUpdating(true);
-            Document doc = Jsoup.connect(book.getURL()).userAgent("mozilla/17.0").timeout(10000).get();
+            Document doc = Jsoup.connect(book.getURL()).userAgent("mozilla/17.0").timeout(30000).get();
             book.getPath().mkdirs();
 
             int site_key = -1;
@@ -37,33 +36,15 @@ public class BookUpdater extends AsyncTask<Void, Void, String> {
                 for (Element e : list) {
                     links.add(e.attr("abs:href"));
                 }
-            } else if (book.getURL().contains("wuxiaworld.site")) {
-                site_key = 2;
-                // get latest chapter URL
-                String target = doc.select("li.wp-manga-chapter")
-                        .first().select("a").first().attr("href");
-                String latest_num = "";
-                for (int i = target.length() - 1; i != 0; i--) {
-                    if (target.charAt(i) != '-') {
-                        latest_num += target.charAt(i);
-                    } else {
-                        break;
-                    }
-                }
-                latest_num = new StringBuilder(latest_num).reverse().toString();
-                int latest_chapter = Integer.parseInt(latest_num);
-                for (int i = 1; i <= latest_chapter; i++) {
-                    links.add(book.getURL() + "chapter-" + i);
-                }
             }
-
             book.setLatestChapter(links.size());
 
             // write chapter to txt
             int counter = 1;
             int updated_counter = 0;
             for (String url : links) {
-                if (book.isMarkedRemove()) {
+                if (!UpdateService.isValidSession(book) || book.isMarkedRemove()) {
+                    book.updateChapterTitles();
                     break;
                 }
                 // different getPath() methods
@@ -91,15 +72,9 @@ public class BookUpdater extends AsyncTask<Void, Void, String> {
             e.printStackTrace();
             Log.d("Error updating book", "YES");
         }
+        book.updateChapterTitles();
         book.setUpdating(false);
-        return "executed";
-    }
-
-    @Override
-    protected void onPostExecute(String s) {
-        if (BookActivity.arrayAdapter != null) {
-            BookActivity.arrayAdapter.notifyDataSetChanged();
-        }
+        UpdateService.cleanTask(book);
     }
 }
 

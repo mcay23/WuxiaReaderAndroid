@@ -5,12 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.*;
 
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     static Book target;
     static FloatingActionButton add_button;
     static ArrayAdapter<String> arrayAdapter;
+    static Intent updateService;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,11 +59,24 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPreExecute() {
             lib = new Library(act.getApplicationContext());
+            // stop false update flags
+            for(Book b : Library.book_list) {
+                b.setUpdating(false);
+            }
         }
 
         @Override
         protected Void doInBackground(Void... params) {
-            lib.updateAllBooks();
+//          lib.updateAllBooks();
+            if (Library.book_list.size() != 0) {
+                updateService = new Intent(act, UpdateService.class);
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                    Log.d("STARTING SERVICE", "START");
+                    startForegroundService(updateService);
+                } else {
+                    startService(updateService);
+                }
+            }
             return null;
         }
 
@@ -97,41 +111,19 @@ public class MainActivity extends AppCompatActivity {
             });
 
             loading_text.setVisibility(View.GONE);
-
         }
     }
 
-    public static class forceUpdateBook extends AsyncTask<Void, Void, Void> {
-
-        private String url;
-        private boolean added;
-
-        forceUpdateBook(String url) {
-            this.url = url;
-        }
-
-        @Override
-        protected Void doInBackground(Void... params) {
-            // in case of crashes, initialize first
-            added = false;
-            added = lib.addBook(url);
-            lib.updateAllBooks();
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(Void aVoid) {
-            super.onPostExecute(aVoid);
-            BookActivity.copyArrayList(book_titles, lib.getBookTitles());
-            arrayAdapter.notifyDataSetChanged();
-            no_books.setVisibility(View.GONE);
-            if (added) {
-                Toast.makeText(act,
-                        "Book added", Toast.LENGTH_LONG).show();
+    public void startService() {
+        if (!UpdateService.running) {
+            updateService = new Intent(act, UpdateService.class);
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                startForegroundService(updateService);
             } else {
-                Toast.makeText(act,
-                        "Error adding book. Maybe it already exists", Toast.LENGTH_LONG).show();
+                startService(updateService);
             }
+        } else {
+            Log.d("SERVICE ALREADY RUNNING", "MAIN ACTIVITY");
         }
     }
 
@@ -141,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
         if (book_titles.size() == 0) {
             no_books.setVisibility(View.VISIBLE);
         } else {
-
+            no_books.setVisibility(View.GONE);
         }
     }
 }

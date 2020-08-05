@@ -64,6 +64,8 @@ public class BookActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         switch (which){
                             case DialogInterface.BUTTON_POSITIVE:
+                                // stop then restart service
+                                UpdateService.stopTask(book);
                                 Library.removeBook(book);
                                 finish();
                                 break;

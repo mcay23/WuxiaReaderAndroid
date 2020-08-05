@@ -74,11 +74,8 @@ public class SearchActivity extends AppCompatActivity {
                     if (iter.next().equals(item)) {
                         if (target == occurrence) {
                             url = urls.get(j);
-                            Log.d("OCCUR", Integer.toString(j));
-                            Log.d("OCCUR", Integer.toString(occurrence) + " " + Integer.toString(target));
                             break;
                         }
-                        Log.d("TARGET NOT EQUALS", "OCCUR");
                         occurrence++;
                     }
                     j++;
@@ -90,8 +87,14 @@ public class SearchActivity extends AppCompatActivity {
                         switch (which){
                             case DialogInterface.BUTTON_POSITIVE:
                                 if (isValidURL(url)) {
-                                    MainActivity.forceUpdateBook add_book = new MainActivity.forceUpdateBook(url);
-                                    add_book.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+//                                    MainActivity.forceUpdateBook add_book = new MainActivity.forceUpdateBook(url);
+//                                    add_book.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+                                    try {
+                                        UpdateService.BookAdder add_book = new UpdateService.BookAdder(url);
+                                        add_book.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+                                    } catch (Exception e) {
+                                        e.printStackTrace();
+                                    }
                                     finish();
                                 } else {
                                     dialog.cancel();
@@ -160,8 +163,14 @@ public class SearchActivity extends AppCompatActivity {
                                     public void onClick(DialogInterface dialog,int id) {
                                         String url = userInput.getText().toString();
                                         if (isValidURL(url)) {
-                                            MainActivity.forceUpdateBook add_book = new MainActivity.forceUpdateBook(url);
-                                            add_book.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+//                                            MainActivity.forceUpdateBook add_book = new MainActivity.forceUpdateBook(url);
+//                                            add_book.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+                                            try {
+                                                UpdateService.BookAdder add_book = new UpdateService.BookAdder(url);
+                                                add_book.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+                                            } catch (Exception e) {
+                                                e.printStackTrace();
+                                            }
                                             finish();
                                         } else {
                                             dialog.cancel();

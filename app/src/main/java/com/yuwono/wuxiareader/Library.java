@@ -28,7 +28,9 @@ public class Library extends MainActivity implements Serializable {
 
     public boolean addBook(String url) {
         Book b = new Book(url, context);
+        Log.d("ADDING", "CHEcKING");
         for (Book list : book_list) {
+            System.out.println(list.getTitle());
             if (list.getURL().equals(Book.urlFormat(url))) {
                 Log.d("addBook", "Book already exists.");
                 return false;
@@ -53,20 +55,33 @@ public class Library extends MainActivity implements Serializable {
                 "Book removed", Toast.LENGTH_LONG).show();
     }
 
+//    public static void updateBook(String url) {
+//        boolean found = false;
+//        for (Book b : book_list) {
+//            if (b.getURL() == url) {
+//                updateBook(b);
+//                found = true;
+//            }
+//        }
+//        if (!found) {
+//            Log.d("updateBook", "BOOK URL NOT FOUND IN LIBRARY");
+//        }
+//    }
+
     public static void updateBook(Book book) {
         if (!book.isUpdating()) {
             // start update on parallel thread
             // book isUpdating called inside thread
             Log.d("START", "BOOK UPDATING");
-            new BookUpdater(book) {}.
-                    executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+            UpdateService.BookTask add_book = new UpdateService.BookTask(book);
+            add_book.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
         } else {
             Log.d("UPDATEBOOK", "ALREADY UPDATING");
         }
     }
 
     public void updateAllBooks() {
-        Log.d("UPDATING ALL BOOKS", "B");
+        Log.d("UPDATING ALL BOOKS", "LIBRARY");
         for (Book b : book_list) {
             updateBook(b);
         }
@@ -76,11 +91,19 @@ public class Library extends MainActivity implements Serializable {
         return getBook(title).getChapter(chapter);
     }
 
-
-    public Book getBook(String title) {
-        for (Book b : book_list) {
-            if (title.equals(b.getTitle())) {
-                return b;
+    // get book by title or URL
+    public static Book getBook(String x) {
+        if (x.contains("http")) {
+            for (Book b : book_list) {
+                if (x.equals(b.getURL())) {
+                    return b;
+                }
+            }
+        } else {
+            for (Book b : book_list) {
+                if (x.equals(b.getTitle())) {
+                    return b;
+                }
             }
         }
         return null;

@@ -146,9 +146,9 @@ public class TextActivity extends AppCompatActivity {
             case R.id.action_refresh:
                 File file = new File(book.getPath(), "/ch" + book.getCurrentChapter() + ".txt");
                 file.delete();
-                Library.updateBook(book);
+//                Library.updateBook(book);
                 Toast.makeText(context,
-                        "Refreshing... Please re-open chapter", Toast.LENGTH_LONG).show();
+                        "Chapter will be refreshed on next update.", Toast.LENGTH_LONG).show();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
