@@ -87,8 +87,6 @@ public class SearchActivity extends AppCompatActivity {
                         switch (which){
                             case DialogInterface.BUTTON_POSITIVE:
                                 if (isValidURL(url)) {
-//                                    MainActivity.forceUpdateBook add_book = new MainActivity.forceUpdateBook(url);
-//                                    add_book.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
                                     try {
                                         UpdateService.BookAdder add_book = new UpdateService.BookAdder(url);
                                         add_book.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
@@ -163,8 +161,6 @@ public class SearchActivity extends AppCompatActivity {
                                     public void onClick(DialogInterface dialog,int id) {
                                         String url = userInput.getText().toString();
                                         if (isValidURL(url)) {
-//                                            MainActivity.forceUpdateBook add_book = new MainActivity.forceUpdateBook(url);
-//                                            add_book.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
                                             try {
                                                 UpdateService.BookAdder add_book = new UpdateService.BookAdder(url);
                                                 add_book.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
@@ -175,7 +171,8 @@ public class SearchActivity extends AppCompatActivity {
                                         } else {
                                             dialog.cancel();
                                             Toast.makeText(SearchActivity.this,
-                                                    "Invalid URL", Toast.LENGTH_SHORT).show();
+                                                    "Invalid URL.", Toast.LENGTH_SHORT).show();
+
                                         }
                                     }
                                 });

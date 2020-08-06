@@ -45,8 +45,8 @@ public class Book implements Serializable {
         this.latest_chapter = latest_chapter;
         this.book_updating = false;
         this.markedRemove = false;
-        book_path = (new File(context.getFilesDir(), "books/" + title));
-        chapter_titles = new ArrayList<>();
+        this.book_path = (new File(context.getFilesDir(), "books/" + title));
+        this.chapter_titles = new ArrayList<>();
         updateChapterTitles();
     }
 
@@ -65,7 +65,8 @@ public class Book implements Serializable {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
-        if (url.contains("wuxiaworld.co")) {
+        // catch cancels
+        if (doc != null && url.contains("wuxiaworld.co")) {
             Elements info_title = doc.select("div#info").select("h1");
             Elements info_author = doc.select("div#info").select("p");
             this.title = info_title.text();
@@ -76,7 +77,6 @@ public class Book implements Serializable {
             this.title = info_title.text();
             this.author = info_author.first().text();
         }
-
         book_path = (new File(context.getFilesDir(), "books/" + title));
         chapter_titles = new ArrayList<>();
         updateChapterTitles();
@@ -208,6 +208,7 @@ public class Book implements Serializable {
 
     public void writeData() {
         File file = new File(book_path.getPath() + "/" + "info.txt");
+
         try {
             PrintWriter printer = new PrintWriter(file);
             printer.write("");

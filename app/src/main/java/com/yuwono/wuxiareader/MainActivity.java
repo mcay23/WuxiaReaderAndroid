@@ -1,16 +1,23 @@
 package com.yuwono.wuxiareader;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.Intent;
 import android.os.*;
 
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -18,16 +25,18 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    static TextView loading_text;
-    static TextView no_books;
-    static Library lib;
-    static ArrayList<String> book_titles;
-    static MainActivity act;
-    static ListView lv;
-    static Book target;
-    static FloatingActionButton add_button;
-    static ArrayAdapter<String> arrayAdapter;
-    static Intent updateService;
+    public static TextView loading_text;
+    public static TextView no_books;
+    public static Library lib;
+    public static ArrayList<String> book_titles;
+    public static MainActivity act;
+    public static ListView lv;
+    public static Toolbar toolbar;
+    public static Book target;
+    public static FloatingActionButton add_button;
+    public static ArrayAdapter<String> arrayAdapter;
+    public static Intent updateService;
+    public static NotificationManager notificationManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,11 +49,50 @@ public class MainActivity extends AppCompatActivity {
         no_books = findViewById(R.id.no_books);
         add_button = findViewById(R.id.add_button);
         book_titles = new ArrayList<>();
+        toolbar = findViewById(R.id.main_toolbar);
+        setSupportActionBar(toolbar);
 
         loading_text.setVisibility(View.VISIBLE);
 
+        notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+
         start loadUI = new start();
         loadUI.execute();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()) {
+            case R.id.action_update:
+                if (startService()) {
+                    Toast.makeText(act,
+                            "Update started", Toast.LENGTH_LONG).show();
+                } else {
+                    Toast.makeText(act,
+                            "Update already in progress", Toast.LENGTH_LONG).show();
+                }
+                return true;
+            case R.id.action_stopupdate:
+                if (updateService != null) {
+                    try {
+                        stopService(updateService);
+                    } catch (Exception ex) {
+                        ex.printStackTrace();
+                    }
+                }
+                Toast.makeText(act,
+                        "Updates stopped", Toast.LENGTH_LONG).show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
     @Override
@@ -95,7 +143,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     String choice = (String) lv.getItemAtPosition(position);
-                    target = lib.getBook(choice);
+                    target = Library.getBook(choice);
                     Intent i = new Intent(act, BookActivity.class);
                     startActivity(i);
                 }
@@ -114,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void startService() {
+    public boolean startService() {
         if (!UpdateService.running) {
             updateService = new Intent(act, UpdateService.class);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
@@ -122,8 +170,10 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 startService(updateService);
             }
+            return true;
         } else {
             Log.d("SERVICE ALREADY RUNNING", "MAIN ACTIVITY");
+            return false;
         }
     }
 

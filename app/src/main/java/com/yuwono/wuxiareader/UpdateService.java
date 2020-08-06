@@ -14,7 +14,6 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.IBinder;
 import android.util.Log;
-import android.view.View;
 import android.widget.Toast;
 
 import androidx.core.app.NotificationCompat;
@@ -91,8 +90,9 @@ public class UpdateService extends Service {
             NotificationChannel serviceChannel = new NotificationChannel(
                     CHANNEL_ID,
                     "Foreground Service Channel",
-                    NotificationManager.IMPORTANCE_DEFAULT
+                    NotificationManager.IMPORTANCE_LOW
             );
+//            serviceChannel.setSound(null, null);
             NotificationManager manager = getSystemService(NotificationManager.class);
             manager.createNotificationChannel(serviceChannel);
         }
@@ -108,7 +108,7 @@ public class UpdateService extends Service {
 
         @Override
         protected Void doInBackground(Void... params) {
-            UpdateBook x = new UpdateBook(book);
+            BookUpdater x = new BookUpdater(book);
             x.update();
             return null;
         }
@@ -179,6 +179,11 @@ public class UpdateService extends Service {
         unregisterReceiver(stopServiceReceiver);
         Log.d("UPDATE SERVICE", String.valueOf(Library.book_list.size()));
         Log.d("UPDATE SERVICE", "STOPPING SERVICE");
+        // write all book datas
+        MainActivity.lib.saveLibrary();
+        if (BookActivity.arrayAdapter != null) {
+            BookActivity.arrayAdapter.notifyDataSetChanged();
+        }
         try {
             running_tasks.clear();
         } catch (Exception ex) {

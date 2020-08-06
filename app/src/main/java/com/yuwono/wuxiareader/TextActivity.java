@@ -146,7 +146,6 @@ public class TextActivity extends AppCompatActivity {
             case R.id.action_refresh:
                 File file = new File(book.getPath(), "/ch" + book.getCurrentChapter() + ".txt");
                 file.delete();
-//                Library.updateBook(book);
                 Toast.makeText(context,
                         "Chapter will be refreshed on next update.", Toast.LENGTH_LONG).show();
                 return true;
@@ -364,7 +363,9 @@ public class TextActivity extends AppCompatActivity {
     }
 
     public void nextPage() {
-        if (book.getCurrentChapter() != book.getLatestChapter()) {
+        int next_chapter = book.getCurrentChapter() + 1;
+        File f = new File(book.getPath(), "ch" + next_chapter + ".txt");
+        if (f.exists()) {
             setScrollVal("0", getApplicationContext(), book);
             book.setCurrentChapter(book.getCurrentChapter() + 1);
             setContent(book);

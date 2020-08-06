@@ -1,16 +1,13 @@
 package com.yuwono.wuxiareader;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-
 import androidx.appcompat.widget.Toolbar;
-
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -24,15 +21,15 @@ import java.util.ArrayList;
 
 public class BookActivity extends AppCompatActivity {
 
-    static ListView lv;
-    static Book book;
-    static BookActivity act;
-    static TextView book_title;
-    static TextView book_author;
-    static ArrayAdapter<String> arrayAdapter;
-    static ArrayList<String> chapter_titles;
+    public static ListView lv;
+    public static Book book;
+    public static BookActivity act;
+    public static TextView book_title;
+    public static TextView book_author;
+    public static ArrayAdapter<String> arrayAdapter;
+    public static ArrayList<String> chapter_titles;
     private static Context context;
-    static Toolbar toolbar;
+    public static Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

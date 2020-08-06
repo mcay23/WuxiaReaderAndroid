@@ -8,16 +8,17 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class UpdateBook {
+public class BookUpdater {
 
     private Book book;
     private ArrayList<String> links;
 
-    public UpdateBook(Book book) {
+    public BookUpdater(Book book) {
         this.book = book;
         this.links = new ArrayList<>();
     }
@@ -65,6 +66,9 @@ public class UpdateBook {
             if (!book.isMarkedRemove()) {
                 book.updateChapterTitles();
             }
+        } catch (FileNotFoundException ex) {
+            Log.d("FNF Exception", "FOS");
+            ex.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
             Log.d("Timeout", "YES");
@@ -72,6 +76,9 @@ public class UpdateBook {
             e.printStackTrace();
             Log.d("Error updating book", "YES");
         }
+//        if (BookActivity.arrayAdapter != null) {
+//            BookActivity.arrayAdapter.notifyDataSetChanged();
+//        }
         book.updateChapterTitles();
         book.setUpdating(false);
         UpdateService.cleanTask(book);
