@@ -72,11 +72,11 @@ public class MainActivity extends AppCompatActivity {
         switch(item.getItemId()) {
             case R.id.action_update:
                 if (startService()) {
-                    Toast.makeText(act,
-                            "Update started", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),
+                            "Update started", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(act,
-                            "Update already in progress", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),
+                            "Update already in progress", Toast.LENGTH_SHORT).show();
                 }
                 return true;
             case R.id.action_stopupdate:
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
                 Toast.makeText(act,
-                        "Updates stopped", Toast.LENGTH_LONG).show();
+                        "Updates stopped", Toast.LENGTH_SHORT).show();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -163,6 +163,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public boolean startService() {
+        if (!NetworkTools.isConnectedInternet(getApplicationContext())) {
+            Toast.makeText(MainActivity.act.getApplicationContext(),
+                    "No internet connection.", Toast.LENGTH_SHORT).show();
+            return false;
+        }
         if (!UpdateService.running) {
             updateService = new Intent(act, UpdateService.class);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {

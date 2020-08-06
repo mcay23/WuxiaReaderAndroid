@@ -52,7 +52,7 @@ public class Library extends MainActivity implements Serializable {
         book_list.remove(book);
         MainActivity.notifyList();
         Toast.makeText(act,
-                "Book removed", Toast.LENGTH_LONG).show();
+                "Book removed", Toast.LENGTH_SHORT).show();
     }
 
 //    public static void updateBook(String url) {

@@ -52,13 +52,18 @@ public class BookUpdater {
                 File file = new File(book.getPath().getPath() + "/ch" + counter + ".txt");
                 if (!file.exists()) {
                     String text = ParseTools.getChapterContent(url);
-                    FileOutputStream fileOutputStream = new FileOutputStream(file);
-                    // first line is chapter title
-                    fileOutputStream.write((text).getBytes());
-                    fileOutputStream.close();
-                    updated_counter++;
-                    if (updated_counter % 3 == 0) {
-                        book.updateChapterTitles();
+                    if (NetworkTools.isConnectedInternet(MainActivity.act.getApplicationContext())
+                            && UpdateService.isValidSession(book) ) {
+                        FileOutputStream fileOutputStream = new FileOutputStream(file);
+                        // first line is chapter title
+                        fileOutputStream.write((text).getBytes());
+                        fileOutputStream.close();
+                        updated_counter++;
+                        if (updated_counter % 3 == 0) {
+                            book.updateChapterTitles();
+                        }
+                    } else {
+                        break;
                     }
                 }
                 counter++;

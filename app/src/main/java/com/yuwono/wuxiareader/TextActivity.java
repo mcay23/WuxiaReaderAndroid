@@ -147,7 +147,7 @@ public class TextActivity extends AppCompatActivity {
                 File file = new File(book.getPath(), "/ch" + book.getCurrentChapter() + ".txt");
                 file.delete();
                 Toast.makeText(context,
-                        "Chapter will be refreshed on next update.", Toast.LENGTH_LONG).show();
+                        "Chapter will be refreshed on next update.", Toast.LENGTH_SHORT).show();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

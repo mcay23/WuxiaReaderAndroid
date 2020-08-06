@@ -160,14 +160,14 @@ public class UpdateService extends Service {
             }
             if (added) {
                 Toast.makeText(MainActivity.act,
-                        "Book added", Toast.LENGTH_LONG).show();
+                        "Book added", Toast.LENGTH_SHORT).show();
             } else if (url.contains("wuxiaworld.site")) {
                 Toast.makeText(MainActivity.act,
-                        "adding wuxiaworld.site books currently disabled (CloudFlare)", Toast.LENGTH_LONG).show();
+                        "adding wuxiaworld.site books currently disabled (CloudFlare)", Toast.LENGTH_SHORT).show();
             } else {
                 // not added successfully on add command
                 Toast.makeText(MainActivity.act,
-                        "Error adding book. Maybe it already exists", Toast.LENGTH_LONG).show();
+                        "Error adding book. Maybe it already exists", Toast.LENGTH_SHORT).show();
             }
         }
     }
@@ -179,6 +179,10 @@ public class UpdateService extends Service {
         unregisterReceiver(stopServiceReceiver);
         Log.d("UPDATE SERVICE", String.valueOf(Library.book_list.size()));
         Log.d("UPDATE SERVICE", "STOPPING SERVICE");
+        if (!NetworkTools.isConnectedInternet(getApplicationContext())) {
+            Toast.makeText(MainActivity.act.getApplicationContext(),
+                    "No internet connection.", Toast.LENGTH_SHORT).show();
+        }
         // write all book datas
         MainActivity.lib.saveLibrary();
         if (BookActivity.arrayAdapter != null) {

@@ -86,18 +86,23 @@ public class SearchActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         switch (which){
                             case DialogInterface.BUTTON_POSITIVE:
-                                if (isValidURL(url)) {
-                                    try {
-                                        UpdateService.BookAdder add_book = new UpdateService.BookAdder(url);
-                                        add_book.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
-                                    } catch (Exception e) {
-                                        e.printStackTrace();
+                                if (NetworkTools.isConnectedInternet(getApplicationContext())) {
+                                    if (isValidURL(url)) {
+                                        try {
+                                            UpdateService.BookAdder add_book = new UpdateService.BookAdder(url);
+                                            add_book.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+                                        } catch (Exception e) {
+                                            e.printStackTrace();
+                                        }
+                                        finish();
+                                    } else {
+                                        dialog.cancel();
+                                        Toast.makeText(getApplicationContext(),
+                                                "Bad URL. Book may be broken", Toast.LENGTH_SHORT).show();
                                     }
-                                    finish();
                                 } else {
-                                    dialog.cancel();
-                                    Toast.makeText(SearchActivity.this,
-                                            "Bad URL. Book may be broken", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(getApplicationContext(),
+                                            "No internet connection", Toast.LENGTH_SHORT).show();
                                 }
                                 break;
                             case DialogInterface.BUTTON_NEGATIVE:
@@ -159,20 +164,25 @@ public class SearchActivity extends AppCompatActivity {
                         .setPositiveButton("OK",
                                 new DialogInterface.OnClickListener() {
                                     public void onClick(DialogInterface dialog,int id) {
-                                        String url = userInput.getText().toString();
-                                        if (isValidURL(url)) {
-                                            try {
-                                                UpdateService.BookAdder add_book = new UpdateService.BookAdder(url);
-                                                add_book.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
-                                            } catch (Exception e) {
-                                                e.printStackTrace();
-                                            }
-                                            finish();
-                                        } else {
-                                            dialog.cancel();
-                                            Toast.makeText(SearchActivity.this,
-                                                    "Invalid URL.", Toast.LENGTH_SHORT).show();
+                                        if (NetworkTools.isConnectedInternet(getApplicationContext())) {
+                                            String url = userInput.getText().toString();
+                                            if (isValidURL(url)) {
+                                                try {
+                                                    UpdateService.BookAdder add_book = new UpdateService.BookAdder(url);
+                                                    add_book.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+                                                } catch (Exception e) {
+                                                    e.printStackTrace();
+                                                }
+                                                finish();
+                                            } else {
+                                                dialog.cancel();
+                                                Toast.makeText(getApplicationContext(),
+                                                        "Invalid URL.", Toast.LENGTH_SHORT).show();
 
+                                            }
+                                        } else {
+                                            Toast.makeText(getApplicationContext(),
+                                                    "No internet connection", Toast.LENGTH_SHORT).show();
                                         }
                                     }
                                 });
